@@ -1,0 +1,91 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "slug": "nevada",
+  "agency": "Nevada Secretary of State, Commercial Recordings Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.nvsos.gov",
+  "onlinePortal": "https://www.nvsilverflume.gov",
+  "phone": "(775) 684-5708",
+  "address": "Commercial Recordings Division, 202 North Carson Street, Carson City, NV 89701-4201",
+  "email": "support@nvsilverflume.gov",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://www.nvsos.gov/sos/businesses/close-a-business/limited-liability-company",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.nvsilverflume.gov",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Certificate of Cancellation with Secretary of State ($100 fee)",
+        "File final Nevada Commerce Tax return if applicable",
+        "Separately cancel state business license through SilverFlume",
+        "Notify Nevada Department of Taxation and close tax accounts",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Nevada uses Certificate of Cancellation for LLCs. If the LLC has never conducted business, a Certificate of Dissolution may be used instead. Dissolving your entity does NOT automatically cancel your state business license -- you must separately close it through SilverFlume. Expedited processing available: $125 for 24-hour, $500 for 2-hour, $1,000 for 1-hour service."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution (Domestic Corporation)",
+      "formNumber": null,
+      "formUrl": "https://www.nvsos.gov/sos/businesses/close-a-business/corporation",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.nvsilverflume.gov",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Certificate of Dissolution with Secretary of State ($100 fee)",
+        "File final Nevada Commerce Tax return if applicable",
+        "Separately cancel state business license through SilverFlume",
+        "Notify Nevada Department of Taxation and close tax accounts"
+      ],
+      "notes": "Corporations that have not commenced business may use a simplified Certificate of Dissolution. Corporations that have commenced business use a different dissolution form. State business license must be separately canceled through SilverFlume."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Nevada Department of Taxation",
+    "taxAgencyUrl": "https://tax.nv.gov",
+    "taxAgencyPhone": "(866) 962-3707",
+    "notes": "Nevada has no corporate income tax or personal income tax. However, businesses may be subject to the Commerce Tax (gross revenue over $4 million) and must file a final return. State business license must be separately canceled. Close all accounts with the Department of Taxation."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours ($125), 2 hours ($500), or 1 hour ($1,000)",
+    "expeditedFee": 125,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete. Nevada requires a registered agent for all business entities.",
+    "windingUpPeriod": "Corporation or LLC continues for winding up purposes after dissolution filing",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

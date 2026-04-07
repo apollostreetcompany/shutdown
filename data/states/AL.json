@@ -1,0 +1,89 @@
+{
+  "code": "AL",
+  "name": "Alabama",
+  "slug": "alabama",
+  "agency": "Alabama Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.alabama.gov",
+  "onlinePortal": "https://www.sos.alabama.gov/business-entities",
+  "phone": "(334) 242-7200",
+  "address": "P.O. Box 5616, Montgomery, AL 36103",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.alabama.gov/sites/default/files/2022-09/DomesticLLCDissolution.pdf",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.alabama.gov/business-entities",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "File Articles of Dissolution (in duplicate) with Secretary of State",
+        "File original and two copies of Articles of Dissolution with the Judge of Probate in the county where the Certificate of Formation was filed",
+        "Pay $100 filing fee",
+        "File final state tax returns with Alabama Department of Revenue"
+      ],
+      "notes": "Must file dissolution documents with both the Secretary of State and the county Judge of Probate."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Business Corporation)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.alabama.gov/sites/default/files/2022-09/DomesticBusinessCorporationDissolution.pdf",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.alabama.gov/business-entities",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution with Secretary of State",
+        "Pay $100 filing fee",
+        "File final state tax returns with Alabama Department of Revenue"
+      ],
+      "notes": null
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Alabama Department of Revenue",
+    "taxAgencyUrl": "https://www.revenue.alabama.gov",
+    "taxAgencyPhone": "(334) 242-1170",
+    "notes": "File final Alabama Business Privilege Tax return. Notify the Department of Revenue of dissolution to close tax accounts."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

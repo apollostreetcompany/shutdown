@@ -1,0 +1,92 @@
+{
+  "code": "SD",
+  "name": "South Dakota",
+  "slug": "south-dakota",
+  "agency": "South Dakota Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sdsos.gov/business-services/default.aspx",
+  "onlinePortal": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx",
+  "phone": "(605) 773-4845",
+  "address": "500 East Capitol Avenue, Suite 204, Pierre, SD 57501-5070",
+  "email": "openforbiz@state.sd.us",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination",
+      "formNumber": null,
+      "formUrl": "https://sdsos.gov/business-services/corporations/corporate-forms/series-llc.aspx",
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by majority member consent",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with the South Dakota Department of Revenue if applicable",
+        "File Articles of Termination with the South Dakota Secretary of State",
+        "Pay the $10 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "South Dakota has no state income tax. The filing fee is $10. Expedited processing is available for an additional $50."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://sdsos.gov/business-services/corporations/corporate-forms/default.aspx",
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with the South Dakota Department of Revenue if applicable",
+        "File Articles of Dissolution with the South Dakota Secretary of State",
+        "Pay the $10 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "South Dakota has no state income tax. The filing fee is $10. Expedited processing is available for an additional $50."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": false,
+    "taxAgency": "South Dakota Department of Revenue",
+    "taxAgencyUrl": "https://dor.sd.gov/",
+    "taxAgencyPhone": "(605) 773-3311",
+    "notes": "South Dakota has no state income tax and no corporate income tax. No tax clearance certificate is required for dissolution. Businesses may still need to file final sales tax or other applicable tax returns."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-14 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-3 business days",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Corporations must publish notice of dissolution one time in a newspaper of general circulation in the county of the principal office (SDCL 47-1A-1407).",
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution filing",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Majority member vote or as specified in operating agreement. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

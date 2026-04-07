@@ -1,0 +1,90 @@
+{
+  "code": "AR",
+  "name": "Arkansas",
+  "slug": "arkansas",
+  "agency": "Arkansas Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.arkansas.gov",
+  "onlinePortal": "https://www.sos.arkansas.gov/business-commercial-services-bcs",
+  "phone": "(501) 682-3409",
+  "address": "1401 W. Capitol Ave., Suite 250, Little Rock, AR 72201",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Statement of Dissolution",
+      "formNumber": "LL-04",
+      "formUrl": "https://www.sos.arkansas.gov/uploads/bcs/LL-04.pdf",
+      "fee": 45,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "File final franchise tax report and pay $150 franchise tax fee",
+        "File Statement of Dissolution (Form LL-04) with Secretary of State",
+        "Pay $45 filing fee (online) or $50 (by mail)",
+        "File final state tax returns with Arkansas Department of Finance and Administration"
+      ],
+      "notes": "Must file final franchise tax report ($150) along with the dissolution filing. Online filing fee is $45; paper filing fee is $50."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/corporations",
+      "fee": 45,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File final franchise tax report and pay applicable fees",
+        "File Articles of Dissolution with Secretary of State",
+        "Pay $45 filing fee (online) or $50 (by mail)",
+        "File final state tax returns with Arkansas Department of Finance and Administration"
+      ],
+      "notes": "Online filing fee is $45; paper filing fee is $50."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Arkansas Department of Finance and Administration",
+    "taxAgencyUrl": "https://www.dfa.arkansas.gov",
+    "taxAgencyPhone": "(501) 682-1100",
+    "notes": "Must file final franchise tax report ($150 fee) and obtain tax clearance. Close all state tax accounts with the Department of Finance and Administration."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 25,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PricingCard from '../components/PricingCard.astro';
+---
+
+<BaseLayout
+  title="Pricing"
+  description="Simple pricing for business shutdown guides and services. Free state guides, $49 detailed guides, or $1,000 full-service shutdown agent."
+>
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-5xl">
+      <h1 class="mb-2 text-center text-4xl font-bold text-slate-900">Pricing</h1>
+      <p class="mb-12 text-center text-lg text-slate-500">Choose how much help you need shutting down your business.</p>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <PricingCard
+          title="Free State Guide"
+          price="$0"
+          description="Essential overview for any state."
+          features={[
+            'Step-by-step dissolution overview',
+            'Key forms identified with links',
+            'Filing fee schedule',
+            'Official Secretary of State links',
+            'Basic processing timeline',
+            'Tax clearance requirements noted',
+          ]}
+          cta="Browse Free Guides"
+          ctaUrl="/states"
+        />
+        <PricingCard
+          title="Detailed State Guide"
+          price="$49"
+          description="The complete playbook for your state."
+          features={[
+            'Everything in Free Guide, plus:',
+            'Form-by-form filling instructions',
+            'Creditor notification letter templates',
+            'Employee notification templates',
+            'Tax clearance step-by-step walkthrough',
+            'Complete post-dissolution checklist',
+            'Common mistakes and how to avoid them',
+            'Expedited filing options and tips',
+            'Multi-entity shutdown coordination',
+            'IRS EIN closure instructions',
+          ]}
+          cta="Get Your State Guide"
+          ctaUrl="#"
+          highlighted={true}
+          badge="Most Popular"
+        />
+        <PricingCard
+          title="Shutdown Agent"
+          price="$1,000"
+          description="We handle everything. Flat fee."
+          features={[
+            'Everything in Detailed Guide, plus:',
+            'Complete dissolution filing by our team',
+            'Tax clearance coordination with state',
+            'All creditor notifications sent for you',
+            'IRS EIN closure filed',
+            'State tax account closures',
+            'Business license cancellations',
+            'Certificate of Dissolution obtained',
+            '90-day post-shutdown monitoring',
+            'Dedicated shutdown coordinator',
+          ]}
+          cta="Start Shutdown"
+          ctaUrl="/shutdown-agent"
+        />
+      </div>
+
+      <!-- Bundle -->
+      <div class="mt-12 rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+        <h3 class="mb-2 text-xl font-bold text-slate-900">Professional Bundle: All 50 States</h3>
+        <p class="mb-4 text-slate-500">For attorneys, CPAs, and business consultants who handle shutdowns for clients.</p>
+        <div class="mb-4">
+          <span class="text-4xl font-bold text-slate-900">$99</span>
+          <span class="text-sm text-slate-500"> one-time</span>
+          <span class="ml-2 text-sm text-slate-400 line-through">$2,450 if purchased separately</span>
+        </div>
+        <a href="#" class="inline-block rounded-lg bg-slate-900 px-8 py-3 text-sm font-bold text-white hover:bg-slate-800">
+          Get All 50 State Guides
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

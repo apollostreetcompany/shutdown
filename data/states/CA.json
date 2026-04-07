@@ -1,0 +1,91 @@
+{
+  "code": "CA",
+  "name": "California",
+  "slug": "california",
+  "agency": "California Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ca.gov",
+  "onlinePortal": "https://bizfileonline.sos.ca.gov",
+  "phone": "(916) 657-5448",
+  "address": "1500 11th Street, 3rd Floor, Sacramento, CA 95814",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation",
+      "formNumber": "LLC-4/7",
+      "formUrl": "https://bpd.cdn.sos.ca.gov/llc/forms/llc-4-7.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://bizfileonline.sos.ca.gov",
+      "steps": [
+        "Vote to dissolve per operating agreement or unanimous vote of members",
+        "If not unanimous, file Certificate of Dissolution (Form LLC-3) first",
+        "Wind up business affairs and settle debts",
+        "File final tax return (Form 568) with Franchise Tax Board",
+        "Obtain Certificate of Tax Clearance from Franchise Tax Board if needed",
+        "File Certificate of Cancellation (Form LLC-4/7) with Secretary of State within 12 months of filing final tax return",
+        "No filing fee required"
+      ],
+      "notes": "No filing fee for dissolution/cancellation. If all members vote to dissolve, only Form LLC-4/7 is needed. If not unanimous, file Form LLC-3 (Certificate of Dissolution) first, then Form LLC-4/7. In-person filing at Sacramento office incurs a $15 special handling fee."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution",
+      "formNumber": "DISS STK",
+      "formUrl": "https://bpd.cdn.sos.ca.gov/corp/pdf/dissolutions/corp_stkdiss.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://bizfileonline.sos.ca.gov",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File final tax returns with Franchise Tax Board",
+        "Obtain Certificate of Tax Clearance from Franchise Tax Board",
+        "File Certificate of Dissolution (Form DISS STK) with Secretary of State within 12 months of filing final tax return",
+        "No filing fee required"
+      ],
+      "notes": "No filing fee for dissolution. Certificate of Tax Clearance from FTB is required. In-person filing at Sacramento office incurs a $15 special handling fee. Short form dissolution available for corporations that have not issued shares."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "California Franchise Tax Board",
+    "taxAgencyUrl": "https://www.ftb.ca.gov",
+    "taxAgencyPhone": "(800) 852-5711",
+    "notes": "Certificate of Tax Clearance from FTB is required before or concurrent with dissolution filing. File all delinquent tax returns and pay all balances including penalties, fees, and interest. LLCs must pay the $800 annual tax until cancellation is filed with SoS. Dissolution forms must be filed with SoS within 12 months of filing the final tax return."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day (in-person at Sacramento office)",
+    "expeditedFee": 15,
+    "waitingPeriods": "Must file dissolution within 12 months of final tax return"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "California WARN Act requires 60 days notice for 75+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Agent for service of process must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs; dissolution must be filed within 12 months of final tax return",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required; unanimous consent allows simplified LLC cancellation"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "code": "IA",
+  "name": "Iowa",
+  "slug": "iowa",
+  "agency": "Iowa Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.iowa.gov/",
+  "onlinePortal": "https://sos.iowa.gov/fasttrackfiling",
+  "phone": "(515) 281-5204",
+  "address": "Lucas Building, 1st Floor, 321 E. 12th Street, Des Moines, IA 50319",
+  "email": "sos@sos.iowa.gov",
+  "entities": {
+    "llc": {
+      "formName": "Statement of Dissolution / Statement of Termination",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 5,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sos.iowa.gov/fasttrackfiling",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Iowa Department of Revenue",
+        "Prepare Statement of Dissolution (must include LLC name and statement that it is dissolved)",
+        "File with Secretary of State with $5 filing fee",
+        "File Statement of Termination after winding up is complete ($5 fee)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "Iowa does not provide a standard form for LLC dissolution. You must draft your own statement including the LLC name and that it is dissolved. A separate Statement of Termination is filed after winding up is complete."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 5,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sos.iowa.gov/fasttrackfiling",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Iowa Department of Revenue",
+        "Prepare Articles of Dissolution per Iowa Code Section 490.1403",
+        "File with Secretary of State with $5 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "Iowa does not provide a pre-printed form for Articles of Dissolution. You must draft your own document meeting the requirements of Iowa Code Section 490.1403. Filing is available online via Fast Track Filing, by mail, or in-person."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Iowa Department of Revenue",
+    "taxAgencyUrl": "https://tax.iowa.gov/",
+    "taxAgencyPhone": "(515) 281-3114",
+    "notes": "File final Iowa corporate income tax return (IA 1120) or partnership return. File final sales tax return if applicable. Must obtain a tax clearance or confirm all taxes are paid before dissolution will be accepted."
+  },
+  "timeline": {
+    "standardProcessingDays": "2-3 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": "Winding up period required between filing Statement of Dissolution and Statement of Termination"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 25+ employees under Iowa law)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Registered agent must be maintained through the winding up period until termination is filed",
+    "windingUpPeriod": "Required winding up period between dissolution and termination; entity continues to exist solely for winding up purposes",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by majority shareholder approval per Iowa Code 490.1402."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

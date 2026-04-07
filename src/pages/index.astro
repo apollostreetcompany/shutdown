@@ -1,0 +1,228 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PricingCard from '../components/PricingCard.astro';
+
+const states = [
+  { code: 'AL', name: 'Alabama', slug: 'alabama' }, { code: 'AK', name: 'Alaska', slug: 'alaska' },
+  { code: 'AZ', name: 'Arizona', slug: 'arizona' }, { code: 'AR', name: 'Arkansas', slug: 'arkansas' },
+  { code: 'CA', name: 'California', slug: 'california' }, { code: 'CO', name: 'Colorado', slug: 'colorado' },
+  { code: 'CT', name: 'Connecticut', slug: 'connecticut' }, { code: 'DE', name: 'Delaware', slug: 'delaware' },
+  { code: 'FL', name: 'Florida', slug: 'florida' }, { code: 'GA', name: 'Georgia', slug: 'georgia' },
+  { code: 'HI', name: 'Hawaii', slug: 'hawaii' }, { code: 'ID', name: 'Idaho', slug: 'idaho' },
+  { code: 'IL', name: 'Illinois', slug: 'illinois' }, { code: 'IN', name: 'Indiana', slug: 'indiana' },
+  { code: 'IA', name: 'Iowa', slug: 'iowa' }, { code: 'KS', name: 'Kansas', slug: 'kansas' },
+  { code: 'KY', name: 'Kentucky', slug: 'kentucky' }, { code: 'LA', name: 'Louisiana', slug: 'louisiana' },
+  { code: 'ME', name: 'Maine', slug: 'maine' }, { code: 'MD', name: 'Maryland', slug: 'maryland' },
+  { code: 'MA', name: 'Massachusetts', slug: 'massachusetts' }, { code: 'MI', name: 'Michigan', slug: 'michigan' },
+  { code: 'MN', name: 'Minnesota', slug: 'minnesota' }, { code: 'MS', name: 'Mississippi', slug: 'mississippi' },
+  { code: 'MO', name: 'Missouri', slug: 'missouri' }, { code: 'MT', name: 'Montana', slug: 'montana' },
+  { code: 'NE', name: 'Nebraska', slug: 'nebraska' }, { code: 'NV', name: 'Nevada', slug: 'nevada' },
+  { code: 'NH', name: 'New Hampshire', slug: 'new-hampshire' }, { code: 'NJ', name: 'New Jersey', slug: 'new-jersey' },
+  { code: 'NM', name: 'New Mexico', slug: 'new-mexico' }, { code: 'NY', name: 'New York', slug: 'new-york' },
+  { code: 'NC', name: 'North Carolina', slug: 'north-carolina' }, { code: 'ND', name: 'North Dakota', slug: 'north-dakota' },
+  { code: 'OH', name: 'Ohio', slug: 'ohio' }, { code: 'OK', name: 'Oklahoma', slug: 'oklahoma' },
+  { code: 'OR', name: 'Oregon', slug: 'oregon' }, { code: 'PA', name: 'Pennsylvania', slug: 'pennsylvania' },
+  { code: 'RI', name: 'Rhode Island', slug: 'rhode-island' }, { code: 'SC', name: 'South Carolina', slug: 'south-carolina' },
+  { code: 'SD', name: 'South Dakota', slug: 'south-dakota' }, { code: 'TN', name: 'Tennessee', slug: 'tennessee' },
+  { code: 'TX', name: 'Texas', slug: 'texas' }, { code: 'UT', name: 'Utah', slug: 'utah' },
+  { code: 'VT', name: 'Vermont', slug: 'vermont' }, { code: 'VA', name: 'Virginia', slug: 'virginia' },
+  { code: 'WA', name: 'Washington', slug: 'washington' }, { code: 'WV', name: 'West Virginia', slug: 'west-virginia' },
+  { code: 'WI', name: 'Wisconsin', slug: 'wisconsin' }, { code: 'WY', name: 'Wyoming', slug: 'wyoming' },
+];
+---
+
+<BaseLayout
+  title="Close Your Business the Right Way"
+  description="The most comprehensive US business shutdown directory. Every state, every form, every fee, every step. Free guides for all 50 states plus full-service shutdown agent."
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-slate-900 via-slate-800 to-red-900 px-4 py-20 text-white">
+    <div class="mx-auto max-w-4xl text-center">
+      <div class="mb-4 inline-block rounded-full bg-red-600/20 px-4 py-1 text-sm font-medium text-red-300">
+        All 50 States Covered
+      </div>
+      <h1 class="mb-6 text-4xl font-bold leading-tight md:text-6xl">
+        Shut Down Your Business<br />
+        <span class="text-red-400">Without Missing a Single Step</span>
+      </h1>
+      <p class="mx-auto mb-8 max-w-2xl text-lg text-slate-300">
+        Every form. Every fee. Every deadline. Every state. The only shutdown guide that covers the complete dissolution process from first vote to final filing.
+      </p>
+
+      <!-- AI Answer Block -->
+      <div class="mx-auto mb-8 max-w-2xl rounded-xl border border-slate-700 bg-slate-800/50 p-6 text-left">
+        <p class="mb-2 text-xs font-medium uppercase tracking-wider text-slate-400">Quick Answer</p>
+        <p class="text-sm text-slate-200">
+          To shut down a business in the US, you must: (1) vote to dissolve, (2) file dissolution paperwork with your state's Secretary of State, (3) obtain tax clearance if required, (4) notify creditors, (5) file final tax returns, and (6) cancel licenses and permits. Requirements, forms, and fees vary by state. Select your state below for the exact process.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <a href="#states" class="rounded-lg bg-white px-8 py-3 text-sm font-bold text-slate-900 shadow-lg hover:bg-slate-100">
+          Find Your State
+        </a>
+        <a href="/shutdown-agent" class="rounded-lg border border-red-500 bg-red-600/10 px-8 py-3 text-sm font-bold text-white hover:bg-red-600/20">
+          Hire a Shutdown Agent — $1,000
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="border-b border-slate-200 bg-white px-4 py-6">
+    <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-8 text-center text-sm text-slate-500">
+      <div><span class="font-bold text-slate-900">50</span> States Covered</div>
+      <div><span class="font-bold text-slate-900">500+</span> Forms Cataloged</div>
+      <div><span class="font-bold text-slate-900">100%</span> Official Sources</div>
+      <div><span class="font-bold text-slate-900">2026</span> Updated</div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-4xl">
+      <h2 class="mb-12 text-center text-3xl font-bold text-slate-900">How Business Shutdown Works</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="rounded-xl bg-white p-6 shadow-sm border border-slate-200">
+          <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-red-100 text-lg font-bold text-red-600">1</div>
+          <h3 class="mb-2 font-bold text-slate-900">Find Your State</h3>
+          <p class="text-sm text-slate-500">Select your state below. We show you the exact forms, fees, and steps required by your Secretary of State.</p>
+        </div>
+        <div class="rounded-xl bg-white p-6 shadow-sm border border-slate-200">
+          <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-red-100 text-lg font-bold text-red-600">2</div>
+          <h3 class="mb-2 font-bold text-slate-900">Follow the Checklist</h3>
+          <p class="text-sm text-slate-500">Our free guide covers every step. Need more detail? The paid guide includes templates, timelines, and form-filling instructions.</p>
+        </div>
+        <div class="rounded-xl bg-white p-6 shadow-sm border border-slate-200">
+          <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-red-100 text-lg font-bold text-red-600">3</div>
+          <h3 class="mb-2 font-bold text-slate-900">Or Let Us Handle It</h3>
+          <p class="text-sm text-slate-500">Our Shutdown Agent service handles every filing, notification, and deadline for a flat $1,000. You sign, we execute.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- State Grid -->
+  <section id="states" class="bg-white px-4 py-16">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="mb-2 text-center text-3xl font-bold text-slate-900">Choose Your State</h2>
+      <p class="mb-12 text-center text-slate-500">Click any state for the complete shutdown guide</p>
+
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-10">
+        {states.map(s => (
+          <a
+            href={`/states/${s.slug}`}
+            class="group flex flex-col items-center rounded-lg border border-slate-200 bg-slate-50 p-3 text-center transition hover:border-red-300 hover:bg-red-50 hover:shadow-sm"
+          >
+            <span class="text-lg font-bold text-slate-700 group-hover:text-red-600">{s.code}</span>
+            <span class="text-xs text-slate-500 group-hover:text-red-500">{s.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="px-4 py-16">
+    <div class="mx-auto max-w-5xl">
+      <h2 class="mb-2 text-center text-3xl font-bold text-slate-900">Simple, Transparent Pricing</h2>
+      <p class="mb-12 text-center text-slate-500">Free guides for every state. Paid options for when you need more.</p>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <PricingCard
+          title="Free State Guide"
+          price="$0"
+          description="Essential shutdown steps for any state."
+          features={[
+            'Step-by-step overview',
+            'Key forms identified',
+            'Fee schedule',
+            'Official website links',
+            'Basic timeline',
+          ]}
+          cta="Browse States"
+          ctaUrl="#states"
+        />
+        <PricingCard
+          title="Detailed Guide"
+          price="$49"
+          description="Complete playbook for your specific state."
+          features={[
+            'Everything in Free, plus:',
+            'Form-by-form instructions',
+            'Notification letter templates',
+            'Tax clearance walkthrough',
+            'Post-dissolution checklist',
+            'Common mistakes to avoid',
+            'Expedited filing guide',
+          ]}
+          cta="Get Your State Guide"
+          ctaUrl="/pricing"
+          highlighted={true}
+          badge="Most Popular"
+        />
+        <PricingCard
+          title="Shutdown Agent"
+          price="$1,000"
+          description="We handle everything. You just sign."
+          features={[
+            'Everything in Detailed Guide, plus:',
+            'Complete filing execution',
+            'Tax clearance coordination',
+            'Creditor notifications sent',
+            'IRS EIN closure',
+            'License cancellations',
+            '90-day post-shutdown monitoring',
+          ]}
+          cta="Hire an Agent"
+          ctaUrl="/shutdown-agent"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / AI Block -->
+  <section class="bg-white px-4 py-16">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="mb-8 text-center text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="mb-2 font-bold text-slate-900">How much does it cost to dissolve a business?</h3>
+          <p class="text-sm text-slate-600">Filing fees range from $0 (some states) to $250+. Most states charge between $25-$100 for LLC dissolution and $25-$150 for corporate dissolution. Our state guides include the exact fee for your state and entity type.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="mb-2 font-bold text-slate-900">How long does it take to shut down a business?</h3>
+          <p class="text-sm text-slate-600">The filing itself typically processes in 1-10 business days. However, the full shutdown process (including tax clearance, creditor notifications, and final filings) can take 90 days to 6 months depending on your state and situation.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="mb-2 font-bold text-slate-900">Do I need tax clearance to dissolve my business?</h3>
+          <p class="text-sm text-slate-600">About half of US states require tax clearance before they will process your dissolution. This means you must file all outstanding returns and pay any taxes owed. States like New York, New Jersey, and Massachusetts require it. States like Delaware and Wyoming do not.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="mb-2 font-bold text-slate-900">What happens if I just stop operating without formally dissolving?</h3>
+          <p class="text-sm text-slate-600">Bad things. Most states will continue to charge annual report fees, franchise taxes, and penalties. You may also remain personally liable for the business. The state may eventually administratively dissolve the entity, but you'll owe all accumulated fees and penalties. Always formally dissolve.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="mb-2 font-bold text-slate-900">Can I dissolve a business that owes money?</h3>
+          <p class="text-sm text-slate-600">Yes, but you must follow your state's wind-down procedures. This typically involves notifying known creditors, publishing notice to unknown creditors (in some states), and distributing remaining assets according to priority. Debts don't disappear - they may pass to members/shareholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gradient-to-r from-red-600 to-red-700 px-4 py-16 text-white">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="mb-4 text-3xl font-bold">Ready to Close Your Business?</h2>
+      <p class="mb-8 text-red-100">Don't let paperwork, penalties, and missed deadlines turn a simple shutdown into a legal headache. Get it done right.</p>
+      <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <a href="#states" class="rounded-lg bg-white px-8 py-3 text-sm font-bold text-red-600 hover:bg-red-50">
+          Free State Guide
+        </a>
+        <a href="/shutdown-agent" class="rounded-lg border-2 border-white px-8 py-3 text-sm font-bold text-white hover:bg-white/10">
+          Hire a Shutdown Agent
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,90 @@
+{
+  "code": "MN",
+  "name": "Minnesota",
+  "slug": "minnesota",
+  "agency": "Minnesota Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.mn.gov",
+  "onlinePortal": "https://mblsportal.sos.mn.gov",
+  "phone": "(651) 296-2803",
+  "address": "First National Bank Building, 332 Minnesota Street, Suite N201, Saint Paul, MN 55101",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Statement of Dissolution (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.mn.gov/media/5466/llcstatementofdissolution.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://mblsportal.sos.mn.gov",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Statement of Dissolution with Secretary of State ($35 by mail, $55 expedited)",
+        "File final Minnesota state tax returns",
+        "File Statement of Termination after winding up is complete",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Minnesota requires two filings: first a Statement of Dissolution, then a Statement of Termination after winding up is complete. Filing fee is $35 by mail or $55 for expedited in-person filing."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Business Corporation)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.mn.gov/media/1384/dcdissolutionsharesissued.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://mblsportal.sos.mn.gov",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "File Intent to Dissolve with Secretary of State",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution with Secretary of State ($35 by mail, $55 expedited)",
+        "File final Minnesota state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Corporations must first file an Intent to Dissolve, then complete winding up, then file Articles of Dissolution. Filing fee is $35 by mail or $55 for expedited filing."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Minnesota Department of Revenue",
+    "taxAgencyUrl": "https://www.revenue.state.mn.us",
+    "taxAgencyPhone": "(651) 556-3000",
+    "notes": "File final Minnesota corporate franchise tax return and mark as final. Close all tax accounts with the Department of Revenue. LLCs taxed as pass-through entities must ensure all members file final K-1 information."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day (in-person expedited)",
+    "expeditedFee": 20,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Minnesota WARN Act requires 60 days notice for plant closings affecting 50+ employees",
+    "creditorNotification": "Must notify known creditors in writing; publish notice for unknown creditors",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is finalized",
+    "windingUpPeriod": "Corporation continues for winding up after Intent to Dissolve is filed; LLC continues after Statement of Dissolution",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

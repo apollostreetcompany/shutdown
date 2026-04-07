@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StateComparisonTable from '../components/StateComparisonTable';
+import stateData from '../../data/states/index.json';
+
+const states = Object.values(stateData).sort((a: any, b: any) => a.name.localeCompare(b.name));
+---
+
+<BaseLayout
+  title="Compare State Dissolution Requirements"
+  description="Compare business shutdown requirements, fees, and timelines across US states. Side-by-side comparison of dissolution processes."
+>
+  <section class="px-4 py-12">
+    <div class="mx-auto max-w-6xl">
+      <h1 class="mb-2 text-3xl font-bold text-slate-900">Compare State Dissolution Requirements</h1>
+      <p class="mb-8 text-slate-500">Select up to 5 states to compare their business shutdown processes side by side.</p>
+      <StateComparisonTable client:load states={states} />
+    </div>
+  </section>
+</BaseLayout>

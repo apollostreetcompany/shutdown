@@ -1,0 +1,94 @@
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "slug": "pennsylvania",
+  "agency": "Pennsylvania Department of State, Bureau of Corporations and Charitable Organizations",
+  "agencyAbbr": "DOS",
+  "website": "https://www.pa.gov/agencies/dos/programs/business/",
+  "onlinePortal": "https://hub.business.pa.gov/",
+  "phone": "(717) 787-1057",
+  "address": "401 North Street, Room 206, Harrisburg, PA 17120",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution - Domestic Limited Liability Company",
+      "formNumber": "DSCB:15-8975/8978",
+      "formUrl": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/business/forms/offsite-forms/15-8872(b2i)-Certificate-of-Dissolution,-domestic-LLC-FM.pdf",
+      "fee": 70,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://hub.business.pa.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Obtain Tax Clearance Certificate from the PA Department of Revenue (Form REV-181)",
+        "Obtain clearance from the PA Department of Labor and Industry",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Notify all known creditors in writing",
+        "File final federal and state tax returns",
+        "File Certificate of Dissolution (Form DSCB:15-8975/8978) with the Department of State ($70 fee)",
+        "Cancel any business licenses, permits, and fictitious names"
+      ],
+      "notes": "Pennsylvania requires tax clearance from the Department of Revenue and clearance from the Department of Labor and Industry before filing dissolution. Allow 4 weeks for the Department of Revenue to process the tax clearance application (Form REV-181)."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution - Domestic Business Corporation",
+      "formNumber": "DSCB:15-1977/5977",
+      "formUrl": "https://www.pa.gov/agencies/dos/resources/business-resources/",
+      "fee": 70,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://hub.business.pa.gov/",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Obtain Tax Clearance Certificate from the PA Department of Revenue (Form REV-181)",
+        "Obtain clearance from the PA Department of Labor and Industry, Office of UC Tax Services",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final federal and state tax returns",
+        "File Articles of Dissolution (Form DSCB:15-1977/5977) with the Department of State ($70 fee)",
+        "Cancel all business licenses, permits, and fictitious names"
+      ],
+      "notes": "Tax clearance from the Department of Revenue and clearance from the Department of Labor and Industry are required before filing. Use Form DSCB:15-1971/5971 if the corporation has never transacted business."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Pennsylvania Department of Revenue",
+    "taxAgencyUrl": "https://www.pa.gov/agencies/revenue/",
+    "taxAgencyPhone": "(717) 783-8434",
+    "notes": "Tax clearance is mandatory before dissolution. Submit Form REV-181 (Application for Tax Clearance Certificate) to the Department of Revenue. Processing takes approximately 4 weeks. You must also obtain a separate clearance from the Department of Labor and Industry, Office of Unemployment Compensation Tax Services. Both clearances must be obtained before filing dissolution with the Department of State."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours",
+    "expeditedFee": 100,
+    "waitingPeriods": "Tax clearance from Department of Revenue takes approximately 4 weeks to process"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing with information about submitting claims",
+    "registeredAgentNotes": "Registered office must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

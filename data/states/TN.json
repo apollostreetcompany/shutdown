@@ -1,0 +1,93 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "slug": "tennessee",
+  "agency": "Tennessee Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.tn.gov/businesses",
+  "onlinePortal": "https://tnbear.tn.gov/",
+  "phone": "(615) 741-2286",
+  "address": "312 Rosa L. Parks Avenue, 6th Floor, Snodgrass Tower, Nashville, TN 37243-1102",
+  "email": "TNSOS.CORPINFO@tn.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination of Limited Liability Company",
+      "formNumber": "SS-4245",
+      "formUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/ss-4245.pdf",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://tnbear.tn.gov/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement",
+        "File Notice of Dissolution (Form SS-4246) with the Secretary of State — $20 fee",
+        "Wind up business affairs and settle all debts and obligations",
+        "Obtain tax clearance from the Tennessee Department of Revenue",
+        "File Articles of Termination (Form SS-4245) with the Secretary of State — $20 fee",
+        "Cancel any licenses, permits, and registrations",
+        "File final state and federal tax returns",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Tennessee requires two separate filings: a Notice of Dissolution ($20) and Articles of Termination ($20), totaling $40. You must obtain tax clearance from the Department of Revenue before filing Articles of Termination. Missing the termination filing leaves the LLC on the books and subject to the $300 annual report fee."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — For-Profit Corporation",
+      "formNumber": "SS-4410",
+      "formUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/202507_SS-4410%20P3%20(002).pdf",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://tnbear.tn.gov/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs and settle all debts and obligations",
+        "Obtain tax clearance from the Tennessee Department of Revenue",
+        "File Articles of Dissolution (Form SS-4410) with the Secretary of State — $20 fee",
+        "Cancel any licenses, permits, and registrations",
+        "File final state and federal tax returns",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "The Division of Business Services will request tax clearance from the Department of Revenue when you file. If outstanding tax debt exists, the articles will be rejected."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Tennessee Department of Revenue",
+    "taxAgencyUrl": "https://www.tn.gov/revenue.html",
+    "taxAgencyPhone": "(615) 253-0600",
+    "notes": "Tax clearance is required before filing Articles of Termination. Request tax clearance through TNTAP (Tennessee Taxpayer Access Point). If all taxes are paid, the Department of Revenue will mail a tax clearance letter within 3-5 days and send an electronic copy to the Secretary of State. Tennessee has franchise and excise taxes that must be settled."
+  },
+  "timeline": {
+    "standardProcessingDays": "2-3 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day or next business day",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims (minimum 120 days)",
+    "registeredAgentNotes": "Registered agent designation terminates upon final dissolution filing",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by shareholder approval (majority of shares entitled to vote)."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "code": "MT",
+  "name": "Montana",
+  "slug": "montana",
+  "agency": "Montana Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sosmt.gov",
+  "onlinePortal": "https://sosmt.gov/business/",
+  "phone": "(406) 444-3665",
+  "address": "P.O. Box 202801, Helena, MT 59620-2801",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://sosmt.gov/business/fees/",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosmt.gov/business/",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Articles of Termination with Secretary of State (no filing fee)",
+        "File final Montana state tax returns",
+        "Close all tax accounts with the Montana Department of Revenue",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Montana charges no filing fee for Articles of Termination for LLCs, making it one of the least expensive states for LLC dissolution."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Profit Corporation)",
+      "formNumber": null,
+      "formUrl": "https://sosmt.gov/business/fees/",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosmt.gov/business/",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution with Secretary of State (no filing fee)",
+        "File final Montana state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Montana charges no filing fee for Articles of Dissolution for corporations."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Montana Department of Revenue",
+    "taxAgencyUrl": "https://mtrevenue.gov",
+    "taxAgencyPhone": "(406) 444-6900",
+    "notes": "File final Montana corporate income tax return and mark as final. Close all tax accounts with the Department of Revenue. Montana has no sales tax, but business income tax obligations must be settled."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs after dissolution",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

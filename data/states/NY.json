@@ -1,0 +1,92 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "slug": "new-york",
+  "agency": "New York Department of State, Division of Corporations",
+  "agencyAbbr": "DOS",
+  "website": "https://dos.ny.gov/existing-corporations-and-businesses",
+  "onlinePortal": "https://apps.dos.ny.gov/publicInquiry/",
+  "phone": "(518) 473-2492",
+  "address": "One Commerce Plaza, 99 Washington Avenue, Albany, NY 12231-0001",
+  "email": "corporations@dos.ny.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution of Domestic Limited Liability Companies",
+      "formNumber": "DOS-1366-f",
+      "formUrl": "https://dos.ny.gov/articles-dissolution-domestic-limited-liability-companies-0",
+      "fee": 60,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://dos.ny.gov/articles-dissolution-domestic-limited-liability-companies-2",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final federal and New York State tax returns",
+        "Obtain Consent to Dissolution from the NYS Department of Taxation and Finance (required)",
+        "File Articles of Dissolution (Form DOS-1366-f) with the Department of State ($60 fee)",
+        "Include the Consent to Dissolution from the Department of Taxation and Finance with your filing",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "New York requires a Consent to Dissolution from the Department of Taxation and Finance before the Department of State will accept your Articles of Dissolution. This consent will not be issued until all tax returns have been filed and all tax liabilities paid."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution of Domestic Business Corporations",
+      "formNumber": null,
+      "formUrl": "https://dos.ny.gov/certificate-dissolution-domestic-business-corporations",
+      "fee": 60,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://dos.ny.gov/certificate-dissolution-domestic-business-corporations",
+      "steps": [
+        "Board of directors adopts a plan of dissolution",
+        "Shareholders approve the dissolution (two-thirds of outstanding shares required)",
+        "Wind up business affairs, notify creditors, and settle all obligations",
+        "File final federal and New York State tax returns (Form CT-3)",
+        "Obtain Consent to Dissolution (Form TR-960) from the NYS Department of Taxation and Finance",
+        "File Certificate of Dissolution with the Department of State ($60 fee)",
+        "Attach the Consent to Dissolution from the Department of Taxation and Finance",
+        "Distribute remaining assets to shareholders after all debts are paid"
+      ],
+      "notes": "Tax consent is mandatory. The Department of Taxation and Finance will not issue consent until all franchise tax returns are filed and all taxes paid. Follow instructions at tax.ny.gov/bus/doingbus/tr125.htm for the voluntary dissolution process."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "New York State Department of Taxation and Finance",
+    "taxAgencyUrl": "https://www.tax.ny.gov/",
+    "taxAgencyPhone": "(518) 485-6027",
+    "notes": "Tax consent to dissolution is mandatory. Corporations must file a final CT-3 franchise tax return and mark the 'Final return' box. The Department of Taxation and Finance issues a Consent to Dissolution (Form TR-960) only after all returns are filed and taxes paid. This consent must be attached to the dissolution filing with the Department of State. Instructions available at tax.ny.gov/bus/doingbus/tr125.htm."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day to 24 hours",
+    "expeditedFee": 25,
+    "waitingPeriods": "Tax consent process can take several weeks depending on filing history"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with New York WARN Act (requires 90 days notice for mass layoffs of 25+ employees). Provide final paychecks by regular payday.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing. Publish notice for unknown claimants.",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is finalized and all pending matters are resolved",
+    "windingUpPeriod": "Corporation continues to exist for purpose of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require majority vote of members unless operating agreement specifies otherwise. Corporations require board resolution and two-thirds shareholder approval of outstanding shares."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

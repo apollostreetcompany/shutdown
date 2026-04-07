@@ -1,0 +1,90 @@
+{
+  "code": "FL",
+  "name": "Florida",
+  "slug": "florida",
+  "agency": "Florida Division of Corporations",
+  "agencyAbbr": "DoC",
+  "website": "https://dos.fl.gov/sunbiz/",
+  "onlinePortal": "https://efile.sunbiz.org",
+  "phone": "(850) 245-6052",
+  "address": "Clifton Building, 2661 Executive Center Circle, Tallahassee, FL 32301",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution (LLC)",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://efile.sunbiz.org/dissolvellc.html",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "Ensure current year annual report is filed ($138.75)",
+        "File Articles of Dissolution through Sunbiz e-filing portal",
+        "Pay $25 filing fee",
+        "File final state tax returns with Florida Department of Revenue"
+      ],
+      "notes": "Filing through Sunbiz e-filing portal. Current year annual report ($138.75) must be filed before or with dissolution. Processing takes 2-3 business days."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Corporation)",
+      "formNumber": null,
+      "formUrl": "https://form.sunbiz.org/pdf/cr2e012.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://efile.sunbiz.org/dissolve01.html",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "Ensure current year annual report is filed ($150)",
+        "File Articles of Dissolution through Sunbiz e-filing portal or by mail",
+        "Pay $35 filing fee",
+        "File final state tax returns with Florida Department of Revenue"
+      ],
+      "notes": "Filing through Sunbiz e-filing portal or by mail. Annual report must be current before dissolution."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Florida Department of Revenue",
+    "taxAgencyUrl": "https://floridarevenue.com",
+    "taxAgencyPhone": "(850) 488-6800",
+    "notes": "Florida has no personal income tax. File final corporate income/franchise tax return (Form F-1120) if applicable. Close all sales tax and other state tax accounts."
+  },
+  "timeline": {
+    "standardProcessingDays": "2-3 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day to 1 business day",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; publish notice for unknown creditors",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

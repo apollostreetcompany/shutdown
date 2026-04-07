@@ -1,0 +1,89 @@
+{
+  "code": "MO",
+  "name": "Missouri",
+  "slug": "missouri",
+  "agency": "Missouri Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.mo.gov",
+  "onlinePortal": "https://www.sos.mo.gov/business/corporations/forms",
+  "phone": "(573) 751-4153",
+  "address": "P.O. Box 778, 600 W. Main St., Room 322, Jefferson City, MO 65102",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination for Limited Liability Company",
+      "formNumber": "LLC-5",
+      "formUrl": "https://www.sos.mo.gov/CMSImages/Business/llc5.pdf?v=2",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.mo.gov/business/corporations/forms",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "File Notice of Winding Up (Form LLC-13) with Secretary of State ($25 fee)",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Articles of Termination (Form LLC-5) with Secretary of State ($25 fee)",
+        "File final Missouri state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Missouri LLC dissolution is a two-step process: first file a Notice of Winding Up (Form LLC-13, $25), then after completing winding up, file Articles of Termination (Form LLC-5, $25). Total cost is $50 for both filings."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution by Voluntary Action",
+      "formNumber": "Corp. 46",
+      "formUrl": "https://www.sos.mo.gov/CMSImages/Business/corp46.pdf?v=2",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.mo.gov/business/corporations/forms",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by two-thirds vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution by Voluntary Action (Form Corp. 46) with Secretary of State ($25 fee)",
+        "File final Missouri state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Corporation dissolution requires a two-thirds vote of shareholders. The filing fee is $25."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Missouri Department of Revenue",
+    "taxAgencyUrl": "https://dor.mo.gov",
+    "taxAgencyPhone": "(573) 751-3505",
+    "notes": "File final Missouri corporate income tax return and mark as final. Close all tax accounts with the Department of Revenue. Notify the DOR of business dissolution."
+  },
+  "timeline": {
+    "standardProcessingDays": "4-7 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day to 1-2 business days (walk-in)",
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "LLC must complete winding up between filing Notice of Winding Up and Articles of Termination",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and two-thirds shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

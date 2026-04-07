@@ -1,0 +1,92 @@
+{
+  "code": "WI",
+  "name": "Wisconsin",
+  "slug": "wisconsin",
+  "agency": "Wisconsin Department of Financial Institutions",
+  "agencyAbbr": "DFI",
+  "website": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/",
+  "onlinePortal": "https://www.wdfi.org/apps/CorpSearch/Search.aspx",
+  "phone": "(608) 261-7577",
+  "address": "4822 Madison Yards Way, North Tower, 4th Floor, Madison, WI 53705",
+  "email": "DFICorporations@dfi.wisconsin.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution — Limited Liability Company",
+      "formNumber": "Form 510",
+      "formUrl": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP510.pdf",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/DissolutionWithdrawal.aspx",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Wisconsin Department of Revenue",
+        "File Articles of Dissolution (Form 510) online through the DFI portal — $20 fee online",
+        "Pay any delinquent annual report fees owed to the DFI at time of dissolution",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Online filing fee is $20; paper filing fee is $35 (includes $15 paper surcharge effective March 2024). If the LLC is in delinquent status, all back fees must be paid at the time of dissolution in addition to the filing fee. Expedited next-business-day service is available for an additional $25."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — Business Corporation",
+      "formNumber": "Form 10",
+      "formUrl": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP10.pdf",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/DissolutionWithdrawal.aspx",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Wisconsin Department of Revenue",
+        "File Articles of Dissolution (Form 10) online through the DFI portal — $20 fee online",
+        "Pay any delinquent annual report fees owed to the DFI at time of dissolution",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Online filing fee is $20; paper filing fee is $35 (includes $15 paper surcharge effective March 2024). If the corporation is in delinquent status, all back fees must be paid at the time of dissolution. Expedited next-business-day service is available for an additional $25."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Wisconsin Department of Revenue",
+    "taxAgencyUrl": "https://www.revenue.wi.gov/",
+    "taxAgencyPhone": "(608) 266-2776",
+    "notes": "Wisconsin does not require a formal tax clearance certificate for dissolution. However, you must file final income and franchise tax returns and settle all outstanding tax obligations with the Wisconsin Department of Revenue."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1 business day",
+    "expeditedFee": 25,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees. Wisconsin also has a state Business Closing and Mass Layoff law requiring 60-day notice for 25+ employees.",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

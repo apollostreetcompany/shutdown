@@ -1,0 +1,90 @@
+{
+  "code": "SC",
+  "name": "South Carolina",
+  "slug": "south-carolina",
+  "agency": "South Carolina Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.sc.gov/",
+  "onlinePortal": "https://businessfilings.sc.gov/",
+  "phone": "(803) 734-2158",
+  "address": "1205 Pendleton Street, Suite 525, Columbia, SC 29201",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination",
+      "formNumber": "Form F0108",
+      "formUrl": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms?pdfCategoryId=5",
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://businessfilings.sc.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Notify all known creditors in writing",
+        "File final tax returns with the SC Department of Revenue",
+        "File Articles of Termination (Form F0108) with the Secretary of State ($10 fee)",
+        "Cancel any business licenses, permits, and trade names"
+      ],
+      "notes": "South Carolina uses 'Articles of Termination' rather than 'Articles of Dissolution' for LLCs per SC Code 33-44-805. Tax clearance is not required for voluntary dissolution. Online filing is available through the Business Entities Online system."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "Form F0049",
+      "formUrl": "https://businessfilings.sc.gov/BusinessFiling/Entity/DownloadForm?formName=F0049&entityType=1&filingType=Articles+of+Dissolution",
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://businessfilings.sc.gov/",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote per SC Code 33-14-102",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final tax returns with the SC Department of Revenue",
+        "File Articles of Dissolution (Form F0049) with the Secretary of State ($10 fee)",
+        "Cancel all business licenses and permits"
+      ],
+      "notes": "Tax clearance is not required for voluntary dissolution. However, if the corporation was administratively dissolved and is seeking reinstatement, a Tax Compliance Certificate from the Department of Revenue is required ($60 fee, Form C-268)."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "South Carolina Department of Revenue",
+    "taxAgencyUrl": "https://dor.sc.gov/",
+    "taxAgencyPhone": "(803) 898-5000",
+    "notes": "Tax clearance is not required for voluntary dissolution. However, you must file all final tax returns for income, sales, and withholding taxes. If administratively dissolved, a Tax Compliance Certificate (Form C-268, $60 fee) from the Department of Revenue is required for reinstatement. Use the SC Business One Stop (scbos.sc.gov) to close business tax registrations."
+  },
+  "timeline": {
+    "standardProcessingDays": "2-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks within 48 hours of termination.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing with a deadline of at least 120 days to submit claims per SC Code 33-14-106",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed per SC Code 33-14-105",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement per SC Code 33-44-801. Corporations require board resolution and shareholder majority approval per SC Code 33-14-102."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

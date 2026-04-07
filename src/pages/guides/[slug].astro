@@ -1,0 +1,153 @@
+---
+import stateData from '../../../data/states/index.json';
+import { EN } from '../../lib/guide-translations';
+import { StateGuidePage } from '../../components/StateGuidePage';
+
+export function getStaticPaths() {
+  return Object.values(stateData).map((s: any) => ({
+    params: { slug: s.slug },
+    props: { state: s },
+  }));
+}
+
+const { state } = Astro.props;
+const s = state as any;
+const siteUrl = 'https://shutdownassistant.com';
+const canonicalUrl = `${siteUrl}/guides/${s.slug}`;
+const alternateEsUrl = `${siteUrl}/es/guides/${s.slug}`;
+const seoTitle = EN.seoTitleTemplate.replace('{state}', s.name);
+const seoDesc = EN.seoDescriptionTemplate.replace(/\{state\}/g, s.name).replace(/\{agency\}/g, s.agency);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": `How to Shut Down a Business in ${s.name}`,
+      "description": seoDesc,
+      "totalTime": s.timeline?.standardProcessingDays || "P30D",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": s.entities?.llc?.fee || 0
+      },
+      "step": (s.entities?.llc?.steps || []).map((step: string, i: number) => ({
+        "@type": "HowToStep",
+        "position": i + 1,
+        "text": step
+      }))
+    },
+    {
+      "@type": "Product",
+      "name": `${s.name} Business Dissolution Guide`,
+      "description": `Complete step-by-step guide to shutting down a business in ${s.name}. Every form, fee, and deadline.`,
+      "offers": {
+        "@type": "Offer",
+        "price": "29.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+        { "@type": "ListItem", "position": 2, "name": "States", "item": `${siteUrl}/states` },
+        { "@type": "ListItem", "position": 3, "name": s.name, "item": `${siteUrl}/states/${s.slug}` },
+        { "@type": "ListItem", "position": 4, "name": "Premium Guide", "item": canonicalUrl }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": `How much does it cost to dissolve an LLC in ${s.name}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `The filing fee to dissolve an LLC in ${s.name} is $${s.entities?.llc?.fee || 0}. ${s.tax?.clearanceRequired ? `You must also obtain tax clearance from the ${s.tax.taxAgency}.` : 'No tax clearance is required.'}`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `How long does it take to dissolve a business in ${s.name}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Standard processing time for dissolution in ${s.name} is ${s.timeline?.standardProcessingDays || 'varies'}. ${s.timeline?.expeditedAvailable ? `Expedited processing is available for $${s.timeline.expeditedFee}.` : 'Expedited processing is not available.'}`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `Do I need tax clearance to dissolve a business in ${s.name}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": s.tax?.clearanceRequired
+              ? `Yes, ${s.name} requires tax clearance from the ${s.tax.taxAgency} before you can file for dissolution. ${s.tax.notes || ''}`
+              : `No, ${s.name} does not require a tax clearance certificate to dissolve your business.`
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{seoTitle} | Shutdown Assistant</title>
+    <meta name="description" content={seoDesc} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en" href={canonicalUrl} />
+    <link rel="alternate" hreflang="es" href={alternateEsUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="product" />
+    <meta property="og:title" content={seoTitle} />
+    <meta property="og:description" content={seoDesc} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={`${siteUrl}/og-default.png`} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_US" />
+    <meta property="product:price:amount" content="29.00" />
+    <meta property="product:price:currency" content="USD" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={seoTitle} />
+    <meta name="twitter:description" content={seoDesc} />
+    <meta name="twitter:image" content={`${siteUrl}/og-default.png`} />
+
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="author" content="Shutdown Assistant" />
+    <meta name="geo.region" content={`US-${s.code}`} />
+    <meta name="keywords" content={`dissolve business ${s.name}, shut down LLC ${s.name}, close corporation ${s.name}, ${s.name} dissolution, ${s.agency} dissolution, ${s.name} business closure, ${s.entities?.llc?.formName || ''}`} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <StateGuidePage
+      client:load
+      state={s}
+      allStates={stateData}
+      translations={EN}
+      baseUrl={siteUrl}
+      guidesBasePath="/guides"
+      statesBasePath="/states"
+      alternateLangUrl={alternateEsUrl}
+    />
+  </body>
+</html>

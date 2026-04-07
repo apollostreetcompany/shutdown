@@ -1,0 +1,88 @@
+{
+  "code": "AZ",
+  "name": "Arizona",
+  "slug": "arizona",
+  "agency": "Arizona Corporation Commission",
+  "agencyAbbr": "ACC",
+  "website": "https://azcc.gov",
+  "onlinePortal": "https://azcc.gov/corporations",
+  "phone": "(602) 542-3026",
+  "address": "1300 W. Washington St., Phoenix, AZ 85007",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination",
+      "formNumber": "L031",
+      "formUrl": "https://azcc.gov/docs/default-source/corps-files/forms/l031-articles-of-termination.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://azcc.gov/corporations",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "File Articles of Termination (Form L031) with Arizona Corporation Commission",
+        "Pay $35 filing fee",
+        "File final state tax returns with Arizona Department of Revenue"
+      ],
+      "notes": "Expedited processing available: $35 expedited, $100 next day, $200 same day, $400 two-hour service."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "C022",
+      "formUrl": "https://azcc.gov/docs/default-source/corps-files/forms/c022-articles-of-dissolution.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://azcc.gov/corporations",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution (Form C022) with Arizona Corporation Commission",
+        "Pay $25 filing fee",
+        "File final state tax returns with Arizona Department of Revenue"
+      ],
+      "notes": null
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Arizona Department of Revenue",
+    "taxAgencyUrl": "https://azdor.gov",
+    "taxAgencyPhone": "(602) 255-3381",
+    "notes": "File final Arizona corporate income tax return (Form 120) and close all tax accounts with the Department of Revenue."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day to 1 business day",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Must publish notice of dissolution for three consecutive weeks in a newspaper of general circulation in the county where the business is located (ARS 29-3702(C) for LLCs, ARS 10-1403(B) for corps).",
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

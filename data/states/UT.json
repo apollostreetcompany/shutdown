@@ -1,0 +1,92 @@
+{
+  "code": "UT",
+  "name": "Utah",
+  "slug": "utah",
+  "agency": "Utah Division of Corporations and Commercial Code",
+  "agencyAbbr": "DCCC",
+  "website": "https://corporations.utah.gov/",
+  "onlinePortal": "https://secure.utah.gov/bes/",
+  "phone": "(801) 530-4849",
+  "address": "160 East 300 South, Salt Lake City, UT 84114-6705",
+  "email": "corpucc@utah.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution — Limited Liability Company",
+      "formNumber": null,
+      "formUrl": "https://corporations.utah.gov/wp-content/uploads/2021/09/llcdiss.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://secure.utah.gov/bes/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by majority member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Utah State Tax Commission",
+        "File Articles of Dissolution with the Utah Division of Corporations online or by mail",
+        "No filing fee is required for standard processing",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Utah does not charge a filing fee for Articles of Dissolution. Expedited processing is available for an additional $75 fee. File online or by mail to PO Box 146705, Salt Lake City, UT 84114-6705."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — Corporation",
+      "formNumber": null,
+      "formUrl": "https://corporations.utah.gov/wp-content/uploads/2021/09/dissolve.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://secure.utah.gov/bes/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Utah State Tax Commission",
+        "File Articles of Dissolution with the Utah Division of Corporations online or by mail",
+        "No filing fee is required for standard processing",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Utah does not charge a filing fee for Articles of Dissolution. Expedited processing is available for an additional $75 fee. Domestic corporations do not need a Tax Clearance Certificate to dissolve."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Utah State Tax Commission",
+    "taxAgencyUrl": "https://tax.utah.gov/",
+    "taxAgencyPhone": "(801) 297-2200",
+    "notes": "Utah does not require a tax clearance certificate for domestic entity dissolution. However, you should file final tax returns and inform the Utah State Tax Commission that you are dissolving to close your tax accounts. Foreign corporations must obtain a Certificate of Tax Clearance before withdrawing from Utah."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-7 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 75,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "code": "NM",
+  "name": "New Mexico",
+  "slug": "new-mexico",
+  "agency": "New Mexico Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.nm.gov/business-services/",
+  "onlinePortal": "https://enterprise.sos.nm.gov/",
+  "phone": "(505) 827-3600",
+  "address": "325 Don Gaspar, Suite 300, Santa Fe, NM 87501",
+  "email": "Business.Services@sos.nm.gov",
+  "entities": {
+    "llc": {
+      "formName": "Domestic Limited Liability Company Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://enterprise.sos.nm.gov/forms/business",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://enterprise.sos.nm.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement",
+        "Settle all debts and obligations and wind up business affairs",
+        "File final tax returns with the NM Taxation and Revenue Department",
+        "Request a Corporate Certificate of No Tax Due from the Taxation and Revenue Department",
+        "File Articles of Dissolution with the Secretary of State ($25 fee)",
+        "Cancel any licenses, permits, and DBAs",
+        "Close your business tax accounts via the Taxpayer Access Point (TAP)"
+      ],
+      "notes": "New Mexico requires filing through the online portal at enterprise.sos.nm.gov. Processing typically takes 10-15 business days."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://enterprise.sos.nm.gov/forms/business",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://enterprise.sos.nm.gov/",
+      "steps": [
+        "Board of directors adopts a resolution to dissolve",
+        "Shareholders approve the dissolution by majority vote",
+        "File a Statement of Intent to Dissolve with the Secretary of State",
+        "Notify all known creditors and claimants",
+        "Settle all debts, obligations, and distribute remaining assets",
+        "File final tax returns with the NM Taxation and Revenue Department",
+        "Obtain a Corporate Certificate of No Tax Due",
+        "File Articles of Dissolution with the Secretary of State ($50 fee)"
+      ],
+      "notes": "Corporation dissolution fee is $50, which covers the Statement of Intent to Dissolve and Articles of Dissolution filings."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "New Mexico Taxation and Revenue Department",
+    "taxAgencyUrl": "https://www.tax.newmexico.gov/",
+    "taxAgencyPhone": "(866) 285-2996",
+    "notes": "You must request a Corporate Certificate of No Tax Due from the Taxation and Revenue Department before dissolving. Close your business tax accounts through the Taxpayer Access Point (TAP) at tap.state.nm.us. File form ACD-31015 to close your business tax registration."
+  },
+  "timeline": {
+    "standardProcessingDays": "10-15 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-3 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks within 5 days of termination.",
+    "creditorNotification": "Must notify all known creditors in writing and publish notice of dissolution for unknown claimants",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Reasonable time to wind up affairs after filing",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

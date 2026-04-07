@@ -1,0 +1,92 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "slug": "virginia",
+  "agency": "Virginia State Corporation Commission",
+  "agencyAbbr": "SCC",
+  "website": "https://www.scc.virginia.gov/businesses/",
+  "onlinePortal": "https://cis.scc.virginia.gov/",
+  "phone": "(804) 371-9733",
+  "address": "1300 East Main Street, 1st Floor, Richmond, VA 23219",
+  "email": "sccinfo@scc.virginia.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Cancellation of a Virginia Limited Liability Company",
+      "formNumber": "LLC-1050",
+      "formUrl": "https://www.scc.virginia.gov/media/sccvirginiagov-home/business-home/forms-and-fees/virginia-limited-liability-companies/llc1050.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://cis.scc.virginia.gov/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Virginia Department of Taxation",
+        "Complete Form LLC-1050 — Articles of Cancellation",
+        "File Form LLC-1050 with the State Corporation Commission with $25 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Virginia uses the State Corporation Commission (SCC), not a Secretary of State, for business filings. The filing fee is $25. You can file online at cis.scc.virginia.gov and pay with credit card or eCheck. By mail, send to P.O. Box 1197, Richmond, VA 23218."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution of a Virginia Stock Corporation",
+      "formNumber": "SCC-743",
+      "formUrl": "https://www.scc.virginia.gov/businesses/forms-and-fees/virginia-stock-corporations/",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://cis.scc.virginia.gov/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Virginia Department of Taxation",
+        "Complete Form SCC-743 — Articles of Dissolution",
+        "File Form SCC-743 with the State Corporation Commission with $25 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Virginia uses the State Corporation Commission (SCC), not a Secretary of State. The filing fee is $25. You can file online through the Clerk's Information System (CIS) at cis.scc.virginia.gov. For termination after dissolution, use Form SCC-750 (Articles of Termination)."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Virginia Department of Taxation",
+    "taxAgencyUrl": "https://www.tax.virginia.gov/",
+    "taxAgencyPhone": "(804) 367-8031",
+    "notes": "Virginia does not require a formal tax clearance certificate for dissolution. However, you must file final income tax returns and settle any outstanding tax obligations. You should also complete the winding-up process and pay any outstanding debts and taxes before filing for dissolution."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Corporations must publish notice of dissolution one time in a newspaper of general circulation in the city or county of the principal/registered office, or post conspicuously for at least 30 days on the dissolved corporation's website.",
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims (minimum 120 days)",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": "Must complete winding up of all business affairs before filing articles of cancellation or dissolution",
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by shareholder approval (more than two-thirds of shares entitled to vote)."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "code": "CO",
+  "name": "Colorado",
+  "slug": "colorado",
+  "agency": "Colorado Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.state.co.us",
+  "onlinePortal": "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+  "phone": "(303) 894-2200",
+  "address": "1700 Broadway, Suite 550, Denver, CO 80290",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Statement of Dissolution",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "File Statement of Dissolution online through Colorado Secretary of State business portal",
+        "Pay $10 filing fee",
+        "File final state tax returns with Colorado Department of Revenue"
+      ],
+      "notes": "Filing must be done online through the Secretary of State business portal. Processing is typically immediate for online filings."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution online through Colorado Secretary of State business portal",
+        "Pay $25 filing fee",
+        "File final state tax returns with Colorado Department of Revenue"
+      ],
+      "notes": "Filing must be done online through the Secretary of State business portal."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Colorado Department of Revenue",
+    "taxAgencyUrl": "https://tax.colorado.gov",
+    "taxAgencyPhone": "(303) 238-7378",
+    "notes": "File final Colorado corporate income tax return. Close all sales tax licenses and other state tax accounts with the Department of Revenue."
+  },
+  "timeline": {
+    "standardProcessingDays": "Immediate (online filing)",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

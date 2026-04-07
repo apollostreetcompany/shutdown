@@ -1,0 +1,94 @@
+{
+  "code": "OH",
+  "name": "Ohio",
+  "slug": "ohio",
+  "agency": "Ohio Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+  "onlinePortal": "https://www.ohiobusinesscentral.gov/",
+  "phone": "(877) 767-3453",
+  "address": "22 North Fourth Street, Columbus, OH 43215",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution of Domestic Limited Liability Company",
+      "formNumber": "Form 562",
+      "formUrl": "https://www.ohiosos.gov/globalassets/business/forms/562.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.ohiobusinesscentral.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle all debts and obligations",
+        "Notify all known creditors in writing",
+        "File final tax returns with the Ohio Department of Taxation",
+        "Submit Notification of Dissolution or Surrender (Form D5) to the Ohio Department of Taxation",
+        "Obtain Certificate of Tax Clearance from the Ohio Department of Taxation",
+        "File Certificate of Dissolution (Form 562) with the Secretary of State ($50 fee)",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "Ohio requires tax clearance from the Department of Taxation. Submit Form D5 at least 30 days before your intended dissolution date. File online through Ohio Business Central."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution of For-Profit Domestic Corporation",
+      "formNumber": "Form 561",
+      "formUrl": "https://www.ohiosos.gov/globalassets/business/forms/561.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.ohiobusinesscentral.gov/",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final tax returns with the Ohio Department of Taxation",
+        "Submit Notification of Dissolution or Surrender (Form D5) to the Department of Taxation",
+        "Obtain Certificate of Tax Clearance from the Department of Taxation",
+        "File Certificate of Dissolution (Form 561) with the Secretary of State ($50 fee)",
+        "Cancel all business licenses and permits"
+      ],
+      "notes": "Form D5 must be submitted to the Department of Taxation at least 30 days before the intended filing date with the Secretary of State. A tax clearance certificate will not be issued until all taxes are filed and paid."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Ohio Department of Taxation",
+    "taxAgencyUrl": "https://tax.ohio.gov/",
+    "taxAgencyPhone": "(614) 387-1801",
+    "notes": "Tax clearance is required before dissolution. Submit Form D5 (Notification of Dissolution or Surrender) to the Ohio Department of Taxation Tax Release Unit at least 30 days before your planned dissolution filing date. The Department will review all business tax accounts. A Certificate of Tax Clearance will not be issued until all returns are filed and all taxes/fees are paid."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-7 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "2 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": "Tax clearance must be submitted at least 30 days before filing dissolution"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday or within 15 days of termination.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing with a deadline to submit claims",
+    "registeredAgentNotes": "Statutory agent must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

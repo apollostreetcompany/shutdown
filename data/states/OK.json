@@ -1,0 +1,92 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "slug": "oklahoma",
+  "agency": "Oklahoma Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ok.gov/",
+  "onlinePortal": "https://www.sos.ok.gov/business/forms.aspx",
+  "phone": "(405) 521-3912",
+  "address": "421 NW 13th Street, Suite 210, Oklahoma City, OK 73103",
+  "email": "support@sos.ok.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution of an Oklahoma Limited Liability Company",
+      "formNumber": "Form 0080",
+      "formUrl": "https://sos.ok.gov/forms/Fm0080.PDF",
+      "fee": 50,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Notify all known creditors in writing",
+        "File final tax returns with the Oklahoma Tax Commission",
+        "Complete and sign Articles of Dissolution (Form 0080)",
+        "Mail the signed form with $50 filing fee to the Secretary of State",
+        "Cancel any business licenses, permits, and trade names"
+      ],
+      "notes": "Oklahoma does not currently offer online filing for LLC dissolution. The signed Articles of Dissolution must be mailed to the Secretary of State. Allow time for processing after mailing."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution",
+      "formNumber": "Form 0019",
+      "formUrl": "https://www.sos.ok.gov/forms/Fm0019.PDF",
+      "fee": 50,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final tax returns with the Oklahoma Tax Commission",
+        "Complete and sign Certificate of Dissolution (Form 0019)",
+        "Mail the signed form with $50 filing fee to the Secretary of State",
+        "Cancel all business licenses and permits"
+      ],
+      "notes": "Certificate of Dissolution must be signed and mailed to the Secretary of State. Online filing is not available for corporation dissolution."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Oklahoma Tax Commission",
+    "taxAgencyUrl": "https://oklahoma.gov/tax.html",
+    "taxAgencyPhone": "(405) 521-3160",
+    "notes": "Oklahoma does not require formal tax clearance for voluntary dissolution. However, you must file all final corporate income tax returns by the 15th day of the fourth month following complete liquidation. Close your business tax accounts through the OkTAP portal at oktap.tax.ok.gov."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday.",
+    "creditorNotification": "Must notify all known creditors in writing with information about how to submit claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval per Oklahoma statutes Title 18 Section 2041."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

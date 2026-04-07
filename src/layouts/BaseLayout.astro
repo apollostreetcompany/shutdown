@@ -1,0 +1,116 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+}
+
+const { title, description, canonical, ogImage } = Astro.props;
+const siteUrl = 'https://shutdownassistant.com';
+const fullTitle = `${title} | Shutdown Assistant`;
+const ogImg = ogImage || `${siteUrl}/og-default.png`;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical || Astro.url.href} />
+
+    <!-- OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImg} />
+    <meta property="og:url" content={Astro.url.href} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImg} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Shutdown Assistant",
+      "url": siteUrl,
+      "description": "The most comprehensive US business shutdown directory. Every state, every form, every fee, every step.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": `${siteUrl}/states/{search_term_string}`,
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900 antialiased">
+    <nav class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="/" class="flex items-center gap-2 text-xl font-bold text-slate-900">
+          <span class="rounded-lg bg-red-600 px-2 py-1 text-sm font-bold text-white">SHUT</span>
+          <span>Shutdown Assistant</span>
+        </a>
+        <div class="hidden items-center gap-6 md:flex">
+          <a href="/states" class="text-sm font-medium text-slate-600 hover:text-slate-900">All States</a>
+          <a href="/pricing" class="text-sm font-medium text-slate-600 hover:text-slate-900">Pricing</a>
+          <a href="/shutdown-agent" class="rounded-lg bg-red-600 px-4 py-2 text-sm font-bold text-white hover:bg-red-700">
+            Hire Shutdown Agent — $1,000
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-20 border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-12">
+        <div class="grid gap-8 md:grid-cols-4">
+          <div>
+            <h3 class="mb-3 font-bold text-slate-900">Shutdown Assistant</h3>
+            <p class="text-sm text-slate-500">The most comprehensive business shutdown directory in the United States. Every form, every fee, every deadline.</p>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Popular States</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/states/california" class="hover:text-slate-900">California</a></li>
+              <li><a href="/states/texas" class="hover:text-slate-900">Texas</a></li>
+              <li><a href="/states/new-york" class="hover:text-slate-900">New York</a></li>
+              <li><a href="/states/florida" class="hover:text-slate-900">Florida</a></li>
+              <li><a href="/states/delaware" class="hover:text-slate-900">Delaware</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Services</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/states" class="hover:text-slate-900">Free State Guides</a></li>
+              <li><a href="/pricing" class="hover:text-slate-900">Paid Detailed Guides</a></li>
+              <li><a href="/shutdown-agent" class="hover:text-slate-900">Shutdown Agent ($1,000)</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Legal</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/terms" class="hover:text-slate-900">Terms of Service</a></li>
+              <li><a href="/privacy" class="hover:text-slate-900">Privacy Policy</a></li>
+              <li><a href="/disclaimer" class="hover:text-slate-900">Disclaimer</a></li>
+            </ul>
+            <p class="mt-4 text-xs text-slate-400">This site provides information, not legal advice. Consult an attorney for your specific situation.</p>
+          </div>
+        </div>
+        <div class="mt-8 border-t border-slate-100 pt-8 text-center text-xs text-slate-400">
+          &copy; {new Date().getFullYear()} Shutdown Assistant. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

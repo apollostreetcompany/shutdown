@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ShutdownWizard from '../components/ShutdownWizard';
+import stateData from '../../data/states/index.json';
+---
+
+<BaseLayout
+  title="Shutdown Wizard"
+  description="Interactive step-by-step wizard to plan your business shutdown. Select your state and entity type to get a personalized dissolution plan."
+>
+  <section class="px-4 py-12">
+    <div class="mx-auto max-w-4xl">
+      <h1 class="mb-2 text-center text-3xl font-bold text-slate-900">Shutdown Wizard</h1>
+      <p class="mb-8 text-center text-slate-500">Answer a few questions and get your personalized shutdown plan.</p>
+      <ShutdownWizard client:load states={stateData} />
+    </div>
+  </section>
+</BaseLayout>

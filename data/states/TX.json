@@ -1,0 +1,96 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "slug": "texas",
+  "agency": "Texas Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.state.tx.us/corp/",
+  "onlinePortal": "https://direct.sos.state.tx.us/acct/acct-login.asp",
+  "phone": "(512) 463-5555",
+  "address": "P.O. Box 13697, Austin, TX 78711-3697",
+  "email": "corpinfo@sos.texas.gov",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Termination of a Domestic Entity",
+      "formNumber": "Form 651",
+      "formUrl": "https://www.sos.texas.gov/corp/forms/651_boc.doc",
+      "fee": 40,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://direct.sos.state.tx.us/acct/acct-login.asp",
+      "steps": [
+        "Vote to dissolve the LLC according to the company agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File a final franchise tax return with the Texas Comptroller of Public Accounts",
+        "Obtain a Certificate of Account Status (Comptroller Form 05-305) from the Texas Comptroller",
+        "Complete Form 651 — Certificate of Termination in duplicate",
+        "Attach the Certificate of Account Status to Form 651",
+        "File Form 651 with the Secretary of State with $40 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Texas has no state income tax but imposes a franchise tax. You must obtain a Certificate of Account Status from the Texas Comptroller confirming all franchise taxes are paid before filing. The Comptroller's website printout is not sufficient — you need the official certificate. Fees paid by credit card are subject to a 2.7% convenience fee."
+    },
+    "corporation": {
+      "formName": "Certificate of Termination of a Domestic Entity",
+      "formNumber": "Form 651",
+      "formUrl": "https://www.sos.texas.gov/corp/forms/651_boc.doc",
+      "fee": 40,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://direct.sos.state.tx.us/acct/acct-login.asp",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution (two-thirds of outstanding shares)",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File a final franchise tax return with the Texas Comptroller of Public Accounts",
+        "Obtain a Certificate of Account Status (Comptroller Form 05-305) from the Texas Comptroller",
+        "Complete Form 651 — Certificate of Termination in duplicate",
+        "Attach the Certificate of Account Status to Form 651",
+        "File Form 651 with the Secretary of State with $40 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Texas has no state income tax but imposes a franchise tax. You must obtain a Certificate of Account Status from the Texas Comptroller confirming all franchise taxes are paid before filing. Submit two signed copies of the certificate of termination. Fees paid by credit card are subject to a 2.7% convenience fee."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Texas Comptroller of Public Accounts",
+    "taxAgencyUrl": "https://comptroller.texas.gov/taxes/franchise/",
+    "taxAgencyPhone": "(512) 463-4600",
+    "notes": "Texas has no state income tax but imposes a franchise tax on all entities. You must file a final franchise tax return and obtain a Certificate of Account Status (Form 05-305) from the Comptroller before filing termination papers with the Secretary of State. The certificate must remain valid through your filing date. Contact the Comptroller at (800) 252-1381 (toll-free) for assistance."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-7 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 25,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees. Texas does not have a state-specific WARN Act.",
+    "creditorNotification": "Must notify known creditors of the winding up and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon filing of Certificate of Termination",
+    "windingUpPeriod": "Three years after termination, during which claims may still be made against the entity",
+    "boardOrMemberApproval": "LLC: Consent of members as required by the company agreement. Corporation: Board resolution followed by two-thirds shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

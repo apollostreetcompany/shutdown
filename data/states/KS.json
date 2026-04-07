@@ -1,0 +1,94 @@
+{
+  "code": "KS",
+  "name": "Kansas",
+  "slug": "kansas",
+  "agency": "Kansas Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ks.gov/",
+  "onlinePortal": "https://www.sos.ks.gov/businesses/businesses.html",
+  "phone": "(785) 296-4564",
+  "address": "Memorial Hall, 1st Floor, 120 S.W. 10th Avenue, Topeka, KS 66612-1594",
+  "email": "kssos@ks.gov",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation - Domestic (Kansas) Limited Liability Company",
+      "formNumber": "KC",
+      "formUrl": "https://www.sos.ks.gov/forms/business_services/KC.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.ks.gov/businesses/close-a-business.html",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Ensure entity is in good standing with Kansas Secretary of State",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Kansas Department of Revenue",
+        "Complete Form KC (Certificate of Cancellation)",
+        "File online ($35) or by paper ($35) with the Secretary of State",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "Business must be in good standing to file. If delinquent, you must file an information report first. If forfeited, you must reinstate before closing. Fee is $35 for paper filing; online filing is $35."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution - Domestic (Kansas) Corporation",
+      "formNumber": "DS",
+      "formUrl": "https://sos.ks.gov/forms/business_services/DS.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.ks.gov/businesses/close-a-business.html",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Ensure entity is in good standing with Kansas Secretary of State",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Kansas Department of Revenue",
+        "Complete Form DS (Certificate of Dissolution)",
+        "File online ($35) or by paper ($35) with the Secretary of State",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "This form is for corporations that have commenced business. For corporations prior to commencing business, use Form CP (Certificate of Dissolution Prior to Commencing Business)."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Kansas Department of Revenue",
+    "taxAgencyUrl": "https://www.ksrevenue.gov/",
+    "taxAgencyPhone": "(785) 368-8222",
+    "notes": "File final Kansas income tax return and any final sales tax returns. Must settle all tax obligations. Contact the Department of Revenue to close tax accounts and obtain clearance."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 100+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Entity must be in good standing and current on all filings before dissolution can be accepted",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after filing dissolution",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

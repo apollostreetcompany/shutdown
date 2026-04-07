@@ -1,0 +1,94 @@
+{
+  "code": "IL",
+  "name": "Illinois",
+  "slug": "illinois",
+  "agency": "Illinois Secretary of State, Business Services Department",
+  "agencyAbbr": "SoS",
+  "website": "https://www.ilsos.gov/",
+  "onlinePortal": "https://www.ilsos.gov/corporatellc/",
+  "phone": "(217) 524-8008",
+  "address": "501 S. Second Street, Suite 328, Springfield, IL 62756",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "LLC-35.15",
+      "formUrl": "https://www.ilsos.gov/publications/pdf_publications/llc3515.pdf",
+      "fee": 5,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Illinois Department of Revenue",
+        "Obtain tax clearance from Illinois Department of Revenue",
+        "Complete Form LLC-35.15 (Articles of Dissolution)",
+        "File in duplicate with the Secretary of State with $5 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "Filing fee is $5. Expedited 24-hour processing available for an additional $100 (in person at Springfield or Chicago offices only)."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "BCA 12.20",
+      "formUrl": "https://www.ilsos.gov/content/dam/publications/pdf_publications/bca1220.pdf",
+      "fee": 5,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Illinois Department of Revenue",
+        "Obtain tax clearance from Illinois Department of Revenue",
+        "Complete Form BCA 12.20 (Articles of Dissolution)",
+        "File in duplicate with the Secretary of State with $5 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "Filing fee is $5. Expedited 24-hour processing available for an additional $100 at Springfield or Chicago offices. Cash not accepted; make checks payable to Illinois Secretary of State."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Illinois Department of Revenue",
+    "taxAgencyUrl": "https://tax.illinois.gov/",
+    "taxAgencyPhone": "(217) 782-3336",
+    "notes": "Must obtain a Letter of Good Standing or tax clearance from the Illinois Department of Revenue before filing dissolution. File final income tax return, sales tax return, and withholding tax returns."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Must publish dissolution notice once per week for three consecutive weeks in a newspaper in the county of the registered office.",
+    "employeeNotification": "Illinois WARN Act requires 60 days notice for mass layoffs (75+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all annual reports are current",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after dissolution",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by two-thirds shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

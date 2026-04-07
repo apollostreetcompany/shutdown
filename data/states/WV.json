@@ -1,0 +1,92 @@
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "slug": "west-virginia",
+  "agency": "West Virginia Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.wv.gov/business/",
+  "onlinePortal": "https://business4.wv.gov/",
+  "phone": "(304) 558-8000",
+  "address": "1900 Kanawha Boulevard East, State Capitol Complex, Building 1, Suite 157-K, Charleston, WV 25305",
+  "email": "Business@wvsos.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination of West Virginia Limited Liability Company",
+      "formNumber": "LLD-9",
+      "formUrl": "https://sos.wv.gov/FormSearch/Business/Limited-Liability-Company/lld-9.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business4.wv.gov/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the West Virginia State Tax Department",
+        "File Articles of Termination (Form LLD-9) with the Secretary of State — $25 fee",
+        "File online through the WV One Stop Business Portal or by mail",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "The fastest way to dissolve is through the WV One Stop Business Portal at business4.wv.gov. The filing fee is $25 payable to the WV Secretary of State. If requesting a certified copy, include an additional $15 per copy. Expedited service is not available for dissolution filings."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — West Virginia Corporation",
+      "formNumber": "CD-7",
+      "formUrl": "https://sos.wv.gov/FormSearch/Business/Corporation/cd-7.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business4.wv.gov/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the West Virginia State Tax Department",
+        "File Articles of Dissolution (Form CD-7) with the Secretary of State — $25 fee",
+        "File online through the WV One Stop Business Portal or by mail",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "The filing fee is $25 payable to the WV Secretary of State. If requesting a certified copy, include an additional $15 per copy. Expedited service is not available for dissolution filings. The online portal at business4.wv.gov is the fastest filing method."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "West Virginia State Tax Department",
+    "taxAgencyUrl": "https://tax.wv.gov/",
+    "taxAgencyPhone": "(304) 558-3333",
+    "notes": "West Virginia does not require a formal tax clearance certificate for dissolution. However, you must file final corporate net income tax and business franchise tax returns and settle all outstanding tax obligations before dissolving."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": "Must complete winding up of all business affairs before filing articles of termination or dissolution",
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

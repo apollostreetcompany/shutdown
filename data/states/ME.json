@@ -1,0 +1,94 @@
+{
+  "code": "ME",
+  "name": "Maine",
+  "slug": "maine",
+  "agency": "Maine Secretary of State, Bureau of Corporations, Elections and Commissions",
+  "agencyAbbr": "SoS",
+  "website": "https://www.maine.gov/sos/cec/corp/",
+  "onlinePortal": "https://apps3.web.maine.gov/nei-sos-icrs/ICRS",
+  "phone": "(207) 624-7752",
+  "address": "101 State House Station, Augusta, ME 04333-0101",
+  "email": "cec.corporations@maine.gov",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation",
+      "formNumber": "MLLC-11C",
+      "formUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc11c.pdf",
+      "fee": 75,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://apps3.web.maine.gov/nei-sos-icrs/ICRS",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Maine Revenue Services",
+        "Complete Form MLLC-11C (Certificate of Cancellation)",
+        "Include Filer Contact Cover Letter with submission",
+        "File with Secretary of State with $75 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "Must include original signatures. Filing fee is $75. Expedited 24-hour processing available for an additional $50; immediate processing available for an additional $100."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "MBCA-11",
+      "formUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mbca11.pdf",
+      "fee": 75,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://apps3.web.maine.gov/nei-sos-icrs/ICRS",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Maine Revenue Services",
+        "Complete Form MBCA-11 (Articles of Dissolution)",
+        "Include Filer Contact Cover Letter with submission",
+        "File with Secretary of State with $75 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "Payment by check or money order payable to Maine Secretary of State, or by credit card. Must include Filer Contact Cover Letter with original signatures."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Maine Revenue Services",
+    "taxAgencyUrl": "https://www.maine.gov/revenue/",
+    "taxAgencyPhone": "(207) 624-9693",
+    "notes": "File final Maine corporate income tax return (Form 1120ME) or partnership return. File final sales tax return and withholding returns if applicable. No formal tax clearance certificate is required but all taxes should be settled."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 100+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after dissolution",
+    "boardOrMemberApproval": "LLC: Approval by members as required by operating agreement or statute. Corporation: Board resolution followed by majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

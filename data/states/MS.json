@@ -1,0 +1,89 @@
+{
+  "code": "MS",
+  "name": "Mississippi",
+  "slug": "mississippi",
+  "agency": "Mississippi Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ms.gov",
+  "onlinePortal": "https://corp.sos.ms.gov",
+  "phone": "(601) 359-1633",
+  "address": "660 North Street, Jackson, MS 39202",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://corp.sos.ms.gov/forms/BusinessServices/Dissolutions/Dissolution",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Certificate of Dissolution online through Secretary of State website ($50 fee)",
+        "File final Mississippi state tax returns",
+        "Close all tax accounts with the Mississippi Department of Revenue",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Filing is done online through the Secretary of State's Business Services portal. Create a corporate filing account or log in with an existing account, then select 'File Articles of Dissolution or Certificate of Withdrawal.'"
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Business Corporation)",
+      "formNumber": null,
+      "formUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://corp.sos.ms.gov/forms/BusinessServices/Dissolutions/Dissolution",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution online through Secretary of State website ($25 fee)",
+        "File final Mississippi state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Corporation dissolution filing fee is $25, lower than the LLC dissolution fee of $50. File online through the Secretary of State's Business Services portal."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Mississippi Department of Revenue",
+    "taxAgencyUrl": "https://www.dor.ms.gov",
+    "taxAgencyPhone": "(601) 923-7000",
+    "notes": "File final Mississippi income tax return and mark as final. Close all tax accounts with the Department of Revenue. Notify the DOR of dissolution to prevent future tax obligations."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

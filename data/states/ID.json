@@ -1,0 +1,92 @@
+{
+  "code": "ID",
+  "name": "Idaho",
+  "slug": "idaho",
+  "agency": "Idaho Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.idaho.gov/",
+  "onlinePortal": "https://sosbiz.idaho.gov/",
+  "phone": "(208) 334-2301",
+  "address": "450 N 4th Street, P.O. Box 83720, Boise, ID 83720-0080",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Statement of Dissolution Limited Liability Company",
+      "formNumber": null,
+      "formUrl": "https://sos.idaho.gov/CORP/forms/LLC/LLC%20Dissolution.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosbiz.idaho.gov/",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts",
+        "File final tax returns with Idaho State Tax Commission",
+        "Complete the Statement of Dissolution form",
+        "File online (no fee) or by mail/in person ($20 manual processing fee)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "Online filing has no fee. Paper filing incurs a $20 manual processing fee. Expedited service adds $40; same-day service adds $100."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://sos.idaho.gov/CORP/forms/CORP/Art%20of%20Dissolution%20General.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://sosbiz.idaho.gov/",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval (majority of outstanding shares)",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Idaho State Tax Commission",
+        "Complete Articles of Dissolution form",
+        "File online (no fee) or by mail/in person ($20 manual processing fee)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "There is also a form for Articles of Dissolution prior to issuing shares. Paper filings require an additional $20 manual processing fee."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Idaho State Tax Commission",
+    "taxAgencyUrl": "https://tax.idaho.gov/",
+    "taxAgencyPhone": "(208) 334-7660",
+    "notes": "File final income tax return (Form 41 for corporations, Form 65 for partnerships/LLCs). Check the 'final return' box. No formal tax clearance certificate is required but all taxes must be current."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 40,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 50+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is finalized with the Secretary of State",
+    "windingUpPeriod": "Reasonable period to wind up affairs; entity continues to exist for purpose of winding up",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by majority shareholder vote."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

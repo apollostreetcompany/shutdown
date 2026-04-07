@@ -1,0 +1,94 @@
+{
+  "code": "KY",
+  "name": "Kentucky",
+  "slug": "kentucky",
+  "agency": "Kentucky Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ky.gov/",
+  "onlinePortal": "https://web.sos.ky.gov/ftsearch/",
+  "phone": "(502) 564-3490",
+  "address": "700 Capital Avenue, Suite 152, State Capitol Building, Frankfort, KY 40601",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution - Limited Liability Company",
+      "formNumber": "ADLLC",
+      "formUrl": "https://www.sos.ky.gov/bus/Forms/Pages/default.aspx",
+      "fee": 40,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://web.sos.ky.gov/ftsearch/",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Kentucky Department of Revenue",
+        "Contact the Kentucky Department of Revenue to close tax accounts",
+        "Complete Form ADLLC (Articles of Dissolution - LLC)",
+        "File with Secretary of State with $40 filing fee (check payable to Kentucky State Treasurer)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "Filing fee of $40 by check payable to Kentucky State Treasurer. Also file a certificate of withdrawal with the county clerk if you registered a DBA."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution - Profit Corporation",
+      "formNumber": "DIS",
+      "formUrl": "https://web.sos.ky.gov/forms/corp/DIS-Articles%20of%20Dissolution-Profit%20Corporation.pdf",
+      "fee": 40,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://web.sos.ky.gov/ftsearch/",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Kentucky Department of Revenue",
+        "Contact the Kentucky Department of Revenue to close tax accounts",
+        "Complete Form DIS (Articles of Dissolution - Profit Corporation)",
+        "File with Secretary of State with $40 filing fee (check payable to Kentucky State Treasurer)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "For dissolution by incorporators or initial directors before shares are issued, use Form IPD instead."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Kentucky Department of Revenue",
+    "taxAgencyUrl": "https://revenue.ky.gov/",
+    "taxAgencyPhone": "(502) 564-4581",
+    "notes": "File final Kentucky corporate income/LLET tax return (Form 720 or 765). File final sales tax return and withholding tax returns if applicable. Contact the Department of Revenue to close all state tax accounts before filing dissolution."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-10 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 100+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims after dissolution is filed",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is finalized",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

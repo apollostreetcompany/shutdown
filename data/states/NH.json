@@ -1,0 +1,89 @@
+{
+  "code": "NH",
+  "name": "New Hampshire",
+  "slug": "new-hampshire",
+  "agency": "New Hampshire Secretary of State, Corporation Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.nh.gov/corporations-0",
+  "onlinePortal": "https://www.sos.nh.gov/corporations-0/forms-and-fees",
+  "phone": "(603) 271-3246",
+  "address": "107 North Main Street, Concord, NH 03301-4989",
+  "email": "corporate@sos.nh.gov",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation (Domestic LLC)",
+      "formNumber": "FND-5",
+      "formUrl": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/documents/2023-11/form_fnd-5_-12-2017.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Certificate of Cancellation (Form FND-5) with Secretary of State ($35 fee)",
+        "File final New Hampshire state tax returns",
+        "Close all tax accounts with the New Hampshire Department of Revenue Administration",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "New Hampshire uses Form FND-5 for LLC cancellation. Filing fee is $35 whether filed online, by mail, or in person."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Business Corporation)",
+      "formNumber": "Form 19",
+      "formUrl": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/documents/2023-11/form_19_-04-2016.pdf",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.nh.gov/corporations-0/forms-and-fees",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution (Form 19) with Secretary of State ($35 fee)",
+        "File final New Hampshire state tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "New Hampshire uses Form 19 for corporation dissolution. Filing fee is $35."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "New Hampshire Department of Revenue Administration",
+    "taxAgencyUrl": "https://www.revenue.nh.gov",
+    "taxAgencyPhone": "(603) 230-5000",
+    "notes": "New Hampshire has no general income tax or sales tax. However, businesses subject to the Business Profits Tax (BPT) and Business Enterprise Tax (BET) must file final returns and close tax accounts with the Department of Revenue Administration."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 25,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Corporation continues for winding up purposes after dissolution filing",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

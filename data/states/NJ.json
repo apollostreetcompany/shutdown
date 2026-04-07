@@ -1,0 +1,92 @@
+{
+  "code": "NJ",
+  "name": "New Jersey",
+  "slug": "new-jersey",
+  "agency": "New Jersey Division of Revenue and Enterprise Services",
+  "agencyAbbr": "DORES",
+  "website": "https://www.nj.gov/treasury/revenue/",
+  "onlinePortal": "https://www.njportal.com/DOR/AnnualReports",
+  "phone": "(609) 292-9292",
+  "address": "33 West State Street, 5th Floor, Trenton, NJ 08608",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation (Domestic LLC)",
+      "formNumber": "L-109",
+      "formUrl": "https://www.nj.gov/treasury/revenue/dcr/pdforms/c159d.pdf",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.njportal.com/DOR/AnnualReports",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File all final New Jersey tax returns (gross income tax, sales tax, etc.)",
+        "Apply for Tax Clearance Certificate from the New Jersey Division of Taxation (REQUIRED)",
+        "Wait for Tax Clearance Certificate to be issued",
+        "File Certificate of Cancellation (Form L-109) with Division of Revenue ($100 fee)",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Tax clearance from the New Jersey Division of Taxation is REQUIRED before the Division of Revenue will process the dissolution. The business must be in good legal standing (not revoked or voided). Online filing available through njportal.com -- select 'Close a Business.'"
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution (Domestic Corporation)",
+      "formNumber": "C-159-D",
+      "formUrl": "https://www.nj.gov/treasury/revenue/dcr/pdforms/c159d.pdf",
+      "fee": 95,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.njportal.com/DOR/AnnualReports",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File all final New Jersey tax returns (CBT, gross income tax, sales tax)",
+        "Apply for Tax Clearance Certificate from the Division of Taxation ($25 fee)",
+        "Wait for Tax Clearance Certificate to be issued",
+        "File Certificate of Dissolution (Form C-159-D) with Division of Revenue ($95 dissolution fee + $25 tax clearance fee = $120 total)",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Tax clearance from the New Jersey Division of Taxation is MANDATORY. Total cost for corporation dissolution is $120 ($95 dissolution fee + $25 tax clearance certificate fee). If the corporation does not resolve prior tax liabilities, a Tax Clearance Certificate will not be issued and the business may be reactivated. The business must be in good legal standing to file."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "New Jersey Division of Taxation",
+    "taxAgencyUrl": "https://www.nj.gov/treasury/taxation/",
+    "taxAgencyPhone": "(609) 292-6400",
+    "notes": "Tax clearance from the Division of Taxation is MANDATORY for all business dissolutions in New Jersey. The Tax Clearance Certificate confirms all state taxes have been paid or that the entity is exempt. Application fee is $25. All final CBT (Corporation Business Tax) returns must be filed and all liabilities settled before clearance is issued. Without tax clearance, the dissolution filing will not be processed. Mail tax clearance requests to: Division of Taxation, Tax Clearance Unit, P.O. Box 277, Trenton, NJ 08695-0277."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 50,
+    "waitingPeriods": "Tax clearance process can take several weeks depending on filing history and outstanding liabilities"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "New Jersey WARN Act (Millville Dallas Airmotive Plant Job Loss Notification Act) requires 90 days notice for mass layoffs of 50+ employees",
+    "creditorNotification": "Must notify known creditors in writing; unknown creditors may be notified by publication",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Entity continues for winding up purposes after dissolution filing",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

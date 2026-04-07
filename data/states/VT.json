@@ -1,0 +1,92 @@
+{
+  "code": "VT",
+  "name": "Vermont",
+  "slug": "vermont",
+  "agency": "Vermont Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.vermont.gov/business-services/",
+  "onlinePortal": "https://bizfilings.vermont.gov/",
+  "phone": "(802) 828-2386",
+  "address": "128 State Street, Montpelier, VT 05633-1104",
+  "email": "SOS.CorporationsSupport@vermont.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination — Domestic LLC",
+      "formNumber": null,
+      "formUrl": "https://sos.vermont.gov/business-services/",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://bizfilings.vermont.gov/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Vermont Department of Taxes",
+        "File Articles of Termination with the Vermont Secretary of State",
+        "Pay the $20 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Filing fee is $20 for LLC termination. The Secretary of State does not accept cash or credit card payments for paper filings; attach a check payable to the Vermont Secretary of State. Online filings can be paid by credit card."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — Business Corporation",
+      "formNumber": null,
+      "formUrl": "https://sos.vermont.gov/business-services/",
+      "fee": 35,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://bizfilings.vermont.gov/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the Vermont Department of Taxes",
+        "File Articles of Dissolution with the Vermont Secretary of State",
+        "Pay the $35 filing fee",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Filing fee is $35 for corporation dissolution. There are two types of Articles of Dissolution: one by incorporators or initial directors (11A V.S.A. section 14.01) and one by board of directors and shareholders (11A V.S.A. section 14.03). Both cost $35."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Vermont Department of Taxes",
+    "taxAgencyUrl": "https://tax.vermont.gov/",
+    "taxAgencyPhone": "(802) 828-2551",
+    "notes": "Vermont does not require a formal tax clearance certificate for dissolution. However, you must file final income tax returns and settle any outstanding tax obligations with the Vermont Department of Taxes before dissolving."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement or by majority consent. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

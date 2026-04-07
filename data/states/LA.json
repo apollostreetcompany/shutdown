@@ -1,0 +1,93 @@
+{
+  "code": "LA",
+  "name": "Louisiana",
+  "slug": "louisiana",
+  "agency": "Louisiana Secretary of State, Commercial Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.la.gov/",
+  "onlinePortal": "https://www.sos.la.gov/BusinessServices/FileBusiness Documents/Pages/default.aspx",
+  "phone": "(225) 925-4704",
+  "address": "P.O. Box 94125, Baton Rouge, LA 70804-9125",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Affidavit to Dissolve Louisiana Limited Liability Company",
+      "formNumber": null,
+      "formUrl": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/368AffidavittoDissolveLouisianaLimitedLiabilityCompany.pdf",
+      "fee": 75,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.la.gov/BusinessServices/HTMLPages/DissolutionFilingInstructions.htm",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "File all delinquent annual reports and pay outstanding fees",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Louisiana Department of Revenue",
+        "Complete the Affidavit to Dissolve (requires notarization)",
+        "File electronically or by mail with $75 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "The affidavit requires signatures from all managers or members (depending on management structure) and must be acknowledged (notarized). If any incorporator/shareholder prohibits the dissolution, the affidavit will not be processed."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 60,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sos.la.gov/BusinessServices/HTMLPages/DissolutionFilingInstructions.htm",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution (requires unanimous consent or per charter)",
+        "File all delinquent annual reports and pay outstanding fees",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Louisiana Department of Revenue",
+        "Prepare and file Articles of Dissolution with $60 filing fee",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "Corporation dissolution requires filing Articles of Dissolution with the Commercial Division. Louisiana requires all delinquent annual reports to be filed before dissolution will be accepted."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Louisiana Department of Revenue",
+    "taxAgencyUrl": "https://revenue.louisiana.gov/",
+    "taxAgencyPhone": "(855) 307-3893",
+    "notes": "File final corporate income and franchise tax returns with the Louisiana Department of Revenue. Must also file final sales tax returns and withholding returns. Obtain tax clearance before filing dissolution. A corporation must dissolve its charter with the Secretary of State and file its final franchise tax return."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-14 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Must publish notice of dissolution at least once in a newspaper of general circulation in the parish where the registered office is located.",
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 100+ employees)",
+    "creditorNotification": "Must notify known creditors in writing; Louisiana law requires reasonable notice to creditors",
+    "registeredAgentNotes": "Must be current on all annual reports and filings before dissolution will be accepted",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after dissolution",
+    "boardOrMemberApproval": "LLC: All managers or members must sign the affidavit. Corporation: Board resolution followed by shareholder approval per articles of incorporation."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

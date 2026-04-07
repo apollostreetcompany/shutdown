@@ -1,0 +1,92 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "slug": "hawaii",
+  "agency": "Department of Commerce and Consumer Affairs, Business Registration Division",
+  "agencyAbbr": "DCCA/BREG",
+  "website": "https://cca.hawaii.gov/breg/",
+  "onlinePortal": "https://hbe.ehawaii.gov/BizEx/home.eb",
+  "phone": "(808) 586-2727",
+  "address": "King Kalakaua Building, 335 Merchant Street, Room 201, Honolulu, HI 96813",
+  "email": "breg@dcca.hawaii.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Termination",
+      "formNumber": "LLC-11",
+      "formUrl": "https://cca.hawaii.gov/breg/files/2015/11/llc-11.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://hbe.ehawaii.gov/BizEx/home.eb",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle debts",
+        "File final tax returns with Hawaii Department of Taxation",
+        "Complete Form LLC-11 (Articles of Termination)",
+        "Submit form with $50 filing fee to DCCA BREG by mail, fax, or in person",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and DBAs"
+      ],
+      "notes": "Filing fee is nonrefundable. Form can also be filed by fax with credit card payment information included."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "DC-13",
+      "formUrl": "https://files.hawaii.gov/dcca/breg/registration/forms/dc-13-pdf.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://hbe.ehawaii.gov/BizEx/home.eb",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Hawaii Department of Taxation",
+        "Complete Form DC-13 (Articles of Dissolution)",
+        "Submit form with $25 filing fee to DCCA BREG",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed names"
+      ],
+      "notes": "There is also a Form DC-12 for dissolution by incorporators or initial directors before shares are issued."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Hawaii Department of Taxation",
+    "taxAgencyUrl": "https://tax.hawaii.gov/",
+    "taxAgencyPhone": "(808) 587-4242",
+    "notes": "File final General Excise Tax (GET) return, income tax return, and withholding tax returns. Request a tax clearance certificate from the Department of Taxation before filing dissolution documents."
+  },
+  "timeline": {
+    "standardProcessingDays": "5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-3 business days",
+    "expeditedFee": 25,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 50+ employees)",
+    "creditorNotification": "Must notify known creditors and claimants of dissolution and provide deadline for claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable period to wind up affairs after filing",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

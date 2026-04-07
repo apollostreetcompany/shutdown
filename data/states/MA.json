@@ -1,0 +1,92 @@
+{
+  "code": "MA",
+  "name": "Massachusetts",
+  "slug": "massachusetts",
+  "agency": "Massachusetts Secretary of the Commonwealth, Corporations Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+  "onlinePortal": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
+  "phone": "(617) 727-9640",
+  "address": "One Ashburton Place, Room 1717, Boston, MA 02108-1512",
+  "email": "corpinfo@sec.state.ma.us",
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final federal and Massachusetts state tax returns",
+        "Close all tax accounts with the Massachusetts Department of Revenue",
+        "Obtain tax clearance from the Massachusetts Department of Revenue",
+        "File Certificate of Cancellation with the Corporations Division ($100 fee)",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Massachusetts does not provide a standard form for LLC cancellation. The Certificate of Cancellation must be drafted to meet statutory requirements under MGL Chapter 156C. It must be signed by any manager or authorized person."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Domestic Business Corporation)",
+      "formNumber": null,
+      "formUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/corporations/corporations-domestic.htm",
+      "fee": 100,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/corporations/corporations-domestic.htm",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by two-thirds vote",
+        "File IRS Form 966 (Corporate Dissolution or Liquidation) with the IRS",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File final federal and Massachusetts state tax returns",
+        "Obtain tax clearance from the Massachusetts Department of Revenue",
+        "File Articles of Dissolution with the Corporations Division ($100 fee)",
+        "Must have filed all annual reports for the last 10 fiscal years"
+      ],
+      "notes": "A corporation must have filed all annual reports owed for the last ten fiscal years before the Corporations Division will accept the Articles of Dissolution. Tax clearance from the DOR is required."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Massachusetts Department of Revenue",
+    "taxAgencyUrl": "https://www.mass.gov/orgs/massachusetts-department-of-revenue",
+    "taxAgencyPhone": "(617) 887-6367",
+    "notes": "Tax clearance from the DOR is required before dissolution. File final corporate excise tax returns and close all tax accounts. Corporations must notify the DOR of dissolution. All outstanding tax liabilities must be satisfied before clearance is issued."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": "Tax clearance process may take several weeks depending on filing history"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees; Massachusetts requires advance notice for plant closings",
+    "creditorNotification": "Must notify known creditors in writing; publish notice for unknown creditors",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Entity continues for purposes of winding up after dissolution filing",
+    "boardOrMemberApproval": "LLCs require majority vote of members unless operating agreement specifies otherwise. Corporations require board resolution and two-thirds shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

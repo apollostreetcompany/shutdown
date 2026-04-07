@@ -1,0 +1,94 @@
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "slug": "rhode-island",
+  "agency": "Rhode Island Secretary of State, Business Services Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.ri.gov/divisions/business-services",
+  "onlinePortal": "https://business.sos.ri.gov/",
+  "phone": "(401) 222-3040",
+  "address": "148 W. River Street, Providence, RI 02904-2615",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "Form 404",
+      "formUrl": "https://docs.sos.ri.gov/documents/BusinessServices/404-articles-of-dissolution.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business.sos.ri.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Notify all known creditors in writing",
+        "File final tax returns with the RI Division of Taxation",
+        "Obtain a Letter of Good Standing from the RI Division of Taxation ($50 fee)",
+        "File Articles of Dissolution (Form 404) with the Secretary of State ($50 fee)",
+        "Include the Letter of Good Standing with your dissolution filing",
+        "Cancel any business licenses, permits, and trade names"
+      ],
+      "notes": "Rhode Island requires a Letter of Good Standing from the Division of Taxation before dissolution can be processed. The letter confirms all tax obligations are current. Allow several weeks for the Division of Taxation to process the request."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "Form 404",
+      "formUrl": "https://docs.sos.ri.gov/documents/BusinessServices/404-articles-of-dissolution.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business.sos.ri.gov/",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final tax returns with the RI Division of Taxation",
+        "Obtain a Letter of Good Standing from the RI Division of Taxation ($50 fee)",
+        "File Articles of Dissolution (Form 404) with the Secretary of State ($50 fee)",
+        "Include the Letter of Good Standing with your dissolution filing",
+        "Cancel all business licenses and permits"
+      ],
+      "notes": "Corporations use the same Form 404 as LLCs. A Letter of Good Standing from the Division of Taxation is required. In-person filings submitted before 4 PM are processed the same day."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Rhode Island Division of Taxation",
+    "taxAgencyUrl": "https://tax.ri.gov/",
+    "taxAgencyPhone": "(401) 574-8829",
+    "notes": "A Letter of Good Standing (LOGS) from the Division of Taxation is required before dissolution. Submit the LOGS request form with a $50 fee to: Letter of Good Standing, Compliance & Collections, Rhode Island Division of Taxation, One Capitol Hill, Providence, RI 02908. Processing takes several weeks depending on taxpayer history. Contact (401) 574-8941 or Tax.Collections@tax.ri.gov for LOGS-specific questions."
+  },
+  "timeline": {
+    "standardProcessingDays": "7-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day (in-person before 4 PM)",
+    "expeditedFee": 0,
+    "waitingPeriods": "Letter of Good Standing from Division of Taxation can take several weeks to obtain"
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing with a deadline to submit claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all pending matters are resolved",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution per RI General Laws 7-16-47",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

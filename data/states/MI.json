@@ -1,0 +1,90 @@
+{
+  "code": "MI",
+  "name": "Michigan",
+  "slug": "michigan",
+  "agency": "Michigan Department of Licensing and Regulatory Affairs (LARA), Corporations Division",
+  "agencyAbbr": "LARA",
+  "website": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
+  "onlinePortal": "https://cofs.lara.state.mi.us/corpweb/LoginSystem/ExternalLogin.aspx",
+  "phone": "(517) 241-6470",
+  "address": "P.O. Box 30054, Lansing, MI 48909",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution (Domestic LLC)",
+      "formNumber": "CSCL/CD-731",
+      "formUrl": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/NonImages_new/Corps/forms/llc/730-0725.pdf",
+      "fee": 10,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://cofs.lara.state.mi.us/corpweb/LoginSystem/ExternalLogin.aspx",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File Certificate of Dissolution (Form CSCL/CD-731) with LARA ($10 fee)",
+        "Request tax clearance from Michigan Department of Treasury (Form 5156) within 60 days of dissolution filing",
+        "File final Michigan tax returns",
+        "Cancel any DBAs, licenses, and permits"
+      ],
+      "notes": "Michigan charges only $10 to dissolve an LLC, one of the lowest fees in the country. Expedited processing is available: $100 for 24-hour service, $1,000 for 1-hour service."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution (Domestic Profit Corporation)",
+      "formNumber": "CSCL/CD-531",
+      "formUrl": "https://www.michigan.gov/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
+      "fee": 25,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://cofs.lara.state.mi.us/corpweb/LoginSystem/ExternalLogin.aspx",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Certificate of Dissolution (Form CSCL/CD-531) with LARA ($25 fee)",
+        "Request tax clearance from Michigan Department of Treasury (Form 5156) within 60 days",
+        "File final Michigan tax returns including final CIT return",
+        "File IRS Form 966 within 30 days of adoption of dissolution plan"
+      ],
+      "notes": "Within 60 days after filing the Certificate of Dissolution, request tax clearance from the Michigan Department of Treasury using Form 5156. Also attach Form 163 (Notice of Change or Discontinuance)."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Michigan Department of Treasury",
+    "taxAgencyUrl": "https://www.michigan.gov/taxes",
+    "taxAgencyPhone": "(517) 636-4486",
+    "notes": "Tax clearance is not required before filing dissolution but is strongly recommended. Request tax clearance using Form 5156 within 60 days of dissolution filing. File final business tax returns within 15 days of quitting business. Attach Form 163 (Notice of Change or Discontinuance) to your clearance request."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-7 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours ($100) or 1 hour ($1,000)",
+    "expeditedFee": 100,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; provide at least 120 days for claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Corporation continues for winding up purposes after dissolution",
+    "boardOrMemberApproval": "LLCs require majority vote of members. Corporations require board resolution and majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

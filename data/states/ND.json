@@ -1,0 +1,91 @@
+{
+  "code": "ND",
+  "name": "North Dakota",
+  "slug": "north-dakota",
+  "agency": "North Dakota Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.nd.gov/business/business-services",
+  "onlinePortal": "https://firststop.sos.nd.gov/",
+  "phone": "(701) 328-2900",
+  "address": "600 East Boulevard Avenue, Department 108, Bismarck, ND 58505-0500",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Business/Professional/Farm Limited Liability Company Articles of Dissolution",
+      "formNumber": "SFN 58762",
+      "formUrl": "https://www.nd.gov/eforms/Doc/sfn58762.pdf",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://firststop.sos.nd.gov/",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Notify all known creditors in writing",
+        "File final tax returns with the ND Office of State Tax Commissioner",
+        "File Articles of Dissolution (Form SFN 58762) with the Secretary of State ($20 fee)",
+        "Cancel any business licenses, permits, and trade names"
+      ],
+      "notes": "North Dakota allows filing by mail, fax, in person, or online through the FirstStop portal. Credit card payment is accepted for fax and in-person filings."
+    },
+    "corporation": {
+      "formName": "Business/Professional/Farm Corporation Articles of Dissolution",
+      "formNumber": "SFN 13005",
+      "formUrl": "https://firststop.sos.nd.gov/forms",
+      "fee": 20,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://firststop.sos.nd.gov/",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "File Statement of Intent to Dissolve (Form SFN 13006) with the Secretary of State ($10 fee)",
+        "Notify all known creditors in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final tax returns with the ND Office of State Tax Commissioner",
+        "File Articles of Dissolution (Form SFN 13005) with the Secretary of State ($20 fee)",
+        "Cancel all business licenses and permits"
+      ],
+      "notes": "Corporations must file a Statement of Intent to Dissolve (SFN 13006, $10 additional fee) before filing Articles of Dissolution. Use Form SFN 13004 if dissolving before shares have been issued ($20)."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "North Dakota Office of State Tax Commissioner",
+    "taxAgencyUrl": "https://www.tax.nd.gov/",
+    "taxAgencyPhone": "(701) 328-1247",
+    "notes": "North Dakota does not require formal tax clearance for dissolution. However, you must file all final income tax returns and settle any outstanding tax obligations with the Office of State Tax Commissioner before dissolving."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-2 business days",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday.",
+    "creditorNotification": "Must notify all known creditors in writing with a deadline of at least 120 days to submit claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all affairs are wound up",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval, plus a Statement of Intent to Dissolve."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

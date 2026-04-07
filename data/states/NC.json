@@ -1,0 +1,92 @@
+{
+  "code": "NC",
+  "name": "North Carolina",
+  "slug": "north-carolina",
+  "agency": "North Carolina Secretary of State, Corporations Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sosnc.gov/divisions/business_registration",
+  "onlinePortal": "https://www.sosnc.gov/online_services",
+  "phone": "(919) 814-5400",
+  "address": "2 South Salisbury Street, Raleigh, NC 27601-2903",
+  "email": "corpinfo@sosnc.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution of Limited Liability Company",
+      "formNumber": "L-07",
+      "formUrl": "https://www.sosnc.gov/webfiles/documents/forms/Business_Registration/limited_liability_companies/articles_of_dissolution.pdf",
+      "fee": 30,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sosnc.gov/online_services",
+      "steps": [
+        "Vote to dissolve according to your operating agreement or by majority vote of members",
+        "Wind up business affairs and settle all debts and obligations",
+        "Notify all known creditors in writing",
+        "File final state tax returns with the NC Department of Revenue",
+        "Submit NC-BN Out-of-Business Notification to the Department of Revenue",
+        "File Articles of Dissolution (Form L-07) with the Secretary of State ($30 fee)",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "North Carolina does not require tax clearance before filing dissolution. Form L-07 can be filed online or by mail."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": "B-06",
+      "formUrl": "https://www.sosnc.gov/forms/by_title/_Business_Registration",
+      "fee": 30,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://www.sosnc.gov/online_services",
+      "steps": [
+        "Board of directors adopts a resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Notify all known creditors and claimants in writing",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns with the NC Department of Revenue",
+        "Submit NC-BN Out-of-Business Notification to the Department of Revenue",
+        "File Articles of Dissolution (Form B-06) with the Secretary of State ($30 fee)",
+        "Cancel all licenses, permits, and assumed business names"
+      ],
+      "notes": "Use Form B-05 ($30) if dissolving before shares have been issued. Use Form B-06 ($30) for dissolution after shares have been issued, which requires director and shareholder approval."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "North Carolina Department of Revenue",
+    "taxAgencyUrl": "https://www.ncdor.gov/",
+    "taxAgencyPhone": "(877) 252-3052",
+    "notes": "North Carolina does not require tax clearance before dissolution. However, you must file all final tax returns for income, sales, and withholding taxes. Submit the NC-BN Out-of-Business Notification form to the Department of Revenue to close your tax accounts."
+  },
+  "timeline": {
+    "standardProcessingDays": "5-10 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "24 hours",
+    "expeditedFee": 200,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must comply with federal WARN Act for layoffs of 100+ employees. Provide final paychecks by next regular payday.",
+    "creditorNotification": "Must notify all known creditors and claimants in writing with a deadline of at least 120 days to submit claims",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete and all pending matters are resolved",
+    "windingUpPeriod": "Entity continues to exist for purposes of winding up after dissolution is filed",
+    "boardOrMemberApproval": "LLCs require member vote per operating agreement. Corporations require board resolution and shareholder majority approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

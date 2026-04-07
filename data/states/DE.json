@@ -1,0 +1,90 @@
+{
+  "code": "DE",
+  "name": "Delaware",
+  "slug": "delaware",
+  "agency": "Delaware Division of Corporations",
+  "agencyAbbr": "DoC",
+  "website": "https://corp.delaware.gov",
+  "onlinePortal": "https://icis.corp.delaware.gov",
+  "phone": "(302) 739-3073",
+  "address": "401 Federal Street, Suite 4, Dover, DE 19901",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Cancellation",
+      "formNumber": null,
+      "formUrl": "https://corpfiles.delaware.gov/webllc-can09.pdf",
+      "fee": 200,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://icis.corp.delaware.gov",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "Pay all outstanding franchise taxes and fees",
+        "File Certificate of Cancellation with Division of Corporations",
+        "Pay $200 filing fee",
+        "File final state tax returns with Delaware Division of Revenue"
+      ],
+      "notes": "In Delaware, LLCs are 'cancelled' rather than 'dissolved.' All past due franchise taxes, penalties, and interest must be paid before filing."
+    },
+    "corporation": {
+      "formName": "Certificate of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://corpfiles.delaware.gov/web275_09.pdf",
+      "fee": 204,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://icis.corp.delaware.gov",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File all outstanding franchise tax reports and pay all franchise taxes due",
+        "File Certificate of Dissolution with Division of Corporations",
+        "Pay $204 filing fee",
+        "File final state tax returns with Delaware Division of Revenue"
+      ],
+      "notes": "Short form dissolution ($10 fee) is available for corporations that never issued shares or began business. Standard dissolution filing fee is $204. All franchise taxes must be current."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Delaware Division of Revenue",
+    "taxAgencyUrl": "https://revenue.delaware.gov",
+    "taxAgencyPhone": "(302) 577-8779",
+    "notes": "All franchise tax reports must be filed and all franchise taxes, penalties, and interest must be paid before dissolution can be processed. File final Delaware corporate income tax return."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day or 24-hour service",
+    "expeditedFee": 200,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing; publish notice for unknown creditors",
+    "registeredAgentNotes": "Delaware registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "3 years after dissolution to wind up affairs and settle claims",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "code": "MD",
+  "name": "Maryland",
+  "slug": "maryland",
+  "agency": "Maryland State Department of Assessments and Taxation",
+  "agencyAbbr": "SDAT",
+  "website": "https://dat.maryland.gov/",
+  "onlinePortal": "https://egov.maryland.gov/BusinessExpress",
+  "phone": "(410) 767-1340",
+  "address": "301 West Preston Street, 8th Floor, Baltimore, MD 21201",
+  "email": "SDAT.charterhelp@maryland.gov",
+  "entities": {
+    "llc": {
+      "formName": "Articles of Cancellation",
+      "formNumber": null,
+      "formUrl": "https://dat.maryland.gov/sdat%20forms/llc-cancel.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://egov.maryland.gov/BusinessExpress",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Maryland Comptroller of the Treasury",
+        "Complete Articles of Cancellation form",
+        "File online via Maryland Business Express or by mail (no filing fee)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "No filing fee for standard processing (6-8 weeks). Expedited processing costs $50 (7-10 business days). Online filing through Maryland Business Express includes a 3% service fee for electronic payments."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://dat.maryland.gov/sdat%20forms/dissol.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://egov.maryland.gov/BusinessExpress",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution (two-thirds of votes entitled to be cast)",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Maryland Comptroller of the Treasury",
+        "Complete Articles of Dissolution form",
+        "File online via Maryland Business Express or by mail (no filing fee)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and trade names"
+      ],
+      "notes": "No filing fee for standard processing. Expedited processing available for $50. Maryland uses SDAT (State Department of Assessments and Taxation) rather than a Secretary of State for business filings."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Comptroller of Maryland",
+    "taxAgencyUrl": "https://www.marylandtaxes.gov/",
+    "taxAgencyPhone": "(410) 260-7980",
+    "notes": "File final Maryland corporate income tax return (Form 500) and final personal property return with SDAT. Must obtain tax clearance from the Comptroller. File final sales tax and withholding returns if applicable. SDAT may require all annual reports and personal property returns to be current."
+  },
+  "timeline": {
+    "standardProcessingDays": "42-56 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "7-10 business days",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Corporations must publish notice of dissolution in a newspaper of general circulation in the county of the principal office.",
+    "employeeNotification": "Maryland Economic Stabilization Act requires 90 days notice for reductions of 25+ employees",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims",
+    "registeredAgentNotes": "Resident agent must be maintained until dissolution is complete; all annual reports and personal property returns must be current",
+    "windingUpPeriod": "Entity continues to exist for three years after dissolution for purpose of winding up",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by two-thirds shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

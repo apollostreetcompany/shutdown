@@ -1,0 +1,92 @@
+{
+  "code": "IN",
+  "name": "Indiana",
+  "slug": "indiana",
+  "agency": "Indiana Secretary of State, Business Services Division",
+  "agencyAbbr": "SoS",
+  "website": "https://www.in.gov/sos/business/",
+  "onlinePortal": "https://inbiz.in.gov/",
+  "phone": "(317) 232-6576",
+  "address": "302 West Washington Street, Room E018, Indianapolis, IN 46204",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution of a Limited Liability Company",
+      "formNumber": "State Form 49465",
+      "formUrl": "https://forms.in.gov/Download.aspx?id=16990",
+      "fee": 30,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://inbiz.in.gov/",
+      "steps": [
+        "Vote to dissolve the LLC per your operating agreement",
+        "Wind up business affairs and settle all debts and obligations",
+        "File final tax returns with Indiana Department of Revenue",
+        "Complete State Form 49465 (Articles of Dissolution of a LLC)",
+        "File online via INBiz ($30) or by mail ($30 by check payable to Indiana Secretary of State)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "Online filing through INBiz portal accepts Visa, MasterCard, and Discover. Walk-in submissions made before noon are processed the same day."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution of a Corporation",
+      "formNumber": "State Form 34471",
+      "formUrl": "https://forms.in.gov/download.aspx?id=4918",
+      "fee": 30,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://inbiz.in.gov/",
+      "steps": [
+        "Obtain board of directors resolution authorizing dissolution",
+        "Obtain shareholder approval of dissolution",
+        "Wind up business affairs and settle all obligations",
+        "File final tax returns with Indiana Department of Revenue",
+        "Complete State Form 34471 (Articles of Dissolution of a Corporation)",
+        "File online via INBiz ($30) or by mail ($30)",
+        "Notify creditors and claimants of dissolution",
+        "Cancel any licenses, permits, and assumed business names"
+      ],
+      "notes": "For corporations that have not issued shares or commenced business, use the alternate dissolution form. Online filing requires credit card payment."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Indiana Department of Revenue",
+    "taxAgencyUrl": "https://www.in.gov/dor/",
+    "taxAgencyPhone": "(317) 232-2240",
+    "notes": "File final corporate income tax return (IT-20) or partnership return (IT-65). Must file a final sales tax return if applicable. Request closing of tax accounts with Indiana Department of Revenue. All tax obligations must be satisfied before dissolution."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day (walk-in before noon)",
+    "expeditedFee": 0,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Provide WARN Act notice if applicable (60 days for 100+ employees)",
+    "creditorNotification": "Must notify known creditors in writing with deadline for submitting claims (minimum 120 days)",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Entity continues to exist for purpose of winding up after filing",
+    "boardOrMemberApproval": "LLC: Majority vote of members or per operating agreement. Corporation: Board resolution followed by majority shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

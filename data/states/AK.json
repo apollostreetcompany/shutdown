@@ -1,0 +1,89 @@
+{
+  "code": "AK",
+  "name": "Alaska",
+  "slug": "alaska",
+  "agency": "Alaska Division of Corporations, Business and Professional Licensing",
+  "agencyAbbr": "DCBPL",
+  "website": "https://www.commerce.alaska.gov/web/cbpl/corporations",
+  "onlinePortal": "https://www.commerce.alaska.gov/web/cbpl/corporations/corpformsfees.aspx",
+  "phone": "(907) 465-2550",
+  "address": "P.O. Box 110806, Juneau, AK 99811-0806",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Articles of Dissolution (LLC)",
+      "formNumber": "08-490",
+      "formUrl": "https://www.commerce.alaska.gov/web/Portals/5/pub/08-490.pdf",
+      "fee": 25,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Ensure all biennial reports are current and entity is in good standing",
+        "Wind up business affairs and settle debts",
+        "Complete Articles of Dissolution form (08-490)",
+        "Mail form with $25 filing fee to Division of Corporations",
+        "File final state tax returns with Alaska Department of Revenue"
+      ],
+      "notes": "Entity must be current with all biennial reports and in good standing prior to voluntary dissolution. Mail filing only."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Corporation)",
+      "formNumber": "08-407",
+      "formUrl": "https://www.commerce.alaska.gov/web/Portals/5/pub/08-407.pdf",
+      "fee": 25,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "File Certificate of Election to Dissolve ($10 fee)",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution (08-407) with $15 filing fee",
+        "File final state tax returns with Alaska Department of Revenue"
+      ],
+      "notes": "Corporation dissolution requires filing both a Certificate of Election to Dissolve ($10) and Articles of Dissolution ($15), totaling $25."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Alaska Department of Revenue",
+    "taxAgencyUrl": "https://www.tax.alaska.gov",
+    "taxAgencyPhone": "(907) 465-2320",
+    "notes": "Alaska has no state income tax or sales tax. File final corporate income tax return if applicable. Close all state tax accounts."
+  },
+  "timeline": {
+    "standardProcessingDays": "10-15 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

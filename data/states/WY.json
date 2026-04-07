@@ -1,0 +1,95 @@
+{
+  "code": "WY",
+  "name": "Wyoming",
+  "slug": "wyoming",
+  "agency": "Wyoming Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://sos.wyo.gov/",
+  "onlinePortal": "https://wyobiz.wyo.gov/",
+  "phone": "(307) 777-7311",
+  "address": "Herschler Building East, 122 W 25th Street, Suites 100 and 101, Cheyenne, WY 82002-0020",
+  "email": "Business@wyo.gov",
+  "entities": {
+    "llc": {
+      "formName": "LLC Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://sos.wyo.gov/forms/business/llc/llc-articlesdissolution.pdf",
+      "fee": 60,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns if applicable (Wyoming has no state income tax)",
+        "Complete the LLC Articles of Dissolution form",
+        "Mail the form with a $60 check or money order payable to Wyoming Secretary of State",
+        "Wait up to 15 business days for processing",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Wyoming charges a $60 filing fee. Forms can only be submitted by mail or in person — they cannot be filed online or via email. Mail to: Wyoming Secretary of State, Herschler Building East, 122 W 25th St, Suites 100 and 101, Cheyenne, WY 82002-0020. Wyoming has no state income tax."
+    },
+    "corporation": {
+      "formName": "Profit Corporation Articles of Dissolution",
+      "formNumber": null,
+      "formUrl": "https://sos.wyo.gov/Forms/Business/PROF/P-ArticlesDissolutionShareholders.pdf",
+      "fee": 60,
+      "onlineFiling": false,
+      "onlineFilingUrl": null,
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "File final state tax returns if applicable (Wyoming has no state income tax)",
+        "Complete the Profit Corporation Articles of Dissolution form (by shareholders or by incorporators/initial directors)",
+        "Submit in duplicate with a $60 check or money order payable to Wyoming Secretary of State",
+        "Mail or deliver in person to the Secretary of State's office",
+        "Wait up to 15 business days for processing",
+        "Cancel any licenses, permits, and registrations",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Wyoming charges a $60 filing fee. There are two forms depending on who initiates dissolution: one by shareholders and one by incorporators or initial directors. Forms must be submitted in duplicate. Filing can only be done by mail or in person — not online or via email."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": false,
+    "taxAgency": "Wyoming Department of Revenue",
+    "taxAgencyUrl": "https://revenue.wyo.gov/",
+    "taxAgencyPhone": "(307) 777-5200",
+    "notes": "Wyoming has no state income tax, no corporate income tax, and no franchise tax. No tax clearance certificate is required for dissolution. However, businesses may still need to file final sales tax or other applicable tax returns if they collected sales tax."
+  },
+  "timeline": {
+    "standardProcessingDays": "10-15 business days",
+    "expeditedAvailable": false,
+    "expeditedProcessingDays": null,
+    "expeditedFee": null,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": null,
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by shareholder approval (majority of shares entitled to vote)."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "code": "CT",
+  "name": "Connecticut",
+  "slug": "connecticut",
+  "agency": "Connecticut Secretary of the State",
+  "agencyAbbr": "SoTS",
+  "website": "https://portal.ct.gov/sots",
+  "onlinePortal": "https://business.ct.gov",
+  "phone": "(860) 509-6003",
+  "address": "30 Trinity Street, Hartford, CT 06106",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution (Domestic LLC)",
+      "formNumber": null,
+      "formUrl": "https://business.ct.gov/-/media/businessonestop/brs-forms/llc-forms/certificate_of_dissolution_llc.pdf",
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business.ct.gov",
+      "steps": [
+        "Vote to dissolve per operating agreement or majority of members",
+        "Wind up business affairs and settle debts",
+        "File Certificate of Dissolution with Secretary of the State",
+        "Pay $50 filing fee",
+        "File final state tax returns with Connecticut Department of Revenue Services"
+      ],
+      "notes": "Filing can be done online, by mail, by fax, or in person. Processing takes 3-5 business days."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution (Stock Corporation)",
+      "formNumber": null,
+      "formUrl": null,
+      "fee": 50,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://business.ct.gov",
+      "steps": [
+        "Board of directors adopts resolution recommending dissolution",
+        "Shareholders approve dissolution by majority vote",
+        "Wind up business affairs, notify creditors, and settle debts",
+        "File Articles of Dissolution with Secretary of the State",
+        "Pay $50 filing fee",
+        "File final state tax returns with Connecticut Department of Revenue Services"
+      ],
+      "notes": "Filing can be done online, by mail, by fax, or in person."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": false,
+    "finalReturnRequired": true,
+    "taxAgency": "Connecticut Department of Revenue Services",
+    "taxAgencyUrl": "https://portal.ct.gov/drs",
+    "taxAgencyPhone": "(860) 297-5962",
+    "notes": "File final Connecticut corporation business tax return. Close all state tax accounts with the Department of Revenue Services."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "Same day to 24 hours",
+    "expeditedFee": 50,
+    "waitingPeriods": null
+  },
+  "requirements": {
+    "publicationRequired": false,
+    "publicationDetails": null,
+    "employeeNotification": "Follow federal WARN Act if 100+ employees",
+    "creditorNotification": "Must notify known creditors in writing",
+    "registeredAgentNotes": "Registered agent must be maintained until dissolution is complete",
+    "windingUpPeriod": "Reasonable time to wind up affairs",
+    "boardOrMemberApproval": "Majority vote of members (LLC) or shareholders (Corp) required"
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}

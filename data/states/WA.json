@@ -1,0 +1,96 @@
+{
+  "code": "WA",
+  "name": "Washington",
+  "slug": "washington",
+  "agency": "Washington Secretary of State",
+  "agencyAbbr": "SoS",
+  "website": "https://www.sos.wa.gov/corporations-charities/business-entities/",
+  "onlinePortal": "https://ccfs.sos.wa.gov/",
+  "phone": "(360) 725-0377",
+  "address": "801 Capitol Way S, Olympia, WA 98504-0224",
+  "email": null,
+  "entities": {
+    "llc": {
+      "formName": "Certificate of Dissolution — LLC",
+      "formNumber": null,
+      "formUrl": "https://www.sos.wa.gov/sites/default/files/2023-10/LLC_&_PLLC_Dissolution.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://ccfs.sos.wa.gov/",
+      "steps": [
+        "Vote to dissolve the LLC according to the operating agreement or by member consent",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Apply for a Revenue Clearance Certificate from the Washington Department of Revenue",
+        "Receive the Revenue Clearance Certificate (DOR sends it directly to the Secretary of State)",
+        "File Certificate of Dissolution with the Secretary of State (no filing fee)",
+        "Submit the Revenue Clearance Certificate with the dissolution filing",
+        "Cancel any licenses, permits, and registrations",
+        "File final state and federal tax returns",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Washington does not charge a filing fee for dissolution. However, you must obtain a Revenue Clearance Certificate from the Department of Revenue before filing. Do not submit the dissolution without the actual Clearance Certificate — submitting only the application is not acceptable. 120 days after filing, the entity is permanently dissolved and ineligible for reinstatement."
+    },
+    "corporation": {
+      "formName": "Articles of Dissolution — Profit Corporation",
+      "formNumber": null,
+      "formUrl": "https://www.sos.wa.gov/sites/default/files/2023-10/Profit_PSC_SPC_Dissolution.pdf",
+      "fee": 0,
+      "onlineFiling": true,
+      "onlineFilingUrl": "https://ccfs.sos.wa.gov/",
+      "steps": [
+        "Hold a board of directors meeting to recommend dissolution",
+        "Obtain shareholder approval for the dissolution",
+        "Wind up business affairs, settle debts, and distribute remaining assets",
+        "Apply for a Revenue Clearance Certificate from the Washington Department of Revenue",
+        "Receive the Revenue Clearance Certificate (DOR sends it directly to the Secretary of State)",
+        "File Articles of Dissolution with the Secretary of State (no filing fee)",
+        "Submit the Revenue Clearance Certificate with the dissolution filing",
+        "Cancel any licenses, permits, and registrations",
+        "File final state and federal tax returns",
+        "Close business bank accounts and cancel your EIN with the IRS"
+      ],
+      "notes": "Washington does not charge a filing fee for dissolution. You must obtain a Revenue Clearance Certificate from the Department of Revenue before filing. Make checks or money orders payable to Secretary of State if any fees apply."
+    },
+    "lp": null,
+    "llp": null,
+    "nonprofit": null,
+    "foreignEntity": null
+  },
+  "tax": {
+    "clearanceRequired": true,
+    "finalReturnRequired": true,
+    "taxAgency": "Washington Department of Revenue",
+    "taxAgencyUrl": "https://dor.wa.gov/",
+    "taxAgencyPhone": "(360) 705-6705",
+    "notes": "A Revenue Clearance Certificate from the Department of Revenue is required before filing dissolution papers. Apply through the Department of Revenue. They will send the certificate directly to the Secretary of State's office. Washington has no state income tax but has Business & Occupation (B&O) tax and sales tax that must be settled."
+  },
+  "timeline": {
+    "standardProcessingDays": "3-5 business days",
+    "expeditedAvailable": true,
+    "expeditedProcessingDays": "1-3 business days",
+    "expeditedFee": 100,
+    "waitingPeriods": "120 days after dissolution filing, entity is permanently dissolved and ineligible for reinstatement"
+  },
+  "requirements": {
+    "publicationRequired": true,
+    "publicationDetails": "Corporations must publish notice of dissolution within 30 days after the effective date of articles of dissolution (RCW 23B.14.030).",
+    "employeeNotification": "Must provide WARN Act notice (60 days) if 100+ employees",
+    "creditorNotification": "Must notify known creditors of the dissolution and provide a reasonable deadline for claims",
+    "registeredAgentNotes": "Registered agent designation terminates upon dissolution",
+    "windingUpPeriod": "120 days after filing, entity is permanently dissolved",
+    "boardOrMemberApproval": "LLC: Member vote as specified in operating agreement. Corporation: Board resolution followed by shareholder approval."
+  },
+  "guide": {
+    "price": 4900,
+    "tier": "standard",
+    "includes": [
+      "Step-by-step dissolution checklist",
+      "Every required form with direct download links",
+      "Complete fee schedule",
+      "Tax clearance requirements and process",
+      "Timeline with expedited options",
+      "Creditor and employee notification templates",
+      "Post-dissolution compliance checklist"
+    ]
+  }
+}
