@@ -84,5 +84,38 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución conforme al acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Presentar los artículos de Terminación (Formulario L031) ante Arizona Corporation Commission",
+      "Pagar la tarifa de presentación de $35",
+      "Presentar las declaraciones de impuestos estatales finales ante Arizona Department of Revenue"
+    ],
+    "llc_notes": "Procesamiento acelerado disponible: $35 acelerado, $100 al día siguiente, $200 el mismo día, $400 servicio en dos horas.",
+    "corp_steps": [
+      "La junta directiva adopta una resolución recomendando la disolución",
+      "Los accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar los artículos de disolución (Formulario C022) ante Arizona Corporation Commission",
+      "Pagar la tarifa de presentación de $25",
+      "Presentar las declaraciones de impuestos estatales finales ante Arizona Department of Revenue"
+    ],
+    "tax_notes": "Presentar la declaración final de impuesto sobre la renta corporativa de Arizona (Formulario 120) y cerrar todas las cuentas fiscales ante Arizona Department of Revenue.",
+    "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o accionistas (corporación)",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

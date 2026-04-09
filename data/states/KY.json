@@ -90,5 +90,45 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Kentucky Department of Revenue",
+      "Comunicarse con el Kentucky Department of Revenue para cerrar las cuentas fiscales",
+      "Completar el formulario ADLLC (Artículos de disolución - LLC)",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $40 (cheque a nombre de Kentucky State Treasurer)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "llc_notes": "Tarifa de presentación de $40 mediante cheque a nombre de Kentucky State Treasurer. También presente un certificado de retiro ante el secretario del condado si registró un nombre comercial (DBA).",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Kentucky Department of Revenue",
+      "Comunicarse con el Kentucky Department of Revenue para cerrar las cuentas fiscales",
+      "Completar el formulario DIS (Artículos de disolución - Corporación con Fines de Lucro)",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $40 (cheque a nombre de Kentucky State Treasurer)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "Para la disolución por parte de los incorporadores o directores iniciales antes de la emisión de acciones, use el formulario IPD en su lugar.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos/LLET de Kentucky (Formulario 720 o 765). Presente la declaración final de impuestos sobre ventas y las declaraciones de retención de impuestos si corresponde. Comuníquese con el Department of Revenue para cerrar todas las cuentas fiscales estatales antes de presentar la disolución.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones después de que se presente la disolución",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución sea finalizada",
+    "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

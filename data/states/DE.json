@@ -86,5 +86,41 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Pagar todos los impuestos de franquicia y tarifas pendientes",
+      "Presentar el certificado de cancelación ante Delaware Division of Corporations",
+      "Pagar la tarifa de presentación de $200",
+      "Presentar las declaraciones de impuestos estatales finales ante Delaware Division of Revenue"
+    ],
+    "llc_notes": "En Delaware, las LLC se 'cancelan' en lugar de 'disolverse'. Todos los impuestos de franquicia vencidos, penalidades e intereses deben pagarse antes de la presentación.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar todos los informes de impuesto de franquicia pendientes y pagar todos los impuestos de franquicia adeudados",
+      "Presentar el certificado de disolución ante Delaware Division of Corporations",
+      "Pagar la tarifa de presentación de $204",
+      "Presentar las declaraciones de impuestos estatales finales ante Delaware Division of Revenue"
+    ],
+    "corp_notes": "La disolución simplificada (tarifa de $10) está disponible para Corporaciones que nunca emitieron acciones ni iniciaron operaciones. La tarifa estándar de presentación de disolución es de $204. Todos los impuestos de franquicia deben estar al día.",
+    "tax_notes": "Todos los informes de impuesto de franquicia deben estar presentados y todos los impuestos de franquicia, penalidades e intereses deben pagarse antes de que se pueda procesar la disolución. Presentar la declaración final de impuesto sobre la renta corporativa de Delaware.",
+    "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar un aviso para los acreedores desconocidos",
+    "registeredAgentNotes": "El Agente Registrado de Delaware debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "3 años después de la disolución para liquidar los asuntos del negocio y resolver reclamaciones",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

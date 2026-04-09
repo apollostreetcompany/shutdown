@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Notificar por escrito a todos los acreedores conocidos",
+      "Presentar las declaraciones de impuestos finales ante el Oregon Department of Revenue",
+      "Completar el formulario de Artículos de Enmienda/Disolución (únicamente los campos de disolución)",
+      "Enviar el formulario con la tarifa de presentación de $100 por correo postal, en persona o por fax",
+      "Cancelar cualquier licencia comercial, permiso y nombre comercial registrado"
+    ],
+    "llc_notes": "Oregon utiliza un formulario combinado de Artículos de Enmienda/Disolución para las LLC. Complete únicamente los campos de disolución. La fecha de disolución no puede ser una fecha futura. Agregue $5 por una copia de confirmación opcional. Las presentaciones en persona se procesan el mismo día.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución que recomienda la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Presentar las declaraciones de impuestos finales ante el Oregon Department of Revenue",
+      "Completar el formulario de Artículos de disolución para Corporaciones comerciales/profesionales",
+      "Enviar el formulario con la tarifa de presentación de $100 por correo postal, en persona o por fax",
+      "Cancelar todas las licencias y permisos comerciales"
+    ],
+    "corp_notes": "Las Corporaciones utilizan un formulario separado de Artículos de disolución. Agregue $5 por una copia de confirmación opcional. Las presentaciones en persona en la oficina de Salem se procesan el mismo día.",
+    "tax_notes": "Oregon no requiere Liquidación Fiscal para la disolución. Sin embargo, debe presentar todas las declaraciones de impuestos sobre ingresos estatales finales y liquidar cualquier obligación fiscal pendiente. Cierre sus cuentas de impuestos comerciales con el Department of Revenue después de presentar la disolución.",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales antes del final del primer día hábil posterior a la terminación (o antes del final de la próxima fecha regular de pago si el empleado dio más de 48 horas de aviso de renuncia).",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+    "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de la disolución según ORS 63.637",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo conforme a ORS 63.621. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

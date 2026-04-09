@@ -92,5 +92,47 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC de acuerdo con el acuerdo de la empresa o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar una declaración de impuestos de franquicia final ante el Texas Comptroller of Public Accounts",
+      "Obtener un Certificado de Estado de Cuenta (Formulario 05-305 del Comptroller) del Texas Comptroller",
+      "Completar el formulario 651 — Certificado de Terminación por duplicado",
+      "Adjuntar el certificado de Estado de Cuenta al Formulario 651",
+      "Presentar el formulario 651 ante la Secretaría de Estado con una tarifa de presentación de $40",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia. Debe obtener un Certificado de Estado de Cuenta del Texas Comptroller que confirme que todos los impuestos de franquicia han sido pagados antes de realizar la presentación. La impresión del sitio web del Comptroller no es suficiente — necesita el certificado oficial. Los pagos realizados con tarjeta de crédito están sujetos a una tarifa de conveniencia del 2.7%.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución (dos tercios de las acciones en circulación)",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar una declaración de impuestos de franquicia final ante el Texas Comptroller of Public Accounts",
+      "Obtener un Certificado de Estado de Cuenta (Formulario 05-305 del Comptroller) del Texas Comptroller",
+      "Completar el formulario 651 — Certificado de Terminación por duplicado",
+      "Adjuntar el certificado de Estado de Cuenta al Formulario 651",
+      "Presentar el formulario 651 ante la Secretaría de Estado con una tarifa de presentación de $40",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia. Debe obtener un Certificado de Estado de Cuenta del Texas Comptroller que confirme que todos los impuestos de franquicia han sido pagados antes de realizar la presentación. Presente dos copias firmadas del certificado de terminación. Los pagos realizados con tarjeta de crédito están sujetos a una tarifa de conveniencia del 2.7%.",
+    "tax_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia a todas las entidades. Debe presentar una declaración de impuestos de franquicia final y obtener un Certificado de Estado de Cuenta (Formulario 05-305) del Comptroller antes de presentar los documentos de terminación ante la Secretaría de Estado. El certificado debe permanecer vigente hasta la fecha de su presentación. Comuníquese con el Comptroller al (800) 252-1381 (línea gratuita) para obtener asistencia.",
+    "employeeNotification": "Debe proporcionar notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados. Texas no tiene una ley WARN estatal.",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre el proceso de liquidación y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de presentar el certificado de Terminación",
+    "windingUpPeriod": "Tres años después de la terminación, durante los cuales aún se pueden presentar reclamaciones contra la entidad",
+    "boardOrMemberApproval": "LLC: Consentimiento de los miembros según lo requerido por el acuerdo de la empresa. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas por dos tercios.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

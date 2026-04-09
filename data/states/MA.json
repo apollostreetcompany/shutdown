@@ -88,5 +88,44 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos finales federales y del estado de Massachusetts",
+      "Cerrar todas las cuentas tributarias con el Massachusetts Department of Revenue",
+      "Obtener la liquidación fiscal del Massachusetts Department of Revenue",
+      "Presentar el certificado de cancelación ante la Corporations Division (tarifa de $100)",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "Massachusetts no provee un formulario estándar para la cancelación de LLC. El Certificado de cancelación debe redactarse conforme a los requisitos estatutarios del Capítulo 156C del MGL. Debe ser firmado por cualquier gerente o persona autorizada.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto de dos tercios",
+      "Presentar el formulario 966 del IRS (Disolución o Liquidación Corporativa) ante el IRS",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar las declaraciones de impuestos finales federales y del estado de Massachusetts",
+      "Obtener la liquidación fiscal del Massachusetts Department of Revenue",
+      "Presentar los artículos de disolución ante la Corporations Division (tarifa de $100)",
+      "Se deben haber presentado todos los informes anuales de los últimos 10 años fiscales"
+    ],
+    "corp_notes": "Una Corporación debe haber presentado todos los informes anuales adeudados de los últimos diez años fiscales antes de que la Corporations Division acepte los artículos de disolución. Se requiere Liquidación Fiscal del DOR.",
+    "tax_notes": "Se requiere Liquidación Fiscal del DOR antes de la disolución. Presentar las declaraciones finales del impuesto corporativo y cerrar todas las cuentas tributarias. Las Corporaciones deben notificar al DOR sobre la disolución. Todos los pasivos pendientes deben ser saldados antes de que se emita la autorización.",
+    "timeline_waitingPeriods": "El proceso de liquidación fiscal puede tardar varias semanas según el historial de presentaciones",
+    "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados; Massachusetts requiere aviso previo para el cierre de plantas",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar aviso para los acreedores desconocidos",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La entidad continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros, salvo que el acuerdo operativo indique lo contrario. Las Corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

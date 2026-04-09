@@ -1,38 +1,39 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import stateData from '../../../data/states/index.json';
+import BaseLayoutES from '../../../layouts/BaseLayoutES.astro';
+import stateData from '../../../../data/states/index.json';
+const siteUrl = 'https://shutdownassistant.com';
 
-const states = Object.values(stateData).sort((a: any, b: any) => a.name.localeCompare(b.name));
+const states = (Object.values(stateData) as any[]).sort((a, b) => a.name.localeCompare(b.name));
 ---
 
-<BaseLayout
-  title="All 50 State Business Shutdown Guides"
-  description="Complete business dissolution guides for all 50 US states. Forms, fees, timelines, and step-by-step instructions from official Secretary of State sources."
-  locale="en"
-  alternateUrl="/es/states"
+<BaseLayoutES
+  title="Guías de Cierre de Negocios por Estado — Los 50 Estados"
+  description="Guías completas de disolución de negocios para los 50 estados de EE.UU. Formularios, tarifas, plazos e instrucciones paso a paso de fuentes oficiales de la Secretaría de Estado."
+  canonical={`${siteUrl}/es/states`}
+  alternateUrl={`${siteUrl}/states`}
 >
   <section class="px-4 py-12">
     <div class="mx-auto max-w-6xl">
-      <h1 class="mb-2 text-3xl font-bold text-slate-900">Business Shutdown Guides by State</h1>
-      <p class="mb-8 text-slate-500">Select your state for the complete dissolution process, forms, fees, and timeline.</p>
+      <h1 class="mb-2 text-3xl font-bold text-slate-900">Guías de Cierre de Negocios por Estado</h1>
+      <p class="mb-8 text-slate-500">Selecciona tu estado para el proceso completo de disolución, formularios, tarifas y plazos.</p>
 
       <!-- Quick Stats -->
       <div class="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4">
         <div class="rounded-xl border border-slate-200 bg-white p-4 text-center">
           <div class="text-2xl font-bold text-slate-900">{states.length}</div>
-          <div class="text-xs text-slate-500">States Covered</div>
+          <div class="text-xs text-slate-500">Estados Cubiertos</div>
         </div>
         <div class="rounded-xl border border-slate-200 bg-white p-4 text-center">
           <div class="text-2xl font-bold text-slate-900">$0-$250</div>
-          <div class="text-xs text-slate-500">Filing Fee Range</div>
+          <div class="text-xs text-slate-500">Rango de Tarifas</div>
         </div>
         <div class="rounded-xl border border-slate-200 bg-white p-4 text-center">
           <div class="text-2xl font-bold text-red-600">~25</div>
-          <div class="text-xs text-slate-500">States Require Tax Clearance</div>
+          <div class="text-xs text-slate-500">Estados Requieren Liquidación Fiscal</div>
         </div>
         <div class="rounded-xl border border-slate-200 bg-white p-4 text-center">
-          <div class="text-2xl font-bold text-slate-900">1-10 days</div>
-          <div class="text-xs text-slate-500">Typical Processing</div>
+          <div class="text-2xl font-bold text-slate-900">1-10 días</div>
+          <div class="text-xs text-slate-500">Procesamiento Típico</div>
         </div>
       </div>
 
@@ -40,17 +41,17 @@ const states = Object.values(stateData).sort((a: any, b: any) => a.name.localeCo
       <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {states.map((s: any) => (
           <a
-            href={`/states/${s.slug}`}
+            href={`/es/states/${s.slug}`}
             class="group rounded-xl border border-slate-200 bg-white p-5 transition hover:border-red-300 hover:shadow-md"
           >
             <div class="mb-2 flex items-center justify-between">
               <span class="text-xl font-bold text-slate-800 group-hover:text-red-600">{s.code}</span>
               <div class="flex gap-1">
                 {s.tax?.clearanceRequired && (
-                  <span class="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-medium text-amber-700">TAX CLR</span>
+                  <span class="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-medium text-amber-700">LIQ. FISC.</span>
                 )}
                 {s.entities?.llc?.onlineFiling && (
-                  <span class="rounded bg-green-100 px-1.5 py-0.5 text-[10px] font-medium text-green-700">ONLINE</span>
+                  <span class="rounded bg-green-100 px-1.5 py-0.5 text-[10px] font-medium text-green-700">EN LÍNEA</span>
                 )}
               </div>
             </div>
@@ -65,4 +66,4 @@ const states = Object.values(stateData).sort((a: any, b: any) => a.name.localeCo
       </div>
     </div>
   </section>
-</BaseLayout>
+</BaseLayoutES>

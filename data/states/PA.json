@@ -90,5 +90,46 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+      "Obtener el certificado de liquidación fiscal del PA Department of Revenue (Formulario REV-181)",
+      "Obtener autorización del PA Department of Labor and Industry",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Notificar por escrito a todos los acreedores conocidos",
+      "Presentar las declaraciones de impuestos finales federales y estatales",
+      "Presentar el certificado de disolución (Formulario DSCB:15-8975/8978) ante el Department of State (tarifa de presentación de $70)",
+      "Cancelar cualquier licencia comercial, permiso y nombre ficticio"
+    ],
+    "llc_notes": "Pennsylvania requiere Liquidación Fiscal del Department of Revenue y autorización del Department of Labor and Industry antes de presentar la disolución. Permita 4 semanas para que el Department of Revenue procese la solicitud de liquidación fiscal (Formulario REV-181).",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución que recomienda la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Obtener el certificado de liquidación fiscal del PA Department of Revenue (Formulario REV-181)",
+      "Obtener autorización del PA Department of Labor and Industry, Office of UC Tax Services",
+      "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Presentar las declaraciones de impuestos finales federales y estatales",
+      "Presentar los artículos de disolución (Formulario DSCB:15-1977/5977) ante el Department of State (tarifa de presentación de $70)",
+      "Cancelar todas las licencias comerciales, permisos y nombres ficticios"
+    ],
+    "corp_notes": "Se requieren la liquidación fiscal del Department of Revenue y la autorización del Department of Labor and Industry antes de presentar. Use el formulario DSCB:15-1971/5971 si la corporación nunca ha realizado operaciones comerciales.",
+    "tax_notes": "La Liquidación Fiscal es obligatoria antes de la disolución. Presente el formulario REV-181 (Solicitud de Certificado de liquidación fiscal) ante el Department of Revenue. El procesamiento tarda aproximadamente 4 semanas. También debe obtener una autorización separada del Department of Labor and Industry, Office of Unemployment Compensation Tax Services. Ambas autorizaciones deben obtenerse antes de presentar la disolución ante el Department of State.",
+    "timeline_waitingPeriods": "La Liquidación Fiscal del Department of Revenue tarda aproximadamente 4 semanas en procesarse",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con información sobre cómo presentar reclamaciones",
+    "registeredAgentNotes": "La oficina registrada debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+    "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

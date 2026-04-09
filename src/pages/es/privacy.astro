@@ -1,0 +1,57 @@
+---
+import BaseLayoutES from '../../layouts/BaseLayoutES.astro';
+const siteUrl = 'https://shutdownassistant.com';
+---
+
+<BaseLayoutES
+  title="Política de Privacidad"
+  description="Política de privacidad de Shutdown Assistant. Cómo recopilamos, usamos y protegemos tu información."
+  canonical={`${siteUrl}/es/privacy`}
+  alternateUrl={`${siteUrl}/privacy`}
+>
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-3xl prose prose-slate">
+      <h1>Política de Privacidad</h1>
+      <p class="text-sm text-slate-500">Última actualización: Abril 2026</p>
+
+      <h2>Información que Recopilamos</h2>
+      <p>Recopilamos información que proporcionas directamente:</p>
+      <ul>
+        <li>Dirección de correo electrónico (al comprar guías o solicitar el servicio de agente)</li>
+        <li>Información de pago (procesada por Stripe; no almacenamos números de tarjeta)</li>
+        <li>Información comercial (al usar el servicio de agente de cierre)</li>
+      </ul>
+      <p>Recopilamos automáticamente:</p>
+      <ul>
+        <li>Datos de uso (páginas visitadas, funciones usadas)</li>
+        <li>Información del dispositivo y el navegador</li>
+        <li>Dirección IP</li>
+      </ul>
+
+      <h2>Cómo Usamos la Información</h2>
+      <ul>
+        <li>Entregar guías y servicios comprados</li>
+        <li>Procesar pagos</li>
+        <li>Comunicarnos sobre tu pedido o servicio</li>
+        <li>Mejorar el Servicio</li>
+        <li>Cumplir con las obligaciones legales</li>
+      </ul>
+
+      <h2>Compartir Información</h2>
+      <p>No vendemos tu información personal. Solo compartimos información con:</p>
+      <ul>
+        <li>Stripe (procesamiento de pagos)</li>
+        <li>Agencias gubernamentales (solo cuando presentamos en tu nombre con el servicio de agente de cierre, y solo con tu autorización)</li>
+      </ul>
+
+      <h2>Seguridad de los Datos</h2>
+      <p>Usamos medidas de seguridad estándar de la industria para proteger tu información. Sin embargo, ningún método de transmisión por Internet es 100% seguro.</p>
+
+      <h2>Tus Derechos</h2>
+      <p>Puedes solicitar acceso, corrección o eliminación de tu información personal contactando a privacy@shutdownassistant.com.</p>
+
+      <h2>Contacto</h2>
+      <p>Preguntas sobre esta política: privacy@shutdownassistant.com</p>
+    </div>
+  </section>
+</BaseLayoutES>

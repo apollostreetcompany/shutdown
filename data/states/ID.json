@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas",
+      "Presentar las declaraciones de impuestos finales ante el Idaho State Tax Commission",
+      "Completar el formulario de Declaración de disolución",
+      "Presentar en línea (sin tarifa) o por correo/en persona (tarifa de procesamiento manual de $20)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "llc_notes": "La presentación en línea no tiene tarifa. La presentación en papel genera una tarifa de procesamiento manual de $20. El servicio de procesamiento acelerado añade $40; el servicio en el mismo día añade $100.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas (mayoría de acciones en circulación)",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Idaho State Tax Commission",
+      "Completar el formulario de Artículos de disolución",
+      "Presentar en línea (sin tarifa) o por correo/en persona (tarifa de procesamiento manual de $20)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "También existe un formulario para Artículos de disolución previo a la emisión de acciones. Las presentaciones en papel requieren una tarifa adicional de procesamiento manual de $20.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta (Formulario 41 para corporaciones, Formulario 65 para sociedades/LLCs). Marque la casilla de 'declaración final'. No se requiere un certificado formal de liquidación fiscal, pero todos los impuestos deben estar al corriente.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 50 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución sea finalizada ante la Secretaría de Estado",
+    "windingUpPeriod": "Período razonable para liquidar los asuntos; la entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida del voto mayoritario de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

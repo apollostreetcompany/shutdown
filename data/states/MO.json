@@ -85,5 +85,40 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Presentar el Aviso de Inicio del Proceso de Liquidación (Formulario LLC-13) ante la Secretaría de Estado (tarifa de $25)",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar los artículos de Terminación (Formulario LLC-5) ante la Secretaría de Estado (tarifa de $25)",
+      "Presentar las declaraciones de impuestos finales del estado de Missouri",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "La disolución de una LLC en Missouri es un proceso de dos pasos: primero presentar un Aviso de Inicio del Proceso de Liquidación (Formulario LLC-13, $25) y luego, una vez completada la liquidación, presentar los artículos de Terminación (Formulario LLC-5, $25). El costo total es de $50 por ambas presentaciones.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto de dos tercios",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar los artículos de disolución por Acción Voluntaria (Formulario Corp. 46) ante la Secretaría de Estado (tarifa de $25)",
+      "Presentar las declaraciones de impuestos finales del estado de Missouri",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "corp_notes": "La disolución de una corporación requiere el voto de dos tercios de los accionistas. La tarifa de presentación es de $25.",
+    "tax_notes": "Presentar la declaración final del impuesto sobre la renta corporativa de Missouri y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Notificar al DOR sobre la disolución del negocio.",
+    "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La LLC debe completar el proceso de liquidación entre la presentación del Aviso de Inicio del Proceso de Liquidación y los artículos de Terminación",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

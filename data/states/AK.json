@@ -85,5 +85,40 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+      "Asegurarse de que todos los informes bienales estén al día y que la entidad esté en regla",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Completar el formulario de Artículos de disolución (08-490)",
+      "Enviar el formulario por correo con la tarifa de presentación de $25 a la Division of Corporations",
+      "Presentar las declaraciones de impuestos estatales finales ante Alaska Department of Revenue"
+    ],
+    "llc_notes": "La entidad debe estar al día con todos los informes bienales y en regla antes de la disolución voluntaria. Solo se acepta presentación por correo.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Presentar el certificado de Elección para Disolver (tarifa de $10)",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar los artículos de disolución (08-407) con tarifa de presentación de $15",
+      "Presentar las declaraciones de impuestos estatales finales ante Alaska Department of Revenue"
+    ],
+    "corp_notes": "La disolución de una corporación requiere presentar tanto un Certificado de Elección para Disolver ($10) como los artículos de disolución ($15), con un total de $25.",
+    "tax_notes": "Alaska no tiene impuesto estatal sobre la renta ni impuesto sobre ventas. Presentar la declaración final de impuesto sobre la renta corporativa si corresponde. Cerrar todas las cuentas fiscales estatales.",
+    "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

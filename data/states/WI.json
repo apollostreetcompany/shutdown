@@ -88,5 +88,42 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el Wisconsin Department of Revenue",
+      "Presentar los artículos de disolución (Formulario 510) en línea a través del portal del DFI — tarifa de $20 en línea",
+      "Pagar cualquier tarifa de informe anual atrasada adeudada al DFI al momento de la disolución",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "La tarifa de presentación en línea es de $20; la tarifa de presentación en papel es de $35 (incluye un recargo de $15 por papel vigente desde marzo de 2024). Si la LLC está en estado de morosidad, todas las tarifas atrasadas deben pagarse al momento de la disolución además de la tarifa de presentación. El servicio acelerado para el siguiente día hábil está disponible por un costo adicional de $25.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el Wisconsin Department of Revenue",
+      "Presentar los artículos de disolución (Formulario 10) en línea a través del portal del DFI — tarifa de $20 en línea",
+      "Pagar cualquier tarifa de informe anual atrasada adeudada al DFI al momento de la disolución",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "La tarifa de presentación en línea es de $20; la tarifa de presentación en papel es de $35 (incluye un recargo de $15 por papel vigente desde marzo de 2024). Si la corporación está en estado de morosidad, todas las tarifas atrasadas deben pagarse al momento de la disolución. El servicio acelerado para el siguiente día hábil está disponible por un costo adicional de $25.",
+    "tax_notes": "Wisconsin no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos sobre la renta y de franquicia finales y liquidar todas las obligaciones tributarias pendientes con el Wisconsin Department of Revenue.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados. Wisconsin también tiene una ley estatal de Cierre de Negocios y Despidos Masivos que requiere una notificación de 60 días para 25 o más empleados.",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

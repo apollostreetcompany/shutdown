@@ -90,5 +90,46 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Notificar por escrito a todos los acreedores conocidos",
+      "Presentar las declaraciones de impuestos finales ante el RI Division of Taxation",
+      "Obtener una Carta de Buena Posición del RI Division of Taxation (tarifa de $50)",
+      "Presentar los artículos de disolución (Formulario 404) ante la Secretaría de Estado (tarifa de presentación de $50)",
+      "Incluya la Carta de Buena Posición con su Presentación de disolución",
+      "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+    ],
+    "llc_notes": "Rhode Island requiere una Carta de Buena Posición del Division of Taxation antes de que se pueda procesar la disolución. La carta confirma que todas las obligaciones fiscales están al día. Permita varias semanas para que el Division of Taxation procese la solicitud.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución que recomienda la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Presentar las declaraciones de impuestos finales ante el RI Division of Taxation",
+      "Obtener una Carta de Buena Posición del RI Division of Taxation (tarifa de $50)",
+      "Presentar los artículos de disolución (Formulario 404) ante la Secretaría de Estado (tarifa de presentación de $50)",
+      "Incluya la Carta de Buena Posición con su Presentación de disolución",
+      "Cancelar todas las licencias y permisos comerciales"
+    ],
+    "corp_notes": "Las Corporaciones utilizan el mismo Formulario 404 que las LLC. Se requiere una Carta de Buena Posición del Division of Taxation. Las presentaciones en persona realizadas antes de las 4 PM se procesan el mismo día.",
+    "tax_notes": "Se requiere una Carta de Buena Posición (LOGS, por sus siglas en inglés) del Division of Taxation antes de la disolución. Presente el formulario de solicitud de LOGS con una tarifa de $50 a: Letter of Good Standing, Compliance & Collections, Rhode Island Division of Taxation, One Capitol Hill, Providence, RI 02908. El procesamiento toma varias semanas dependiendo del historial del contribuyente. Comuníquese al (401) 574-8941 o a Tax.Collections@tax.ri.gov para preguntas específicas sobre la LOGS.",
+    "timeline_waitingPeriods": "La Carta de Buena Posición del Division of Taxation puede tardar varias semanas en obtenerse",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+    "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de la disolución conforme a RI General Laws 7-16-47",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

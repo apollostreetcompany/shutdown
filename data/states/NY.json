@@ -88,5 +88,44 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar las deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos finales federales y del estado de New York",
+      "Obtener el Consentimiento para la disolución del NYS Department of Taxation and Finance (obligatorio)",
+      "Presentar los artículos de disolución (Formulario DOS-1366-f) ante el Department of State (tarifa de $60)",
+      "Incluir el Consentimiento para la disolución del Department of Taxation and Finance con la presentación",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "New York requiere un Consentimiento para la disolución del Department of Taxation and Finance antes de que el Department of State acepte sus Artículos de disolución. Este consentimiento no se emitirá hasta que todas las declaraciones de impuestos hayan sido presentadas y todos los pasivos fiscales hayan sido pagados.",
+    "corp_steps": [
+      "La junta directiva adopta un plan de disolución",
+      "Los accionistas aprueban la disolución (se requieren dos tercios de las acciones en circulación)",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales federales y del estado de New York (Formulario CT-3)",
+      "Obtener el Consentimiento para la disolución (Formulario TR-960) del NYS Department of Taxation and Finance",
+      "Presentar el certificado de disolución ante el Department of State (tarifa de $60)",
+      "Adjuntar el Consentimiento para la disolución del Department of Taxation and Finance",
+      "Distribuir los activos restantes a los accionistas después de que todas las deudas hayan sido pagadas"
+    ],
+    "corp_notes": "El consentimiento fiscal es obligatorio. El Department of Taxation and Finance no emitirá el consentimiento hasta que todas las declaraciones del impuesto de franquicia hayan sido presentadas y todos los impuestos pagados. Siga las instrucciones en tax.ny.gov/bus/doingbus/tr125.htm para el proceso de disolución voluntaria.",
+    "tax_notes": "El consentimiento fiscal para la disolución es obligatorio. Las corporaciones deben presentar una declaración final del impuesto de franquicia CT-3 y marcar la casilla 'Declaración final'. El Department of Taxation and Finance emite un Consentimiento para la disolución (Formulario TR-960) solo después de que todas las declaraciones hayan sido presentadas y los impuestos pagados. Este consentimiento debe adjuntarse a la presentación de disolución ante el Department of State. Instrucciones disponibles en tax.ny.gov/bus/doingbus/tr125.htm.",
+    "timeline_waitingPeriods": "El proceso de consentimiento fiscal puede tardar varias semanas dependiendo del historial de presentaciones",
+    "employeeNotification": "Debe cumplir con la ley New York WARN Act (requiere 90 días de aviso para despidos masivos de 25 o más empleados). Entregue los cheques finales en la fecha regular de pago.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos. Publicar aviso para reclamantes desconocidos.",
+    "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución sea definitiva y todos los asuntos pendientes sean resueltos",
+    "windingUpPeriod": "La corporación continúa existiendo para efectos del proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros a menos que el acuerdo operativo especifique lo contrario. Las corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas sobre las acciones en circulación.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

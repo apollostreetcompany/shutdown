@@ -88,5 +88,44 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar todas las declaraciones de impuestos finales de New Jersey (impuesto sobre ingresos brutos, impuesto sobre ventas, etc.)",
+      "Solicitar el certificado de liquidación fiscal a la New Jersey Division of Taxation (OBLIGATORIO)",
+      "Esperar a que se emita el certificado de liquidación fiscal",
+      "Presentar el certificado de cancelación (Formulario L-109) ante la Division of Revenue (tarifa de $100)",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "La Liquidación Fiscal de la New Jersey Division of Taxation es OBLIGATORIA antes de que la Division of Revenue procese la disolución. El negocio debe estar en regla (no revocado ni anulado). La presentación en línea está disponible a través de njportal.com -- seleccione 'Cerrar un Negocio'.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar todas las declaraciones de impuestos finales de New Jersey (CBT, impuesto sobre ingresos brutos, impuesto sobre ventas)",
+      "Solicitar el certificado de liquidación fiscal a la Division of Taxation (tarifa de $25)",
+      "Esperar a que se emita el certificado de liquidación fiscal",
+      "Presentar el certificado de disolución (Formulario C-159-D) ante la Division of Revenue (tarifa de disolución de $95 + tarifa del certificado de liquidación fiscal de $25 = $120 en total)",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "corp_notes": "La Liquidación Fiscal de la New Jersey Division of Taxation es OBLIGATORIA. El costo total para la disolución de una corporación es de $120 (tarifa de disolución de $95 + tarifa del certificado de liquidación fiscal de $25). Si la corporación no resuelve sus pasivos tributarios previos, no se emitirá el certificado de liquidación fiscal y el negocio podría ser reactivado. El negocio debe estar en regla para presentar la solicitud.",
+    "tax_notes": "La Liquidación Fiscal de la Division of Taxation es OBLIGATORIA para todas las disoluciones de negocios en New Jersey. El Certificado de liquidación fiscal confirma que todos los impuestos estatales han sido pagados o que la entidad está exenta. La tarifa de solicitud es de $25. Todas las declaraciones finales del CBT (Impuesto Comercial Corporativo) deben presentarse y todos los pasivos pendientes deben saldarse antes de que se emita la autorización. Sin Liquidación Fiscal, la presentación de la disolución no será procesada. Envíe por correo las solicitudes de liquidación fiscal a: Division of Taxation, Tax Clearance Unit, P.O. Box 277, Trenton, NJ 08695-0277.",
+    "timeline_waitingPeriods": "El proceso de liquidación fiscal puede tardar varias semanas según el historial de presentaciones y los pasivos pendientes",
+    "employeeNotification": "La Ley WARN de New Jersey (Ley de Notificación de Pérdida de Empleos de la Planta Millville Dallas Airmotive) exige 90 días de aviso para despidos masivos de 50 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La entidad continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

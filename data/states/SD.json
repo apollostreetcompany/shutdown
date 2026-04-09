@@ -88,5 +88,42 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento mayoritario de los miembros",
+      "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el South Dakota Department of Revenue si corresponde",
+      "Presentar los artículos de Terminación ante la Secretaría de Estado de South Dakota",
+      "Pagar la tarifa de presentación de $10",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "South Dakota no tiene impuesto estatal sobre la renta. La tarifa de presentación es de $10. El procesamiento acelerado está disponible por un costo adicional de $50.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el South Dakota Department of Revenue si corresponde",
+      "Presentar los artículos de disolución ante la Secretaría de Estado de South Dakota",
+      "Pagar la tarifa de presentación de $10",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "South Dakota no tiene impuesto estatal sobre la renta. La tarifa de presentación es de $10. El procesamiento acelerado está disponible por un costo adicional de $50.",
+    "tax_notes": "South Dakota no tiene impuesto estatal sobre la renta ni impuesto corporativo sobre la renta. No se requiere un certificado de liquidación fiscal para la disolución. Es posible que los negocios aún necesiten presentar declaraciones de impuestos sobre ventas finales u otras declaraciones de impuestos aplicables.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de presentar la disolución",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

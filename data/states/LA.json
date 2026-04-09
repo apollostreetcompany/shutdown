@@ -89,5 +89,44 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Presentar todos los informes anuales pendientes y pagar las tarifas adeudadas",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Louisiana Department of Revenue",
+      "Completar la Declaración Jurada de disolución (requiere notarización)",
+      "Presentar electrónicamente o por correo con tarifa de presentación de $75",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "llc_notes": "La declaración jurada requiere las firmas de todos los gerentes o Miembros (según la estructura de gestión) y debe ser autenticada (notarizada). Si algún incorporador o Accionista prohíbe la disolución, la declaración jurada no será procesada.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución (requiere consentimiento unánime o según los estatutos)",
+      "Presentar todos los informes anuales pendientes y pagar las tarifas adeudadas",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Louisiana Department of Revenue",
+      "Preparar y presentar los artículos de disolución con tarifa de presentación de $60",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "corp_notes": "La disolución de una corporación requiere la presentación de los artículos de disolución ante la Commercial Division. Louisiana exige que todos los informes anuales pendientes sean presentados antes de que se acepte la disolución.",
+    "tax_notes": "Presente las declaraciones finales de impuestos sobre la renta corporativos y de franquicia ante el Louisiana Department of Revenue. También debe presentar las declaraciones finales de impuestos sobre ventas y las declaraciones de retención. Obtenga la liquidación fiscal antes de presentar la disolución. Una Corporación debe disolver su carta constitutiva ante la Secretaría de Estado y presentar su declaración final de impuestos de franquicia.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; la ley de Louisiana exige una notificación razonable a los acreedores",
+    "registeredAgentNotes": "Debe estar al corriente en todos los informes anuales y presentaciones antes de que se acepte la disolución",
+    "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la disolución",
+    "boardOrMemberApproval": "LLC: Todos los gerentes o Miembros deben firmar la declaración jurada. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas conforme a los artículos de incorporación.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

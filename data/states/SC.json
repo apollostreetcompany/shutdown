@@ -86,5 +86,41 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Notificar por escrito a todos los acreedores conocidos",
+      "Presentar las declaraciones de impuestos finales ante el SC Department of Revenue",
+      "Presentar los artículos de Terminación (Formulario F0108) ante la Secretaría de Estado (tarifa de presentación de $10)",
+      "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+    ],
+    "llc_notes": "Carolina del Sur utiliza 'Artículos de Terminación' en lugar de 'Artículos de disolución' para las LLC según SC Code 33-44-805. No se requiere Liquidación Fiscal para la disolución voluntaria. La Presentación en línea está disponible a través del sistema Business Entities Online.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución que recomienda la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario según SC Code 33-14-102",
+      "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Presentar las declaraciones de impuestos finales ante el SC Department of Revenue",
+      "Presentar los artículos de disolución (Formulario F0049) ante la Secretaría de Estado (tarifa de presentación de $10)",
+      "Cancelar todas las licencias y permisos comerciales"
+    ],
+    "corp_notes": "No se requiere Liquidación Fiscal para la disolución voluntaria. Sin embargo, si la corporación fue disuelta administrativamente y busca la reincorporación, se requiere un Certificado de Cumplimiento Fiscal del Department of Revenue (tarifa de $60, Formulario C-268).",
+    "tax_notes": "No se requiere Liquidación Fiscal para la disolución voluntaria. Sin embargo, debe presentar todas las declaraciones de impuestos finales de ingresos, ventas y retenciones. Si fue disuelta administrativamente, se requiere un Certificado de Cumplimiento Fiscal (Formulario C-268, tarifa de $60) del Department of Revenue para la reincorporación. Use el SC Business One Stop (scbos.sc.gov) para cerrar los registros de impuestos comerciales.",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales dentro de las 48 horas posteriores a la terminación.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo de al menos 120 días para presentar reclamaciones según SC Code 33-14-106",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+    "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución según SC Code 33-14-105",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo conforme a SC Code 33-44-801. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas según SC Code 33-14-102.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

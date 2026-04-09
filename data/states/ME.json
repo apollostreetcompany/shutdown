@@ -90,5 +90,45 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante Maine Revenue Services",
+      "Completar el formulario MLLC-11C (Certificado de cancelación)",
+      "Incluir la Carta de Contacto del Presentador con la solicitud",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $75",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "llc_notes": "Debe incluir firmas originales. La tarifa de presentación es de $75. Procesamiento acelerado en 24 horas disponible por $50 adicionales; procesamiento inmediato disponible por $100 adicionales.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante Maine Revenue Services",
+      "Completar el formulario MBCA-11 (Artículos de disolución)",
+      "Incluir la Carta de Contacto del Presentador con la solicitud",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $75",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "Pago mediante cheque u orden de pago a nombre de Maine Secretary of State, o con tarjeta de crédito. Debe incluir la Carta de Contacto del Presentador con firmas originales.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Maine (Formulario 1120ME) o la declaración de sociedad. Presente la declaración final de impuestos sobre ventas y las declaraciones de retención si corresponde. No se requiere un certificado formal de liquidación fiscal, pero todos los impuestos deben estar saldados.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la disolución",
+    "boardOrMemberApproval": "LLC: Aprobación de los miembros según lo requerido por el acuerdo operativo o la ley. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

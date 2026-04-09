@@ -85,5 +85,40 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Presentar el certificado de Terminación (Formulario CD 415) en línea a través del portal eCorp",
+      "Sin tarifa de presentación para la presentación en línea (cargo de servicio de $10 para presentación en papel)",
+      "Presentar las declaraciones de impuestos estatales finales ante Georgia Department of Revenue"
+    ],
+    "llc_notes": "Sin tarifa para la presentación en línea a través de eCorp. La presentación en papel genera un cargo de servicio de $10. Las LLC de Georgia presentan un Certificado de Terminación en lugar de Artículos de disolución.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Presentar el Aviso de Intención de Disolver (Formulario CD 410) ante la Secretaría de Estado",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar los artículos de disolución (Formulario CD 411) ante la Secretaría de Estado después del proceso de liquidación",
+      "Sin tarifa de presentación para la presentación en línea (cargo de servicio de $10 para presentación en papel)",
+      "Presentar las declaraciones de impuestos estatales finales ante Georgia Department of Revenue"
+    ],
+    "corp_notes": "Sin tarifa para la presentación en línea a través de eCorp. La presentación en papel genera un cargo de servicio de $10. La disolución de una corporación es un proceso de dos pasos: primero presentar el Aviso de Intención de Disolver y luego los artículos de disolución después del proceso de liquidación.",
+    "tax_notes": "Presentar la declaración final de impuesto sobre la renta corporativa de Georgia (Formulario 600 o 600S). Cerrar todas las cuentas fiscales estatales, incluyendo las cuentas de impuesto sobre ventas y retención.",
+    "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar un aviso para los acreedores desconocidos",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio después de presentar el Aviso de Intención de Disolver",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

@@ -242,16 +242,16 @@ export function buildCostCategories(s: any, locale: 'en' | 'es' = 'en') {
         s.tax?.finalReturnRequired
           ? (isEs ? 'Declaraci\u00F3n fiscal final requerida' : 'Final tax return required')
           : (isEs ? 'No se requiere declaraci\u00F3n final' : 'No final return required'),
-        s.tax?.notes ? s.tax.notes.split('.')[0] : (isEs ? 'Revisar obligaciones fiscales estatales' : 'Review state tax obligations'),
+        (isEs ? (s.es?.tax_notes || s.tax?.notes) : s.tax?.notes)?.split('.')[0] ?? (isEs ? 'Revisar obligaciones fiscales estatales' : 'Review state tax obligations'),
       ],
       color: '#FF6B35',
     },
     {
       name: isEs ? 'Costos de Cumplimiento' : 'Compliance Costs',
       items: [
-        s.requirements?.registeredAgentNotes || (isEs ? 'Agente registrado hasta la disoluci\u00F3n' : 'Registered agent until dissolution'),
-        s.requirements?.creditorNotification || (isEs ? 'Debe notificar a acreedores' : 'Must notify creditors'),
-        s.requirements?.employeeNotification || (isEs ? 'Cumplir con la ley federal WARN' : 'Follow federal WARN Act'),
+        (isEs ? (s.es?.registeredAgentNotes || s.requirements?.registeredAgentNotes) : s.requirements?.registeredAgentNotes) || (isEs ? 'Agente registrado hasta la disoluci\u00F3n' : 'Registered agent until dissolution'),
+        (isEs ? (s.es?.creditorNotification || s.requirements?.creditorNotification) : s.requirements?.creditorNotification) || (isEs ? 'Debe notificar a acreedores' : 'Must notify creditors'),
+        (isEs ? (s.es?.employeeNotification || s.requirements?.employeeNotification) : s.requirements?.employeeNotification) || (isEs ? 'Cumplir con la ley federal WARN' : 'Follow federal WARN Act'),
       ],
       color: '#7B2D8E',
     },
@@ -310,7 +310,7 @@ export function buildGuideContents(s: any, locale: 'en' | 'es' = 'en'): Array<{ 
   });
   items.push({
     text: isEs
-      ? `Notificaci\u00F3n a Empleados: ${s.requirements?.employeeNotification?.split('.')[0] || 'Cumplimiento de la Ley WARN'}`
+      ? `Notificaci\u00F3n a Empleados: ${(s.es?.employeeNotification || s.requirements?.employeeNotification)?.split('.')[0] || 'Cumplimiento de la Ley WARN'}`
       : `Employee Notification: ${s.requirements?.employeeNotification?.split('.')[0] || 'WARN Act Compliance'}`,
     hot: false,
   });

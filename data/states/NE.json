@@ -85,5 +85,40 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar la Declaración de disolución ante la Secretaría de Estado ($25 en línea, $30 en oficina)",
+      "Presentar las declaraciones de impuestos finales del estado de Nebraska",
+      "Cerrar todas las cuentas tributarias con el Nebraska Department of Revenue",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "La tarifa de presentación es de $25 para presentación en línea o $30 para presentación en oficina. Las LLC constituidas después del 1 de enero de 2011 presentan una Declaración de disolución. Las LLC constituidas antes de esa fecha podrían necesitar presentar una Declaración de disolución diferente.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar los artículos de disolución ante la Secretaría de Estado ($25 en línea, $30 en oficina)",
+      "Presentar las declaraciones de impuestos finales del estado de Nebraska",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "corp_notes": "La tarifa de presentación es de $25 para presentación en línea o $30 para presentación en oficina. El procesamiento generalmente toma de 2 a 3 días hábiles.",
+    "tax_notes": "Presentar la declaración final del impuesto sobre la renta corporativa de Nebraska y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Notificar al DOR sobre la disolución del negocio.",
+    "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos después de la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

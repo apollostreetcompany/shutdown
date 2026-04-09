@@ -87,5 +87,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución conforme al acuerdo operativo o por consentimiento unánime de los miembros",
+      "Si no es unánime, presentar primero el certificado de disolución (Formulario LLC-3)",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Presentar la declaración de impuestos final (Formulario 568) ante Franchise Tax Board",
+      "Obtener el certificado de liquidación fiscal de Franchise Tax Board si es necesario",
+      "Presentar el certificado de cancelación (Formulario LLC-4/7) ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final",
+      "No se requiere tarifa de presentación"
+    ],
+    "llc_notes": "Sin tarifa de presentación para la disolución/cancelación. Si todos los miembros votan la disolución, solo se necesita el formulario LLC-4/7. Si no es unánime, presentar primero el formulario LLC-3 (Certificado de disolución) y luego el formulario LLC-4/7. La presentación en persona en la oficina de Sacramento genera una tarifa de manejo especial de $15.",
+    "corp_steps": [
+      "La junta directiva adopta una resolución recomendando la disolución",
+      "Los accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar las declaraciones de impuestos finales ante Franchise Tax Board",
+      "Obtener el certificado de liquidación fiscal de Franchise Tax Board",
+      "Presentar el certificado de disolución (Formulario DISS STK) ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final",
+      "No se requiere tarifa de presentación"
+    ],
+    "corp_notes": "Sin tarifa de presentación para la disolución. Se requiere Certificado de liquidación fiscal de FTB. La presentación en persona en la oficina de Sacramento genera una tarifa de manejo especial de $15. Disolución simplificada disponible para corporaciones que no hayan emitido acciones.",
+    "tax_notes": "Se requiere el certificado de liquidación fiscal de FTB antes o de forma simultánea con la presentación de la disolución. Presentar todas las declaraciones de impuestos pendientes y pagar todos los saldos, incluidas penalidades, tarifas e intereses. Las LLC deben pagar el impuesto anual de $800 hasta que se presente la cancelación ante la Secretaría de Estado. Los formularios de disolución deben presentarse ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final.",
+    "timeline_waitingPeriods": "Se debe presentar la disolución dentro de los 12 meses siguientes a la declaración de impuestos final",
+    "employeeNotification": "La Ley WARN de California requiere 60 días de aviso para 75 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El agente para recepción de notificaciones legales debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio; la disolución debe presentarse dentro de los 12 meses siguientes a la declaración de impuestos final",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o accionistas (corporación); el consentimiento unánime permite la cancelación simplificada de LLC",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

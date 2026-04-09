@@ -1,12 +1,16 @@
 ---
+import LanguageSwitcher from '../components/LanguageSwitcher.astro';
+
 interface Props {
   title: string;
   description: string;
   canonical?: string;
   ogImage?: string;
+  locale?: 'en' | 'es';
+  alternateUrl?: string;
 }
 
-const { title, description, canonical, ogImage } = Astro.props;
+const { title, description, canonical, ogImage, locale = 'en', alternateUrl } = Astro.props;
 const siteUrl = 'https://shutdownassistant.com';
 const fullTitle = `${title} | Shutdown Assistant`;
 const ogImg = ogImage || `${siteUrl}/og-default.png`;
@@ -20,6 +24,8 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical || Astro.url.href} />
+    {locale === 'en' && alternateUrl && <link rel="alternate" hreflang="es" href={alternateUrl} />}
+    {locale === 'en' && alternateUrl && <link rel="alternate" hreflang="en" href={canonical || Astro.url.href} />}
 
     <!-- OG -->
     <meta property="og:type" content="website" />
@@ -61,9 +67,13 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
         <div class="hidden items-center gap-6 md:flex">
           <a href="/states" class="text-sm font-medium text-slate-600 hover:text-slate-900">All States</a>
           <a href="/pricing" class="text-sm font-medium text-slate-600 hover:text-slate-900">Pricing</a>
+          <LanguageSwitcher currentLocale={locale} alternateUrl={alternateUrl} />
           <a href="/shutdown-agent" class="rounded-lg bg-red-600 px-4 py-2 text-sm font-bold text-white hover:bg-red-700">
             Hire Shutdown Agent — $1,000
           </a>
+        </div>
+        <div class="flex items-center gap-3 md:hidden">
+          <LanguageSwitcher currentLocale={locale} alternateUrl={alternateUrl} />
         </div>
       </div>
     </nav>

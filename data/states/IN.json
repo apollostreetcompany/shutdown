@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Indiana Department of Revenue",
+      "Completar el State Form 49465 (Artículos de disolución de una LLC)",
+      "Presentar en línea a través de INBiz ($30) o por correo ($30 con cheque a nombre de Indiana Secretary of State)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "llc_notes": "La presentación en línea a través del portal INBiz acepta Visa, MasterCard y Discover. Las presentaciones en persona realizadas antes del mediodía se procesan el mismo día.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Indiana Department of Revenue",
+      "Completar el State Form 34471 (Artículos de disolución de una corporación)",
+      "Presentar en línea a través de INBiz ($30) o por correo ($30)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "Para Corporaciones que no han emitido acciones ni han iniciado operaciones, utilice el formulario alternativo de disolución. La presentación en línea requiere pago con tarjeta de crédito.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos (IT-20) o la declaración de sociedad (IT-65). Debe presentar una declaración final de impuestos sobre ventas si corresponde. Solicite el cierre de las cuentas fiscales ante el Indiana Department of Revenue. Todas las obligaciones tributarias deben estar saldadas antes de la disolución.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones (mínimo 120 días)",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la presentación",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

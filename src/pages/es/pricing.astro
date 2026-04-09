@@ -1,0 +1,130 @@
+---
+import BaseLayoutES from '../../layouts/BaseLayoutES.astro';
+const siteUrl = 'https://shutdownassistant.com';
+---
+
+<BaseLayoutES
+  title="Precios"
+  description="Precios transparentes para guías y servicios de cierre de negocios. Guías gratuitas por estado, guías detalladas por $49, o servicio completo de cierre por $1,000."
+  canonical={`${siteUrl}/es/pricing`}
+  alternateUrl={`${siteUrl}/pricing`}
+>
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-5xl">
+      <h1 class="mb-2 text-center text-4xl font-bold text-slate-900">Precios</h1>
+      <p class="mb-12 text-center text-lg text-slate-500">Elige el nivel de ayuda que necesitas para cerrar tu negocio.</p>
+
+      <div class="grid gap-8 md:grid-cols-3">
+
+        <!-- Free Guide -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+          <h2 class="mb-1 text-xl font-bold text-slate-900">Guía Gratuita por Estado</h2>
+          <div class="mb-4 text-4xl font-bold text-slate-900">$0</div>
+          <p class="mb-6 text-sm text-slate-500">Lo esencial para cerrar en cualquier estado.</p>
+          <ul class="mb-8 space-y-2 text-sm text-slate-600">
+            {[
+              'Resumen paso a paso de la disolución',
+              'Formularios clave con enlaces directos',
+              'Tabla de tarifas de presentación',
+              'Enlaces oficiales a la Secretaría de Estado',
+              'Tiempos de procesamiento estimados',
+              'Requisitos de liquidación fiscal',
+            ].map(f => (
+              <li class="flex items-start gap-2">
+                <span class="mt-0.5 text-green-500">✓</span>
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/es/states"
+            class="block rounded-lg border-2 border-slate-200 px-4 py-3 text-center text-sm font-bold text-slate-700 hover:border-slate-400"
+          >
+            Ver Guías Gratuitas
+          </a>
+        </div>
+
+        <!-- Detailed Guide - Highlighted -->
+        <div class="relative rounded-2xl border-2 border-red-600 bg-white p-8 shadow-lg">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-red-600 px-4 py-1 text-xs font-bold text-white">
+            Más Popular
+          </div>
+          <h2 class="mb-1 text-xl font-bold text-slate-900">Guía Detallada por Estado</h2>
+          <div class="mb-4 text-4xl font-bold text-slate-900">$49</div>
+          <p class="mb-6 text-sm text-slate-500">Todo lo que necesitas para cerrar en tu estado.</p>
+          <ul class="mb-8 space-y-2 text-sm text-slate-600">
+            {[
+              'Todo lo de la guía gratuita, más:',
+              'Instrucciones de llenado formulario por formulario',
+              'Plantillas de notificación a acreedores',
+              'Plantillas de notificación a empleados',
+              'Proceso de liquidación fiscal paso a paso',
+              'Lista de verificación completa post-disolución',
+              'Errores comunes y cómo evitarlos',
+              'Opciones y consejos de presentación acelerada',
+              'Coordinación de cierre de múltiples entidades',
+              'Instrucciones para cerrar tu EIN ante el IRS',
+            ].map(f => (
+              <li class="flex items-start gap-2">
+                <span class="mt-0.5 text-green-500">✓</span>
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="https://buy.stripe.com/14A00jdmt51r6xFfh2co007"
+            class="block rounded-lg bg-red-600 px-4 py-3 text-center text-sm font-bold text-white hover:bg-red-700"
+          >
+            Obtener la Guía de Tu Estado
+          </a>
+        </div>
+
+        <!-- Shutdown Agent -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+          <h2 class="mb-1 text-xl font-bold text-slate-900">Agente de Cierre</h2>
+          <div class="mb-4 text-4xl font-bold text-slate-900">$1,000</div>
+          <p class="mb-6 text-sm text-slate-500">Nosotros nos encargamos de todo. Tarifa fija.</p>
+          <ul class="mb-8 space-y-2 text-sm text-slate-600">
+            {[
+              'Todo lo de la guía detallada, más:',
+              'Presentación completa de la disolución por nuestro equipo',
+              'Coordinación de liquidación fiscal con el estado',
+              'Todas las notificaciones a acreedores enviadas',
+              'Cierre de EIN ante el IRS',
+              'Cierre de cuentas fiscales estatales',
+              'Cancelación de licencias comerciales',
+              'Certificado de disolución obtenido',
+              '90 días de monitoreo post-cierre',
+              'Coordinador de cierre dedicado',
+            ].map(f => (
+              <li class="flex items-start gap-2">
+                <span class="mt-0.5 text-green-500">✓</span>
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/es/shutdown-agent"
+            class="block rounded-lg border-2 border-slate-900 bg-slate-900 px-4 py-3 text-center text-sm font-bold text-white hover:bg-slate-800"
+          >
+            Iniciar Cierre
+          </a>
+        </div>
+      </div>
+
+      <!-- Bundle -->
+      <div class="mt-12 rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+        <h3 class="mb-2 text-xl font-bold text-slate-900">Paquete Profesional: Los 50 Estados</h3>
+        <p class="mb-4 text-slate-500">Para abogados, contadores y consultores que gestionan cierres de negocios para sus clientes.</p>
+        <div class="mb-4">
+          <span class="text-4xl font-bold text-slate-900">$99</span>
+          <span class="text-sm text-slate-500"> pago único</span>
+          <span class="ml-2 text-sm text-slate-400 line-through">$2,450 si se compran por separado</span>
+        </div>
+        <a href="https://buy.stripe.com/9B67sLdmtbpPg8fgl6co008" class="inline-block rounded-lg bg-slate-900 px-8 py-3 text-sm font-bold text-white hover:bg-slate-800">
+          Obtener las 50 Guías Estatales
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayoutES>

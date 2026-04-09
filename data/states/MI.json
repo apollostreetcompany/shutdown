@@ -86,5 +86,41 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar el certificado de disolución (Formulario CSCL/CD-731) ante LARA (tarifa de $10)",
+      "Solicitar la liquidación fiscal al Michigan Department of Treasury (Formulario 5156) dentro de los 60 días posteriores a la presentación de la disolución",
+      "Presentar las declaraciones de impuestos finales de Michigan",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "Michigan cobra solo $10 para disolver una LLC, una de las tarifas más bajas del país. El procesamiento acelerado está disponible: $100 por servicio en 24 horas, $1,000 por servicio en 1 hora.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar el certificado de disolución (Formulario CSCL/CD-531) ante LARA (tarifa de $25)",
+      "Solicitar la liquidación fiscal al Michigan Department of Treasury (Formulario 5156) dentro de los 60 días",
+      "Presentar las declaraciones de impuestos finales de Michigan, incluyendo la declaración final del CIT",
+      "Presentar el formulario 966 del IRS dentro de los 30 días posteriores a la adopción del plan de disolución"
+    ],
+    "corp_notes": "Dentro de los 60 días después de presentar el certificado de disolución, solicite la liquidación fiscal al Michigan Department of Treasury usando el formulario 5156. Adjunte también el formulario 163 (Aviso de Cambio o Discontinuación).",
+    "tax_notes": "La Liquidación Fiscal no es obligatoria antes de presentar la disolución, pero se recomienda ampliamente. Solicite la liquidación fiscal usando el formulario 5156 dentro de los 60 días posteriores a la presentación de la disolución. Presente las declaraciones de impuestos comerciales finales dentro de los 15 días de cesar operaciones. Adjunte el formulario 163 (Aviso de Cambio o Discontinuación) a su solicitud de autorización.",
+    "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; otorgar al menos 120 días para la presentación de reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "La Corporación continúa vigente para efectos del proceso de liquidación después de la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

@@ -1,0 +1,40 @@
+---
+interface Props {
+  currentLocale: 'en' | 'es';
+  alternateUrl?: string;
+}
+
+const { currentLocale, alternateUrl } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+function getAlternateUrl(): string {
+  if (alternateUrl) return alternateUrl;
+  if (currentLocale === 'en') {
+    return '/es' + (currentPath === '/' ? '' : currentPath);
+  }
+  const stripped = currentPath.replace(/^\/es/, '') || '/';
+  return stripped;
+}
+
+const switchUrl = getAlternateUrl();
+const isEn = currentLocale === 'en';
+---
+
+<div class="flex items-center gap-0.5 rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold">
+  <a
+    href={isEn ? Astro.url.pathname : switchUrl}
+    class:list={[
+      'rounded px-2.5 py-1.5 transition',
+      isEn ? 'bg-slate-900 text-white shadow-sm' : 'text-slate-500 hover:text-slate-900',
+    ]}
+    aria-current={isEn ? 'page' : undefined}
+  >EN</a>
+  <a
+    href={isEn ? switchUrl : Astro.url.pathname}
+    class:list={[
+      'rounded px-2.5 py-1.5 transition',
+      !isEn ? 'bg-slate-900 text-white shadow-sm' : 'text-slate-500 hover:text-slate-900',
+    ]}
+    aria-current={!isEn ? 'page' : undefined}
+  >ES</a>
+</div>

@@ -88,5 +88,42 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante la Utah State Tax Commission",
+      "Presentar los artículos de disolución ante la Utah Division of Corporations en línea o por correo",
+      "No se requiere tarifa de presentación para el procesamiento estándar",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Utah no cobra una tarifa de presentación por los artículos de disolución. El procesamiento acelerado está disponible por una tarifa adicional de $75. Presente en línea o por correo a PO Box 146705, Salt Lake City, UT 84114-6705.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante la Utah State Tax Commission",
+      "Presentar los artículos de disolución ante la Utah Division of Corporations en línea o por correo",
+      "No se requiere tarifa de presentación para el procesamiento estándar",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "Utah no cobra una tarifa de presentación por los artículos de disolución. El procesamiento acelerado está disponible por una tarifa adicional de $75. Las corporaciones nacionales no necesitan un Certificado de liquidación fiscal para disolverse.",
+    "tax_notes": "Utah no requiere un certificado de liquidación fiscal para la disolución de entidades nacionales. Sin embargo, debe presentar las declaraciones de impuestos finales e informar a la Utah State Tax Commission que está disolviendo la entidad para cerrar sus cuentas de impuestos. Las corporaciones extranjeras deben obtener un Certificado de liquidación fiscal antes de retirarse de Utah.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

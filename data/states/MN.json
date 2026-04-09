@@ -86,5 +86,41 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar la Declaración de disolución ante la Secretaría de Estado ($35 por correo, $55 procesamiento acelerado)",
+      "Presentar las declaraciones de impuestos finales del estado de Minnesota",
+      "Presentar la Declaración de Terminación una vez completado el proceso de liquidación",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "Minnesota requiere dos presentaciones: primero una Declaración de disolución, luego una Declaración de Terminación una vez completado el proceso de liquidación. La tarifa de presentación es de $35 por correo o $55 para presentación en persona con procesamiento acelerado.",
+    "corp_steps": [
+      "La junta directiva adopta una resolución recomendando la disolución",
+      "Presentar la Intención de Disolver ante la Secretaría de Estado",
+      "Los accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar los artículos de disolución ante la Secretaría de Estado ($35 por correo, $55 con procesamiento acelerado)",
+      "Presentar las declaraciones de impuestos finales del estado de Minnesota",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "corp_notes": "Las corporaciones deben primero presentar una Intención de Disolver, luego completar el proceso de liquidación y finalmente presentar los artículos de disolución. La tarifa de presentación es de $35 por correo o $55 con procesamiento acelerado.",
+    "tax_notes": "Presentar la declaración final del impuesto de franquicia corporativa de Minnesota y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Las LLC gravadas como entidades de traspaso deben asegurarse de que todos los miembros presenten la información final del formulario K-1.",
+    "employeeNotification": "La Ley WARN de Minnesota exige 60 días de aviso para cierres de plantas que afecten a 50 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar aviso para los acreedores desconocidos",
+    "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté finalizada",
+    "windingUpPeriod": "La corporación continúa vigente para el proceso de liquidación después de presentar la Intención de Disolver; la LLC continúa después de la Declaración de disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

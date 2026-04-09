@@ -85,5 +85,39 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio y saldar las deudas",
+      "Presentar los artículos de disolución (por duplicado) ante la Secretaría de Estado",
+      "Presentar el original y dos copias de los artículos de disolución ante el Juez de Sucesiones del condado donde se presentó el certificado de Constitución",
+      "Pagar la tarifa de presentación de $100",
+      "Presentar las declaraciones de impuestos estatales finales ante Alabama Department of Revenue"
+    ],
+    "llc_notes": "Se deben presentar los documentos de disolución tanto ante la Secretaría de Estado como ante el Juez de Sucesiones del condado.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución recomendando la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+      "Presentar los artículos de disolución ante la Secretaría de Estado",
+      "Pagar la tarifa de presentación de $100",
+      "Presentar las declaraciones de impuestos estatales finales ante Alabama Department of Revenue"
+    ],
+    "tax_notes": "Presentar la declaración final del Impuesto de Privilegio Comercial de Alabama. Notificar a Alabama Department of Revenue sobre la disolución para cerrar las cuentas fiscales.",
+    "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+    "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

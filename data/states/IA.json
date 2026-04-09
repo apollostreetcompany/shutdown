@@ -89,5 +89,45 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Iowa Department of Revenue",
+      "Redactar la Declaración de disolución (debe incluir el nombre de la LLC y la declaración de que está disuelta)",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $5",
+      "Presentar la Declaración de Terminación una vez completado el proceso de liquidación (tarifa de $5)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "llc_notes": "Iowa no proporciona un formulario estándar para la disolución de LLCs. Debe redactar su propia declaración que incluya el nombre de la LLC y que está disuelta. Se presenta una Declaración de Terminación por separado después de completar el proceso de liquidación.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Iowa Department of Revenue",
+      "Redactar los artículos de disolución conforme a Iowa Code Section 490.1403",
+      "Presentar ante la Secretaría de Estado con tarifa de presentación de $5",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "Iowa no proporciona un formulario preimpreso para los artículos de disolución. Debe redactar su propio documento que cumpla con los requisitos de Iowa Code Section 490.1403. La presentación está disponible en línea a través de Fast Track Filing, por correo o en persona.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Iowa (IA 1120) o la declaración de sociedad. Presente la declaración final de impuestos sobre ventas si corresponde. Debe obtener una Liquidación Fiscal o confirmar que todos los impuestos están pagados antes de que se acepte la disolución.",
+    "timeline_waitingPeriods": "Se requiere un período de proceso de liquidación entre la presentación de la Declaración de disolución y la Declaración de Terminación",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 25 o más empleados según la ley de Iowa)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse durante el período de proceso de liquidación hasta que se presente la terminación",
+    "windingUpPeriod": "Se requiere un período de proceso de liquidación entre la disolución y la terminación; la entidad continúa existiendo únicamente con fines de liquidación",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas conforme a Iowa Code 490.1402.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

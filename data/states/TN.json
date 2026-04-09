@@ -89,5 +89,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo",
+      "Presentar el Aviso de disolución (Formulario SS-4246) ante la Secretaría de Estado — tarifa de $20",
+      "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+      "Obtener la liquidación fiscal del Tennessee Department of Revenue",
+      "Presentar los artículos de Terminación (Formulario SS-4245) ante la Secretaría de Estado — tarifa de $20",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Presentar las declaraciones de impuestos estatales y federales finales",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Tennessee requiere dos presentaciones separadas: un Aviso de disolución ($20) y Artículos de Terminación ($20), con un total de $40. Debe obtener la liquidación fiscal del Department of Revenue antes de presentar los artículos de Terminación. No presentar la solicitud de terminación deja a la LLC en los registros y sujeta a la tarifa de informe anual de $300.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+      "Obtener la liquidación fiscal del Tennessee Department of Revenue",
+      "Presentar los artículos de disolución (Formulario SS-4410) ante la Secretaría de Estado — tarifa de $20",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Presentar las declaraciones de impuestos estatales y federales finales",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "La División de Servicios Empresariales solicitará la liquidación fiscal al Department of Revenue cuando usted realice la presentación. Si existe deuda tributaria pendiente, los artículos serán rechazados.",
+    "tax_notes": "Se requiere Liquidación Fiscal antes de presentar los artículos de Terminación. Solicite la liquidación fiscal a través de TNTAP (Tennessee Taxpayer Access Point). Si todos los impuestos han sido pagados, el Department of Revenue enviará por correo una carta de liquidación fiscal en un plazo de 3 a 5 días y enviará una copia electrónica a la Secretaría de Estado. Tennessee tiene impuestos de franquicia e impuestos sobre consumos específicos que deben liquidarse.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones (mínimo 120 días)",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la presentación final de la disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (mayoría de las acciones con derecho a voto).",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

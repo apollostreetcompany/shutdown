@@ -92,5 +92,48 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Solicitar un Certificado de Liquidación de Ingresos al Washington Department of Revenue",
+      "Recibir el certificado de Liquidación de Ingresos (el DOR lo envía directamente a la Secretaría de Estado)",
+      "Presentar el certificado de disolución ante la Secretaría de Estado (sin tarifa de presentación)",
+      "Adjuntar el certificado de Liquidación de Ingresos con la presentación de la disolución",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Presentar las declaraciones de impuestos estatales y federales finales",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Washington no cobra tarifa de presentación por la disolución. Sin embargo, debe obtener un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar. No presente la disolución sin el certificado real -- presentar solo la solicitud no es aceptable. 120 días después de la presentación, la entidad queda disuelta permanentemente y no puede ser reinstalada.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Solicitar un Certificado de Liquidación de Ingresos al Washington Department of Revenue",
+      "Recibir el certificado de Liquidación de Ingresos (el DOR lo envía directamente a la Secretaría de Estado)",
+      "Presentar los artículos de disolución ante la Secretaría de Estado (sin tarifa de presentación)",
+      "Adjuntar el certificado de Liquidación de Ingresos con la presentación de la disolución",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Presentar las declaraciones de impuestos estatales y federales finales",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "Washington no cobra tarifa de presentación por la disolución. Debe obtener un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar. Si aplican tarifas, haga los cheques o giros postales a nombre de la Secretaría de Estado.",
+    "tax_notes": "Se requiere un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar los documentos de disolución. Solicítelo a través del Department of Revenue. Ellos enviarán el certificado directamente a la oficina de la Secretaría de Estado. Washington no tiene impuesto estatal sobre la renta, pero tiene impuesto Business & Occupation (B&O) e impuesto sobre ventas que deben liquidarse.",
+    "timeline_waitingPeriods": "120 días después de presentar la disolución, la entidad queda disuelta permanentemente y no puede ser reinstalada",
+    "employeeNotification": "Debe proporcionar notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "windingUpPeriod": "120 días después de la presentación, la entidad queda disuelta permanentemente",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

@@ -1,0 +1,354 @@
+---
+import BaseLayoutES from '../../../layouts/BaseLayoutES.astro';
+import stateData from '../../../../data/states/index.json';
+
+export function getStaticPaths() {
+  return Object.values(stateData).map((s: any) => ({
+    params: { slug: s.slug },
+    props: { state: s },
+  }));
+}
+
+const { state } = Astro.props;
+const s = state as any;
+const es = s.es || {};
+
+// Use Spanish translations with English fallback
+const llcSteps: string[] = es.llc_steps || s.entities?.llc?.steps || [];
+const llcNotes: string = es.llc_notes || s.entities?.llc?.notes || '';
+const corpSteps: string[] = es.corp_steps || s.entities?.corporation?.steps || [];
+const corpNotes: string = es.corp_notes || s.entities?.corporation?.notes || '';
+const taxNotes: string = es.tax_notes || s.tax?.notes || '';
+const creditorNotification: string = es.creditorNotification || s.requirements?.creditorNotification || '';
+const employeeNotification: string = es.employeeNotification || s.requirements?.employeeNotification || '';
+const boardOrMemberApproval: string = es.boardOrMemberApproval || s.requirements?.boardOrMemberApproval || '';
+const windingUpPeriod: string = es.windingUpPeriod || s.requirements?.windingUpPeriod || '';
+const registeredAgentNotes: string = es.registeredAgentNotes || s.requirements?.registeredAgentNotes || '';
+const publicationDetails: string = s.requirements?.publicationDetails || '';
+
+const siteUrl = 'https://shutdownassistant.com';
+const canonicalUrl = `${siteUrl}/es/states/${s.slug}`;
+const alternateEnUrl = `${siteUrl}/states/${s.slug}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": `Cómo Cerrar un Negocio en ${s.name}`,
+  "description": `Guía paso a paso para disolver tu LLC o corporación en ${s.name}. Cada formulario, tarifa y plazo de la ${s.agency}.`,
+  "inLanguage": "es",
+  "totalTime": s.timeline?.standardProcessingDays || "P30D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": s.entities?.llc?.fee || 0
+  },
+  "step": llcSteps.map((step: string, i: number) => ({
+    "@type": "HowToStep",
+    "position": i + 1,
+    "text": step
+  }))
+};
+---
+
+<BaseLayoutES
+  title={`Cómo Cerrar un Negocio en ${s.name} — Guía Completa de Disolución`}
+  description={`Guía completa para disolver tu LLC, corporación u otra entidad comercial en ${s.name}. Formularios, tarifas, plazos y proceso paso a paso de la ${s.agency}.`}
+  canonical={canonicalUrl}
+  alternateUrl={alternateEnUrl}
+>
+  <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />
+
+  <!-- Breadcrumb -->
+  <div class="border-b border-slate-200 bg-white px-4 py-3">
+    <div class="mx-auto max-w-4xl text-sm text-slate-500">
+      <a href="/es" class="hover:text-slate-900">Inicio</a>
+      <span class="mx-2">/</span>
+      <a href="/es/states" class="hover:text-slate-900">Estados</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-900">{s.name}</span>
+    </div>
+  </div>
+
+  <article class="px-4 py-12">
+    <div class="mx-auto max-w-4xl">
+      <!-- Header -->
+      <div class="mb-8">
+        <div class="mb-2 flex items-center gap-3">
+          <span class="text-3xl font-bold text-red-600">{s.code}</span>
+          <div class="flex gap-2">
+            {s.tax?.clearanceRequired && (
+              <span class="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-700">Liquidación Fiscal Requerida</span>
+            )}
+            {s.entities?.llc?.onlineFiling && (
+              <span class="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-700">Presentación en Línea Disponible</span>
+            )}
+          </div>
+        </div>
+        <h1 class="mb-3 text-3xl font-bold text-slate-900 md:text-4xl">
+          Cómo Cerrar un Negocio en {s.name}
+        </h1>
+        <p class="text-lg text-slate-500">
+          Guía completa para disolver tu entidad comercial con la {s.agency}.
+        </p>
+      </div>
+
+      <!-- Quick Answer Block -->
+      <div class="mb-8 rounded-xl border border-blue-200 bg-blue-50 p-6">
+        <p class="mb-1 text-xs font-medium uppercase tracking-wider text-blue-600">Respuesta Rápida</p>
+        <p class="text-sm text-slate-700">
+          Para disolver un negocio en {s.name}, presenta {s.entities?.llc?.formName || 'documentos de disolución'} con la {s.agency}.
+          La tarifa de presentación de LLC es ${s.entities?.llc?.fee || '—'} y la de corporación es ${s.entities?.corporation?.fee || '—'}.
+          {s.tax?.clearanceRequired
+            ? `${s.name} requiere liquidación fiscal de la ${s.tax.taxAgency} antes de la disolución.`
+            : `${s.name} no requiere liquidación fiscal antes de presentar.`}
+          El procesamiento estándar toma {s.timeline?.standardProcessingDays || 'variable'}.
+        </p>
+      </div>
+
+      <!-- Quick Facts Table -->
+      <div class="mb-10 overflow-hidden rounded-xl border border-slate-200 bg-white">
+        <div class="border-b border-slate-200 bg-slate-50 px-6 py-3">
+          <h2 class="font-bold text-slate-900">Datos Rápidos</h2>
+        </div>
+        <table class="w-full text-sm">
+          <tbody>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Agencia de Presentación</td>
+              <td class="px-6 py-3 text-slate-900">{s.agency}</td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Sitio Oficial</td>
+              <td class="px-6 py-3"><a href={s.website} class="text-red-600 hover:underline" target="_blank" rel="noopener">{s.website}</a></td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Tarifa de Disolución LLC</td>
+              <td class="px-6 py-3 text-slate-900">${s.entities?.llc?.fee || '—'}</td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Tarifa de Disolución Corporación</td>
+              <td class="px-6 py-3 text-slate-900">${s.entities?.corporation?.fee || '—'}</td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Liquidación Fiscal Requerida</td>
+              <td class="px-6 py-3 text-slate-900">{s.tax?.clearanceRequired ? 'Sí' : 'No'}</td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Tiempo de Procesamiento</td>
+              <td class="px-6 py-3 text-slate-900">{s.timeline?.standardProcessingDays || '—'}</td>
+            </tr>
+            <tr class="border-b border-slate-100">
+              <td class="px-6 py-3 font-medium text-slate-600">Presentación en Línea</td>
+              <td class="px-6 py-3 text-slate-900">{s.entities?.llc?.onlineFiling ? 'Sí' : 'No'}</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-3 font-medium text-slate-600">Teléfono</td>
+              <td class="px-6 py-3 text-slate-900">{s.phone || '—'}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- LLC Dissolution -->
+      {s.entities?.llc && (
+        <section class="mb-10" id="llc">
+          <h2 class="mb-4 text-2xl font-bold text-slate-900">Disolución de LLC en {s.name}</h2>
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <div class="mb-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Formulario</div>
+                <div class="text-sm font-bold text-slate-900">{s.entities.llc.formName}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Tarifa</div>
+                <div class="text-sm font-bold text-slate-900">${s.entities.llc.fee}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">En Línea</div>
+                <div class="text-sm font-bold text-slate-900">{s.entities.llc.onlineFiling ? 'Sí' : 'No'}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Procesamiento</div>
+                <div class="text-sm font-bold text-slate-900">{s.timeline?.standardProcessingDays || '—'}</div>
+              </div>
+            </div>
+
+            {s.entities.llc.formUrl && (
+              <a href={s.entities.llc.formUrl} class="mb-4 inline-block text-sm text-red-600 hover:underline" target="_blank" rel="noopener">
+                Descargar Formulario &rarr;
+              </a>
+            )}
+
+            <h3 class="mb-2 mt-4 font-bold text-slate-800">Pasos para Disolver una LLC</h3>
+            <ol class="space-y-2">
+              {llcSteps.map((step: string, i: number) => (
+                <li class="flex gap-3 text-sm text-slate-600">
+                  <span class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-600">{i + 1}</span>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+
+            {llcNotes && (
+              <p class="mt-4 rounded-lg bg-slate-50 p-3 text-xs text-slate-600">{llcNotes}</p>
+            )}
+          </div>
+        </section>
+      )}
+
+      <!-- Corporation Dissolution -->
+      {s.entities?.corporation && (
+        <section class="mb-10" id="corporation">
+          <h2 class="mb-4 text-2xl font-bold text-slate-900">Disolución de Corporación en {s.name}</h2>
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <div class="mb-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Formulario</div>
+                <div class="text-sm font-bold text-slate-900">{s.entities.corporation.formName}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Tarifa</div>
+                <div class="text-sm font-bold text-slate-900">${s.entities.corporation.fee}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">En Línea</div>
+                <div class="text-sm font-bold text-slate-900">{s.entities.corporation.onlineFiling ? 'Sí' : 'No'}</div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3 text-center">
+                <div class="text-xs text-slate-500">Procesamiento</div>
+                <div class="text-sm font-bold text-slate-900">{s.timeline?.standardProcessingDays || '—'}</div>
+              </div>
+            </div>
+
+            {s.entities.corporation.formUrl && (
+              <a href={s.entities.corporation.formUrl} class="mb-4 inline-block text-sm text-red-600 hover:underline" target="_blank" rel="noopener">
+                Descargar Formulario &rarr;
+              </a>
+            )}
+
+            <h3 class="mb-2 mt-4 font-bold text-slate-800">Pasos para Disolver una Corporación</h3>
+            <ol class="space-y-2">
+              {corpSteps.map((step: string, i: number) => (
+                <li class="flex gap-3 text-sm text-slate-600">
+                  <span class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-600">{i + 1}</span>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+
+            {corpNotes && (
+              <p class="mt-4 rounded-lg bg-slate-50 p-3 text-xs text-slate-600">{corpNotes}</p>
+            )}
+          </div>
+        </section>
+      )}
+
+      <!-- Tax Requirements -->
+      {s.tax && (
+        <section class="mb-10" id="impuestos">
+          <h2 class="mb-4 text-2xl font-bold text-slate-900">Requisitos Fiscales</h2>
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <div class="mb-4 grid grid-cols-2 gap-4">
+              <div class="rounded-lg bg-slate-50 p-3">
+                <div class="text-xs text-slate-500">Liquidación Fiscal Requerida</div>
+                <div class:list={['text-sm font-bold', s.tax.clearanceRequired ? 'text-amber-600' : 'text-green-600']}>
+                  {s.tax.clearanceRequired ? 'Sí' : 'No'}
+                </div>
+              </div>
+              <div class="rounded-lg bg-slate-50 p-3">
+                <div class="text-xs text-slate-500">Declaración Final Requerida</div>
+                <div class="text-sm font-bold text-slate-900">{s.tax.finalReturnRequired ? 'Sí' : 'No'}</div>
+              </div>
+            </div>
+            <div class="space-y-2 text-sm text-slate-600">
+              <p><span class="font-medium text-slate-800">Agencia Fiscal:</span> {s.tax.taxAgency}</p>
+              {s.tax.taxAgencyUrl && <p><a href={s.tax.taxAgencyUrl} class="text-red-600 hover:underline" target="_blank" rel="noopener">{s.tax.taxAgencyUrl}</a></p>}
+              {s.tax.taxAgencyPhone && <p><span class="font-medium text-slate-800">Teléfono:</span> {s.tax.taxAgencyPhone}</p>}
+              {taxNotes && <p class="rounded-lg bg-amber-50 p-3 text-amber-800">{taxNotes}</p>}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- Additional Requirements -->
+      {s.requirements && (
+        <section class="mb-10" id="requisitos">
+          <h2 class="mb-4 text-2xl font-bold text-slate-900">Requisitos Adicionales</h2>
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <div class="space-y-4 text-sm">
+              <div>
+                <span class="font-medium text-slate-800">Publicación Requerida:</span>
+                <span class="text-slate-600"> {s.requirements.publicationRequired ? 'Sí' : 'No'}</span>
+                {publicationDetails && <p class="mt-1 text-slate-500">{publicationDetails}</p>}
+              </div>
+              {creditorNotification && (
+                <div>
+                  <span class="font-medium text-slate-800">Notificación a Acreedores:</span>
+                  <span class="text-slate-600"> {creditorNotification}</span>
+                </div>
+              )}
+              {employeeNotification && (
+                <div>
+                  <span class="font-medium text-slate-800">Notificación a Empleados:</span>
+                  <span class="text-slate-600"> {employeeNotification}</span>
+                </div>
+              )}
+              {boardOrMemberApproval && (
+                <div>
+                  <span class="font-medium text-slate-800">Aprobación de Junta/Miembros:</span>
+                  <span class="text-slate-600"> {boardOrMemberApproval}</span>
+                </div>
+              )}
+              {windingUpPeriod && (
+                <div>
+                  <span class="font-medium text-slate-800">Período de Liquidación:</span>
+                  <span class="text-slate-600"> {windingUpPeriod}</span>
+                </div>
+              )}
+              {registeredAgentNotes && (
+                <div>
+                  <span class="font-medium text-slate-800">Agente Registrado:</span>
+                  <span class="text-slate-600"> {registeredAgentNotes}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- Contact -->
+      <section class="mb-10" id="contacto">
+        <h2 class="mb-4 text-2xl font-bold text-slate-900">Información de Contacto</h2>
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <div class="space-y-2 text-sm text-slate-600">
+            <p><span class="font-medium text-slate-800">Agencia:</span> {s.agency}</p>
+            {s.address && <p><span class="font-medium text-slate-800">Dirección:</span> {s.address}</p>}
+            {s.phone && <p><span class="font-medium text-slate-800">Teléfono:</span> {s.phone}</p>}
+            {s.email && <p><span class="font-medium text-slate-800">Correo:</span> {s.email}</p>}
+            {s.website && <p><span class="font-medium text-slate-800">Sitio Web:</span> <a href={s.website} class="text-red-600 hover:underline" target="_blank" rel="noopener">{s.website}</a></p>}
+            {s.onlinePortal && <p><span class="font-medium text-slate-800">Portal en Línea:</span> <a href={s.onlinePortal} class="text-red-600 hover:underline" target="_blank" rel="noopener">{s.onlinePortal}</a></p>}
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="rounded-2xl bg-gradient-to-r from-red-600 to-red-700 p-8 text-center text-white">
+        <h2 class="mb-2 text-2xl font-bold">¿Necesitas Ayuda para Cerrar en {s.name}?</h2>
+        <p class="mb-6 text-red-100">Obtén la guía detallada con plantillas e instrucciones paso a paso, o deja que nuestro agente lo maneje todo.</p>
+        <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <a href="/es/pricing" class="rounded-lg bg-white px-6 py-3 text-sm font-bold text-red-600 hover:bg-red-50">
+            Guía Detallada — $49
+          </a>
+          <a href="/es/shutdown-agent" class="rounded-lg border-2 border-white px-6 py-3 text-sm font-bold text-white hover:bg-white/10">
+            Agente de Cierre — $1,000
+          </a>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <p class="mt-8 text-center text-xs text-slate-400">
+        Esta guía es solo para fines informativos y no constituye asesoramiento legal. La información proviene de sitios web oficiales del estado y fue verificada en 2026. Siempre confirma los requisitos actuales directamente con la {s.agency}. Consulta a un abogado para asesoramiento específico a tu situación.
+      </p>
+    </div>
+  </article>
+</BaseLayoutES>

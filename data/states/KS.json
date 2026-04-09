@@ -90,5 +90,45 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Asegurarse de que la entidad esté en regla ante la Kansas Secretary of State",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Kansas Department of Revenue",
+      "Completar el formulario KC (Certificado de cancelación)",
+      "Presentar en línea ($35) o en papel ($35) ante la Secretaría de Estado",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "llc_notes": "La empresa debe estar en regla para poder presentar la solicitud. Si está en mora, primero debe presentar un informe de información. Si fue anulada, debe reinstalarse antes de cerrar. La tarifa es de $35 para presentación en papel; la presentación en línea también cuesta $35.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Asegurarse de que la entidad esté en regla ante la Kansas Secretary of State",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Kansas Department of Revenue",
+      "Completar el formulario DS (Certificado de disolución)",
+      "Presentar en línea ($35) o en papel ($35) ante la Secretaría de Estado",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "corp_notes": "Este formulario es para Corporaciones que ya han iniciado operaciones. Para Corporaciones que aún no han iniciado operaciones, use el formulario CP (Certificado de disolución Previo al Inicio de Operaciones).",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta de Kansas y cualquier declaración final de impuestos sobre ventas. Debe saldar todas las obligaciones tributarias. Comuníquese con el Department of Revenue para cerrar las cuentas fiscales y obtener la liquidación fiscal.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+    "registeredAgentNotes": "La entidad debe estar en regla y al corriente en todas sus presentaciones antes de que se pueda aceptar la disolución",
+    "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

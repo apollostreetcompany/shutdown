@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el Virginia Department of Taxation",
+      "Completar el formulario LLC-1050 — Artículos de cancelación",
+      "Presentar el formulario LLC-1050 ante la State Corporation Commission con una tarifa de presentación de $25",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Virginia utiliza la State Corporation Commission (SCC), no una Secretaría de Estado, para las presentaciones de negocios. La tarifa de presentación es de $25. Puede presentar en línea en cis.scc.virginia.gov y pagar con tarjeta de crédito o eCheck. Por correo, envíe a P.O. Box 1197, Richmond, VA 23218.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el Virginia Department of Taxation",
+      "Completar el formulario SCC-743 — Artículos de disolución",
+      "Presentar el formulario SCC-743 ante la State Corporation Commission con una tarifa de presentación de $25",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "Virginia utiliza la State Corporation Commission (SCC), no una Secretaría de Estado. La tarifa de presentación es de $25. Puede presentar en línea a través del Sistema de Información del Secretario (CIS) en cis.scc.virginia.gov. Para la terminación posterior a la disolución, utilice el formulario SCC-750 (Artículos de Terminación).",
+    "tax_notes": "Virginia no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos sobre la renta finales y liquidar cualquier obligación tributaria pendiente. También debe completar el proceso de liquidación y pagar cualquier deuda e impuesto pendiente antes de solicitar la disolución.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones (mínimo 120 días)",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "windingUpPeriod": "Debe completar el proceso de liquidación de todos los asuntos del negocio antes de presentar los artículos de cancelación o disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (más de dos tercios de las acciones con derecho a voto).",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

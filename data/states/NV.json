@@ -87,5 +87,42 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar el certificado de cancelación ante la Secretaría de Estado (tarifa de $100)",
+      "Presentar la declaración final del impuesto comercial de Nevada si aplica",
+      "Cancelar por separado la licencia comercial estatal a través de SilverFlume",
+      "Notificar al Nevada Department of Taxation y cerrar las cuentas tributarias",
+      "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+    ],
+    "llc_notes": "Nevada utiliza el certificado de cancelación para las LLC. Si la LLC nunca ha realizado actividades comerciales, se puede usar un Certificado de disolución en su lugar. Disolver su entidad NO cancela automáticamente su licencia comercial estatal -- debe cerrarla por separado a través de SilverFlume. Procesamiento acelerado disponible: $125 para servicio en 24 horas, $500 para servicio en 2 horas, $1,000 para servicio en 1 hora.",
+    "corp_steps": [
+      "La junta directiva adopta una resolución recomendando la disolución",
+      "Los accionistas aprueban la disolución por voto mayoritario",
+      "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+      "Presentar el certificado de disolución ante la Secretaría de Estado (tarifa de $100)",
+      "Presentar la declaración final del impuesto comercial de Nevada si aplica",
+      "Cancelar por separado la licencia comercial estatal a través de SilverFlume",
+      "Notificar al Nevada Department of Taxation y cerrar las cuentas tributarias"
+    ],
+    "corp_notes": "Las corporaciones que no han iniciado operaciones pueden usar un Certificado de disolución simplificado. Las corporaciones que han iniciado operaciones usan un formulario de disolución diferente. La licencia comercial estatal debe cancelarse por separado a través de SilverFlume.",
+    "tax_notes": "Nevada no tiene impuesto sobre la renta corporativa ni impuesto sobre la renta personal. Sin embargo, los negocios pueden estar sujetos al impuesto comercial (ingresos brutos superiores a $4 millones) y deben presentar una declaración final. La licencia comercial estatal debe cancelarse por separado. Cierre todas las cuentas con el Department of Taxation.",
+    "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+    "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa. Nevada exige un agente registrado para todas las entidades comerciales.",
+    "windingUpPeriod": "La corporación o LLC continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+    "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

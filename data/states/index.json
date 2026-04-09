@@ -86,6 +86,41 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Asegurarse de que todos los informes bienales estén al día y que la entidad esté en regla",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Completar el formulario de Artículos de disolución (08-490)",
+        "Enviar el formulario por correo con la tarifa de presentación de $25 a la Division of Corporations",
+        "Presentar las declaraciones de impuestos estatales finales ante Alaska Department of Revenue"
+      ],
+      "llc_notes": "La entidad debe estar al día con todos los informes bienales y en regla antes de la disolución voluntaria. Solo se acepta presentación por correo.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Presentar el certificado de Elección para Disolver (tarifa de $10)",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución (08-407) con tarifa de presentación de $15",
+        "Presentar las declaraciones de impuestos estatales finales ante Alaska Department of Revenue"
+      ],
+      "corp_notes": "La disolución de una corporación requiere presentar tanto un Certificado de Elección para Disolver ($10) como los artículos de disolución ($15), con un total de $25.",
+      "tax_notes": "Alaska no tiene impuesto estatal sobre la renta ni impuesto sobre ventas. Presentar la declaración final de impuesto sobre la renta corporativa si corresponde. Cerrar todas las cuentas fiscales estatales.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "AL": {
@@ -174,6 +209,40 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar los artículos de disolución (por duplicado) ante la Secretaría de Estado",
+        "Presentar el original y dos copias de los artículos de disolución ante el Juez de Sucesiones del condado donde se presentó el certificado de Constitución",
+        "Pagar la tarifa de presentación de $100",
+        "Presentar las declaraciones de impuestos estatales finales ante Alabama Department of Revenue"
+      ],
+      "llc_notes": "Se deben presentar los documentos de disolución tanto ante la Secretaría de Estado como ante el Juez de Sucesiones del condado.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución ante la Secretaría de Estado",
+        "Pagar la tarifa de presentación de $100",
+        "Presentar las declaraciones de impuestos estatales finales ante Alabama Department of Revenue"
+      ],
+      "tax_notes": "Presentar la declaración final del Impuesto de Privilegio Comercial de Alabama. Notificar a Alabama Department of Revenue sobre la disolución para cerrar las cuentas fiscales.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -265,6 +334,42 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar el informe final de impuesto de franquicia y pagar la tarifa de impuesto de franquicia de $150",
+        "Presentar la Declaración de disolución (Formulario LL-04) ante la Secretaría de Estado",
+        "Pagar la tarifa de presentación de $45 (en línea) o $50 (por correo)",
+        "Presentar las declaraciones de impuestos estatales finales ante Arkansas Department of Finance and Administration"
+      ],
+      "llc_notes": "Se debe presentar el informe final de impuesto de franquicia ($150) junto con la presentación de la disolución. La tarifa de presentación en línea es $45; la tarifa de presentación en papel es $50.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar el informe final de impuesto de franquicia y pagar las tarifas correspondientes",
+        "Presentar los artículos de disolución ante la Secretaría de Estado",
+        "Pagar la tarifa de presentación de $45 (en línea) o $50 (por correo)",
+        "Presentar las declaraciones de impuestos estatales finales ante Arkansas Department of Finance and Administration"
+      ],
+      "corp_notes": "La tarifa de presentación en línea es $45; la tarifa de presentación en papel es $50.",
+      "tax_notes": "Se debe presentar el informe final de impuesto de franquicia (tarifa de $150) y obtener la liquidación fiscal. Cerrar todas las cuentas fiscales estatales ante Arkansas Department of Finance and Administration.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "AZ": {
@@ -352,6 +457,39 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar los artículos de Terminación (Formulario L031) ante Arizona Corporation Commission",
+        "Pagar la tarifa de presentación de $35",
+        "Presentar las declaraciones de impuestos estatales finales ante Arizona Department of Revenue"
+      ],
+      "llc_notes": "Procesamiento acelerado disponible: $35 acelerado, $100 al día siguiente, $200 el mismo día, $400 servicio en dos horas.",
+      "corp_steps": [
+        "La junta directiva adopta una resolución recomendando la disolución",
+        "Los accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución (Formulario C022) ante Arizona Corporation Commission",
+        "Pagar la tarifa de presentación de $25",
+        "Presentar las declaraciones de impuestos estatales finales ante Arizona Department of Revenue"
+      ],
+      "tax_notes": "Presentar la declaración final de impuesto sobre la renta corporativa de Arizona (Formulario 120) y cerrar todas las cuentas fiscales ante Arizona Department of Revenue.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o accionistas (corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -444,6 +582,44 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución conforme al acuerdo operativo o por consentimiento unánime de los miembros",
+        "Si no es unánime, presentar primero el certificado de disolución (Formulario LLC-3)",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar la declaración de impuestos final (Formulario 568) ante Franchise Tax Board",
+        "Obtener el certificado de liquidación fiscal de Franchise Tax Board si es necesario",
+        "Presentar el certificado de cancelación (Formulario LLC-4/7) ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final",
+        "No se requiere tarifa de presentación"
+      ],
+      "llc_notes": "Sin tarifa de presentación para la disolución/cancelación. Si todos los miembros votan la disolución, solo se necesita el formulario LLC-4/7. Si no es unánime, presentar primero el formulario LLC-3 (Certificado de disolución) y luego el formulario LLC-4/7. La presentación en persona en la oficina de Sacramento genera una tarifa de manejo especial de $15.",
+      "corp_steps": [
+        "La junta directiva adopta una resolución recomendando la disolución",
+        "Los accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar las declaraciones de impuestos finales ante Franchise Tax Board",
+        "Obtener el certificado de liquidación fiscal de Franchise Tax Board",
+        "Presentar el certificado de disolución (Formulario DISS STK) ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final",
+        "No se requiere tarifa de presentación"
+      ],
+      "corp_notes": "Sin tarifa de presentación para la disolución. Se requiere Certificado de liquidación fiscal de FTB. La presentación en persona en la oficina de Sacramento genera una tarifa de manejo especial de $15. Disolución simplificada disponible para corporaciones que no hayan emitido acciones.",
+      "tax_notes": "Se requiere el certificado de liquidación fiscal de FTB antes o de forma simultánea con la presentación de la disolución. Presentar todas las declaraciones de impuestos pendientes y pagar todos los saldos, incluidas penalidades, tarifas e intereses. Las LLC deben pagar el impuesto anual de $800 hasta que se presente la cancelación ante la Secretaría de Estado. Los formularios de disolución deben presentarse ante la Secretaría de Estado dentro de los 12 meses siguientes a la presentación de la declaración de impuestos final.",
+      "timeline_waitingPeriods": "Se debe presentar la disolución dentro de los 12 meses siguientes a la declaración de impuestos final",
+      "employeeNotification": "La Ley WARN de California requiere 60 días de aviso para 75 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El agente para recepción de notificaciones legales debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio; la disolución debe presentarse dentro de los 12 meses siguientes a la declaración de impuestos final",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o accionistas (corporación); el consentimiento unánime permite la cancelación simplificada de LLC",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "CO": {
@@ -532,6 +708,40 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar la Declaración de disolución en línea a través del portal de negocios de la Secretaría de Estado de Colorado",
+        "Pagar la tarifa de presentación de $10",
+        "Presentar las declaraciones de impuestos estatales finales ante Colorado Department of Revenue"
+      ],
+      "llc_notes": "La presentación debe hacerse en línea a través del portal de negocios de la Secretaría de Estado. El procesamiento es generalmente inmediato para las presentaciones en línea.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución en línea a través del portal de negocios de la Secretaría de Estado de Colorado",
+        "Pagar la tarifa de presentación de $25",
+        "Presentar las declaraciones de impuestos estatales finales ante Colorado Department of Revenue"
+      ],
+      "corp_notes": "La presentación debe hacerse en línea a través del portal de negocios de la Secretaría de Estado.",
+      "tax_notes": "Presentar la declaración final de impuesto sobre la renta corporativa de Colorado. Cerrar todas las licencias de impuesto sobre ventas y demás cuentas fiscales estatales ante Colorado Department of Revenue.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "CT": {
@@ -619,6 +829,40 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar el certificado de disolución ante la Secretaría de Estado",
+        "Pagar la tarifa de presentación de $50",
+        "Presentar las declaraciones de impuestos estatales finales ante Connecticut Department of Revenue Services"
+      ],
+      "llc_notes": "La presentación puede hacerse en línea, por correo, por fax o en persona. El procesamiento tarda de 3 a 5 días hábiles.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución ante la Secretaría de Estado",
+        "Pagar la tarifa de presentación de $50",
+        "Presentar las declaraciones de impuestos estatales finales ante Connecticut Department of Revenue Services"
+      ],
+      "corp_notes": "La presentación puede hacerse en línea, por correo, por fax o en persona.",
+      "tax_notes": "Presentar la declaración final de impuesto empresarial corporativo de Connecticut. Cerrar todas las cuentas fiscales estatales ante Connecticut Department of Revenue Services.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -710,6 +954,42 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Pagar todos los impuestos de franquicia y tarifas pendientes",
+        "Presentar el certificado de cancelación ante Delaware Division of Corporations",
+        "Pagar la tarifa de presentación de $200",
+        "Presentar las declaraciones de impuestos estatales finales ante Delaware Division of Revenue"
+      ],
+      "llc_notes": "En Delaware, las LLC se 'cancelan' en lugar de 'disolverse'. Todos los impuestos de franquicia vencidos, penalidades e intereses deben pagarse antes de la presentación.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar todos los informes de impuesto de franquicia pendientes y pagar todos los impuestos de franquicia adeudados",
+        "Presentar el certificado de disolución ante Delaware Division of Corporations",
+        "Pagar la tarifa de presentación de $204",
+        "Presentar las declaraciones de impuestos estatales finales ante Delaware Division of Revenue"
+      ],
+      "corp_notes": "La disolución simplificada (tarifa de $10) está disponible para Corporaciones que nunca emitieron acciones ni iniciaron operaciones. La tarifa estándar de presentación de disolución es de $204. Todos los impuestos de franquicia deben estar al día.",
+      "tax_notes": "Todos los informes de impuesto de franquicia deben estar presentados y todos los impuestos de franquicia, penalidades e intereses deben pagarse antes de que se pueda procesar la disolución. Presentar la declaración final de impuesto sobre la renta corporativa de Delaware.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar un aviso para los acreedores desconocidos",
+      "registeredAgentNotes": "El Agente Registrado de Delaware debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "3 años después de la disolución para liquidar los asuntos del negocio y resolver reclamaciones",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "FL": {
@@ -800,6 +1080,42 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Asegurarse de que el informe anual del año en curso esté presentado ($138.75)",
+        "Presentar los artículos de disolución a través del portal de presentación electrónica Sunbiz",
+        "Pagar la tarifa de presentación de $25",
+        "Presentar las declaraciones de impuestos estatales finales ante Florida Department of Revenue"
+      ],
+      "llc_notes": "La presentación se realiza a través del portal de presentación electrónica Sunbiz. El informe anual del año en curso ($138.75) debe presentarse antes de la disolución o al mismo tiempo. El procesamiento tarda de 2 a 3 días hábiles.",
+      "corp_steps": [
+        "La junta directiva adopta una resolución recomendando la disolución",
+        "Los accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Asegurarse de que el informe anual del año en curso esté presentado ($150)",
+        "Presentar los artículos de disolución a través del portal de presentación electrónica Sunbiz o por correo",
+        "Pagar la tarifa de presentación de $35",
+        "Presentar las declaraciones de impuestos estatales finales ante Florida Department of Revenue"
+      ],
+      "corp_notes": "La presentación se realiza a través del portal de presentación electrónica Sunbiz o por correo. El informe anual debe estar al día antes de la disolución.",
+      "tax_notes": "Florida no tiene impuesto estatal sobre la renta personal. Presentar la declaración final de impuesto sobre la renta/franquicia corporativa (Formulario F-1120) si corresponde. Cerrar todas las cuentas de impuesto sobre ventas y demás cuentas fiscales estatales.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar un aviso para los acreedores desconocidos",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o accionistas (corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "GA": {
@@ -888,6 +1204,41 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver conforme al acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar las deudas",
+        "Presentar el certificado de Terminación (Formulario CD 415) en línea a través del portal eCorp",
+        "Sin tarifa de presentación para la presentación en línea (cargo de servicio de $10 para presentación en papel)",
+        "Presentar las declaraciones de impuestos estatales finales ante Georgia Department of Revenue"
+      ],
+      "llc_notes": "Sin tarifa para la presentación en línea a través de eCorp. La presentación en papel genera un cargo de servicio de $10. Las LLC de Georgia presentan un Certificado de Terminación en lugar de Artículos de disolución.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Presentar el Aviso de Intención de Disolver (Formulario CD 410) ante la Secretaría de Estado",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar las deudas",
+        "Presentar los artículos de disolución (Formulario CD 411) ante la Secretaría de Estado después del proceso de liquidación",
+        "Sin tarifa de presentación para la presentación en línea (cargo de servicio de $10 para presentación en papel)",
+        "Presentar las declaraciones de impuestos estatales finales ante Georgia Department of Revenue"
+      ],
+      "corp_notes": "Sin tarifa para la presentación en línea a través de eCorp. La presentación en papel genera un cargo de servicio de $10. La disolución de una corporación es un proceso de dos pasos: primero presentar el Aviso de Intención de Disolver y luego los artículos de disolución después del proceso de liquidación.",
+      "tax_notes": "Presentar la declaración final de impuesto sobre la renta corporativa de Georgia (Formulario 600 o 600S). Cerrar todas las cuentas fiscales estatales, incluyendo las cuentas de impuesto sobre ventas y retención.",
+      "employeeNotification": "Cumplir con la Ley WARN federal si se tienen 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar un aviso para los acreedores desconocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio después de presentar el Aviso de Intención de Disolver",
+      "boardOrMemberApproval": "Se requiere voto mayoritario de los miembros (LLC) o Accionistas (Corporación)",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -980,6 +1331,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar las deudas",
+        "Presentar las declaraciones de impuestos finales ante el Hawaii Department of Taxation",
+        "Completar el formulario LLC-11 (Artículos de Terminación)",
+        "Enviar el formulario con la tarifa de presentación de $50 al DCCA BREG por correo, fax o en persona",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial registrado (DBA)"
+      ],
+      "llc_notes": "La tarifa de presentación no es reembolsable. El formulario también puede presentarse por fax incluyendo la información de pago con tarjeta de crédito.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Hawaii Department of Taxation",
+        "Completar el formulario DC-13 (Artículos de disolución)",
+        "Enviar el formulario con la tarifa de presentación de $25 al DCCA BREG",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "También existe el formulario DC-12 para la disolución por parte de los incorporadores o directores iniciales antes de que se emitan acciones.",
+      "tax_notes": "Presente la declaración final del Impuesto General sobre el Consumo (GET), la declaración de impuestos sobre la renta y las declaraciones de retención de impuestos. Solicite un certificado de liquidación fiscal al Department of Taxation antes de presentar los documentos de disolución.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 50 o más empleados)",
+      "creditorNotification": "Se debe notificar a los acreedores y reclamantes conocidos sobre la disolución y proporcionar una fecha límite para las reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Período razonable para liquidar los asuntos comerciales después de la presentación",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -1074,6 +1463,46 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Iowa Department of Revenue",
+        "Redactar la Declaración de disolución (debe incluir el nombre de la LLC y la declaración de que está disuelta)",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $5",
+        "Presentar la Declaración de Terminación una vez completado el proceso de liquidación (tarifa de $5)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "Iowa no proporciona un formulario estándar para la disolución de LLCs. Debe redactar su propia declaración que incluya el nombre de la LLC y que está disuelta. Se presenta una Declaración de Terminación por separado después de completar el proceso de liquidación.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Iowa Department of Revenue",
+        "Redactar los artículos de disolución conforme a Iowa Code Section 490.1403",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $5",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "Iowa no proporciona un formulario preimpreso para los artículos de disolución. Debe redactar su propio documento que cumpla con los requisitos de Iowa Code Section 490.1403. La presentación está disponible en línea a través de Fast Track Filing, por correo o en persona.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Iowa (IA 1120) o la declaración de sociedad. Presente la declaración final de impuestos sobre ventas si corresponde. Debe obtener una Liquidación Fiscal o confirmar que todos los impuestos están pagados antes de que se acepte la disolución.",
+      "timeline_waitingPeriods": "Se requiere un período de proceso de liquidación entre la presentación de la Declaración de disolución y la Declaración de Terminación",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 25 o más empleados según la ley de Iowa)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse durante el período de proceso de liquidación hasta que se presente la terminación",
+      "windingUpPeriod": "Se requiere un período de proceso de liquidación entre la disolución y la terminación; la entidad continúa existiendo únicamente con fines de liquidación",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas conforme a Iowa Code 490.1402.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "ID": {
@@ -1165,6 +1594,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas",
+        "Presentar las declaraciones de impuestos finales ante el Idaho State Tax Commission",
+        "Completar el formulario de Declaración de disolución",
+        "Presentar en línea (sin tarifa) o por correo/en persona (tarifa de procesamiento manual de $20)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "La presentación en línea no tiene tarifa. La presentación en papel genera una tarifa de procesamiento manual de $20. El servicio de procesamiento acelerado añade $40; el servicio en el mismo día añade $100.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas (mayoría de acciones en circulación)",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Idaho State Tax Commission",
+        "Completar el formulario de Artículos de disolución",
+        "Presentar en línea (sin tarifa) o por correo/en persona (tarifa de procesamiento manual de $20)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "También existe un formulario para Artículos de disolución previo a la emisión de acciones. Las presentaciones en papel requieren una tarifa adicional de procesamiento manual de $20.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta (Formulario 41 para corporaciones, Formulario 65 para sociedades/LLCs). Marque la casilla de 'declaración final'. No se requiere un certificado formal de liquidación fiscal, pero todos los impuestos deben estar al corriente.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 50 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución sea finalizada ante la Secretaría de Estado",
+      "windingUpPeriod": "Período razonable para liquidar los asuntos; la entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida del voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -1260,6 +1727,46 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su acuerdo operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Illinois Department of Revenue",
+        "Obtener la liquidación fiscal del Illinois Department of Revenue",
+        "Completar el formulario LLC-35.15 (Artículos de disolución)",
+        "Presentar en duplicado ante la Secretaría de Estado con tarifa de presentación de $5",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "La tarifa de presentación es de $5. Procesamiento acelerado en 24 horas disponible por $100 adicionales (solo en persona en las oficinas de Springfield o Chicago).",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Illinois Department of Revenue",
+        "Obtener la liquidación fiscal del Illinois Department of Revenue",
+        "Completar el formulario BCA 12.20 (Artículos de disolución)",
+        "Presentar en duplicado ante la Secretaría de Estado con tarifa de presentación de $5",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "La tarifa de presentación es de $5. Procesamiento acelerado en 24 horas disponible por $100 adicionales en las oficinas de Springfield o Chicago. No se acepta efectivo; los cheques deben ser a nombre de Illinois Secretary of State.",
+      "tax_notes": "Se debe obtener una Carta de Buena Posición o liquidación fiscal del Illinois Department of Revenue antes de presentar la disolución. Presente la declaración final de impuestos sobre la renta, la declaración de impuestos sobre ventas y las declaraciones de retención de impuestos.",
+      "employeeNotification": "La Ley WARN de Illinois requiere 60 días de aviso para despidos masivos (75 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa y todos los informes anuales estén al corriente",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la disolución",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de dos tercios de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "IN": {
@@ -1351,6 +1858,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Indiana Department of Revenue",
+        "Completar el State Form 49465 (Artículos de disolución de una LLC)",
+        "Presentar en línea a través de INBiz ($30) o por correo ($30 con cheque a nombre de Indiana Secretary of State)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "La presentación en línea a través del portal INBiz acepta Visa, MasterCard y Discover. Las presentaciones en persona realizadas antes del mediodía se procesan el mismo día.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Indiana Department of Revenue",
+        "Completar el State Form 34471 (Artículos de disolución de una corporación)",
+        "Presentar en línea a través de INBiz ($30) o por correo ($30)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "Para Corporaciones que no han emitido acciones ni han iniciado operaciones, utilice el formulario alternativo de disolución. La presentación en línea requiere pago con tarjeta de crédito.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos (IT-20) o la declaración de sociedad (IT-65). Debe presentar una declaración final de impuestos sobre ventas si corresponde. Solicite el cierre de las cuentas fiscales ante el Indiana Department of Revenue. Todas las obligaciones tributarias deben estar saldadas antes de la disolución.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones (mínimo 120 días)",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la presentación",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -1446,6 +1991,46 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Asegurarse de que la entidad esté en regla ante la Kansas Secretary of State",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Kansas Department of Revenue",
+        "Completar el formulario KC (Certificado de cancelación)",
+        "Presentar en línea ($35) o en papel ($35) ante la Secretaría de Estado",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "llc_notes": "La empresa debe estar en regla para poder presentar la solicitud. Si está en mora, primero debe presentar un informe de información. Si fue anulada, debe reinstalarse antes de cerrar. La tarifa es de $35 para presentación en papel; la presentación en línea también cuesta $35.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Asegurarse de que la entidad esté en regla ante la Kansas Secretary of State",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Kansas Department of Revenue",
+        "Completar el formulario DS (Certificado de disolución)",
+        "Presentar en línea ($35) o en papel ($35) ante la Secretaría de Estado",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "corp_notes": "Este formulario es para Corporaciones que ya han iniciado operaciones. Para Corporaciones que aún no han iniciado operaciones, use el formulario CP (Certificado de disolución Previo al Inicio de Operaciones).",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta de Kansas y cualquier declaración final de impuestos sobre ventas. Debe saldar todas las obligaciones tributarias. Comuníquese con el Department of Revenue para cerrar las cuentas fiscales y obtener la liquidación fiscal.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "La entidad debe estar en regla y al corriente en todas sus presentaciones antes de que se pueda aceptar la disolución",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "KY": {
@@ -1540,6 +2125,46 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Kentucky Department of Revenue",
+        "Comunicarse con el Kentucky Department of Revenue para cerrar las cuentas fiscales",
+        "Completar el formulario ADLLC (Artículos de disolución - LLC)",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $40 (cheque a nombre de Kentucky State Treasurer)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "Tarifa de presentación de $40 mediante cheque a nombre de Kentucky State Treasurer. También presente un certificado de retiro ante el secretario del condado si registró un nombre comercial (DBA).",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Kentucky Department of Revenue",
+        "Comunicarse con el Kentucky Department of Revenue para cerrar las cuentas fiscales",
+        "Completar el formulario DIS (Artículos de disolución - Corporación con Fines de Lucro)",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $40 (cheque a nombre de Kentucky State Treasurer)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "Para la disolución por parte de los incorporadores o directores iniciales antes de la emisión de acciones, use el formulario IPD en su lugar.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos/LLET de Kentucky (Formulario 720 o 765). Presente la declaración final de impuestos sobre ventas y las declaraciones de retención de impuestos si corresponde. Comuníquese con el Department of Revenue para cerrar todas las cuentas fiscales estatales antes de presentar la disolución.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones después de que se presente la disolución",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución sea finalizada",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "LA": {
@@ -1633,6 +2258,45 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Presentar todos los informes anuales pendientes y pagar las tarifas adeudadas",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Louisiana Department of Revenue",
+        "Completar la Declaración Jurada de disolución (requiere notarización)",
+        "Presentar electrónicamente o por correo con tarifa de presentación de $75",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "llc_notes": "La declaración jurada requiere las firmas de todos los gerentes o Miembros (según la estructura de gestión) y debe ser autenticada (notarizada). Si algún incorporador o Accionista prohíbe la disolución, la declaración jurada no será procesada.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución (requiere consentimiento unánime o según los estatutos)",
+        "Presentar todos los informes anuales pendientes y pagar las tarifas adeudadas",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Louisiana Department of Revenue",
+        "Preparar y presentar los artículos de disolución con tarifa de presentación de $60",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "corp_notes": "La disolución de una corporación requiere la presentación de los artículos de disolución ante la Commercial Division. Louisiana exige que todos los informes anuales pendientes sean presentados antes de que se acepte la disolución.",
+      "tax_notes": "Presente las declaraciones finales de impuestos sobre la renta corporativos y de franquicia ante el Louisiana Department of Revenue. También debe presentar las declaraciones finales de impuestos sobre ventas y las declaraciones de retención. Obtenga la liquidación fiscal antes de presentar la disolución. Una Corporación debe disolver su carta constitutiva ante la Secretaría de Estado y presentar su declaración final de impuestos de franquicia.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; la ley de Louisiana exige una notificación razonable a los acreedores",
+      "registeredAgentNotes": "Debe estar al corriente en todos los informes anuales y presentaciones antes de que se acepte la disolución",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la disolución",
+      "boardOrMemberApproval": "LLC: Todos los gerentes o Miembros deben firmar la declaración jurada. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas conforme a los artículos de incorporación.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "MA": {
@@ -1725,6 +2389,45 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos finales federales y del estado de Massachusetts",
+        "Cerrar todas las cuentas tributarias con el Massachusetts Department of Revenue",
+        "Obtener la liquidación fiscal del Massachusetts Department of Revenue",
+        "Presentar el certificado de cancelación ante la Corporations Division (tarifa de $100)",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "Massachusetts no provee un formulario estándar para la cancelación de LLC. El Certificado de cancelación debe redactarse conforme a los requisitos estatutarios del Capítulo 156C del MGL. Debe ser firmado por cualquier gerente o persona autorizada.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto de dos tercios",
+        "Presentar el formulario 966 del IRS (Disolución o Liquidación Corporativa) ante el IRS",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar las declaraciones de impuestos finales federales y del estado de Massachusetts",
+        "Obtener la liquidación fiscal del Massachusetts Department of Revenue",
+        "Presentar los artículos de disolución ante la Corporations Division (tarifa de $100)",
+        "Se deben haber presentado todos los informes anuales de los últimos 10 años fiscales"
+      ],
+      "corp_notes": "Una Corporación debe haber presentado todos los informes anuales adeudados de los últimos diez años fiscales antes de que la Corporations Division acepte los artículos de disolución. Se requiere Liquidación Fiscal del DOR.",
+      "tax_notes": "Se requiere Liquidación Fiscal del DOR antes de la disolución. Presentar las declaraciones finales del impuesto corporativo y cerrar todas las cuentas tributarias. Las Corporaciones deben notificar al DOR sobre la disolución. Todos los pasivos pendientes deben ser saldados antes de que se emita la autorización.",
+      "timeline_waitingPeriods": "El proceso de liquidación fiscal puede tardar varias semanas según el historial de presentaciones",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados; Massachusetts requiere aviso previo para el cierre de plantas",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar aviso para los acreedores desconocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La entidad continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros, salvo que el acuerdo operativo indique lo contrario. Las Corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "MD": {
@@ -1816,6 +2519,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Maryland Comptroller of the Treasury",
+        "Completar el formulario de Artículos de cancelación",
+        "Presentar en línea a través de Maryland Business Express o por correo (sin tarifa de presentación)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "llc_notes": "Sin tarifa de presentación para el procesamiento estándar (6-8 semanas). El procesamiento acelerado cuesta $50 (7-10 días hábiles). La presentación en línea a través de Maryland Business Express incluye una tarifa de servicio del 3% para pagos electrónicos.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución (dos tercios de los votos con derecho a ser emitidos)",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el Maryland Comptroller of the Treasury",
+        "Completar el formulario de Artículos de disolución",
+        "Presentar en línea a través de Maryland Business Express o por correo (sin tarifa de presentación)",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "corp_notes": "Sin tarifa de presentación para el procesamiento estándar. Procesamiento acelerado disponible por $50. Maryland utiliza el SDAT (State Department of Assessments and Taxation) en lugar de una Secretaría de Estado para las presentaciones comerciales.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Maryland (Formulario 500) y la declaración final de bienes personales ante el SDAT. Debe obtener la liquidación fiscal del Comptroller. Presente las declaraciones finales de impuestos sobre ventas y retención si corresponde. El SDAT puede exigir que todos los informes anuales y declaraciones de bienes personales estén al corriente.",
+      "employeeNotification": "La Ley de Estabilización Económica de Maryland requiere 90 días de aviso para reducciones de 25 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "El agente residente debe mantenerse hasta que la disolución esté completa; todos los informes anuales y declaraciones de bienes personales deben estar al corriente",
+      "windingUpPeriod": "La entidad continúa existiendo durante tres años después de la disolución con el propósito de llevar a cabo el proceso de liquidación",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de dos tercios de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -1911,6 +2652,46 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC según su Acuerdo Operativo",
+        "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante Maine Revenue Services",
+        "Completar el formulario MLLC-11C (Certificado de cancelación)",
+        "Incluir la Carta de Contacto del Presentador con la solicitud",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $75",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "llc_notes": "Debe incluir firmas originales. La tarifa de presentación es de $75. Procesamiento acelerado en 24 horas disponible por $50 adicionales; procesamiento inmediato disponible por $100 adicionales.",
+      "corp_steps": [
+        "Obtener la resolución de la junta directiva que autoriza la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales ante Maine Revenue Services",
+        "Completar el formulario MBCA-11 (Artículos de disolución)",
+        "Incluir la Carta de Contacto del Presentador con la solicitud",
+        "Presentar ante la Secretaría de Estado con tarifa de presentación de $75",
+        "Notificar a los acreedores y reclamantes de la disolución",
+        "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+      ],
+      "corp_notes": "Pago mediante cheque u orden de pago a nombre de Maine Secretary of State, o con tarjeta de crédito. Debe incluir la Carta de Contacto del Presentador con firmas originales.",
+      "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Maine (Formulario 1120ME) o la declaración de sociedad. Presente la declaración final de impuestos sobre ventas y las declaraciones de retención si corresponde. No se requiere un certificado formal de liquidación fiscal, pero todos los impuestos deben estar saldados.",
+      "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 100 o más empleados)",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La entidad continúa existiendo con el propósito de llevar a cabo el proceso de liquidación después de la disolución",
+      "boardOrMemberApproval": "LLC: Aprobación de los miembros según lo requerido por el acuerdo operativo o la ley. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "MI": {
@@ -2000,6 +2781,42 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar el certificado de disolución (Formulario CSCL/CD-731) ante LARA (tarifa de $10)",
+        "Solicitar la liquidación fiscal al Michigan Department of Treasury (Formulario 5156) dentro de los 60 días posteriores a la presentación de la disolución",
+        "Presentar las declaraciones de impuestos finales de Michigan",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "Michigan cobra solo $10 para disolver una LLC, una de las tarifas más bajas del país. El procesamiento acelerado está disponible: $100 por servicio en 24 horas, $1,000 por servicio en 1 hora.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar el certificado de disolución (Formulario CSCL/CD-531) ante LARA (tarifa de $25)",
+        "Solicitar la liquidación fiscal al Michigan Department of Treasury (Formulario 5156) dentro de los 60 días",
+        "Presentar las declaraciones de impuestos finales de Michigan, incluyendo la declaración final del CIT",
+        "Presentar el formulario 966 del IRS dentro de los 30 días posteriores a la adopción del plan de disolución"
+      ],
+      "corp_notes": "Dentro de los 60 días después de presentar el certificado de disolución, solicite la liquidación fiscal al Michigan Department of Treasury usando el formulario 5156. Adjunte también el formulario 163 (Aviso de Cambio o Discontinuación).",
+      "tax_notes": "La Liquidación Fiscal no es obligatoria antes de presentar la disolución, pero se recomienda ampliamente. Solicite la liquidación fiscal usando el formulario 5156 dentro de los 60 días posteriores a la presentación de la disolución. Presente las declaraciones de impuestos comerciales finales dentro de los 15 días de cesar operaciones. Adjunte el formulario 163 (Aviso de Cambio o Discontinuación) a su solicitud de autorización.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; otorgar al menos 120 días para la presentación de reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La Corporación continúa vigente para efectos del proceso de liquidación después de la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -2091,6 +2908,42 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar la Declaración de disolución ante la Secretaría de Estado ($35 por correo, $55 procesamiento acelerado)",
+        "Presentar las declaraciones de impuestos finales del estado de Minnesota",
+        "Presentar la Declaración de Terminación una vez completado el proceso de liquidación",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "Minnesota requiere dos presentaciones: primero una Declaración de disolución, luego una Declaración de Terminación una vez completado el proceso de liquidación. La tarifa de presentación es de $35 por correo o $55 para presentación en persona con procesamiento acelerado.",
+      "corp_steps": [
+        "La junta directiva adopta una resolución recomendando la disolución",
+        "Presentar la Intención de Disolver ante la Secretaría de Estado",
+        "Los accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución ante la Secretaría de Estado ($35 por correo, $55 con procesamiento acelerado)",
+        "Presentar las declaraciones de impuestos finales del estado de Minnesota",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "Las corporaciones deben primero presentar una Intención de Disolver, luego completar el proceso de liquidación y finalmente presentar los artículos de disolución. La tarifa de presentación es de $35 por correo o $55 con procesamiento acelerado.",
+      "tax_notes": "Presentar la declaración final del impuesto de franquicia corporativa de Minnesota y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Las LLC gravadas como entidades de traspaso deben asegurarse de que todos los miembros presenten la información final del formulario K-1.",
+      "employeeNotification": "La Ley WARN de Minnesota exige 60 días de aviso para cierres de plantas que afecten a 50 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; publicar aviso para los acreedores desconocidos",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté finalizada",
+      "windingUpPeriod": "La corporación continúa vigente para el proceso de liquidación después de presentar la Intención de Disolver; la LLC continúa después de la Declaración de disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "MO": {
@@ -2179,6 +3032,41 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Presentar el Aviso de Inicio del Proceso de Liquidación (Formulario LLC-13) ante la Secretaría de Estado (tarifa de $25)",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar los artículos de Terminación (Formulario LLC-5) ante la Secretaría de Estado (tarifa de $25)",
+        "Presentar las declaraciones de impuestos finales del estado de Missouri",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "La disolución de una LLC en Missouri es un proceso de dos pasos: primero presentar un Aviso de Inicio del Proceso de Liquidación (Formulario LLC-13, $25) y luego, una vez completada la liquidación, presentar los artículos de Terminación (Formulario LLC-5, $25). El costo total es de $50 por ambas presentaciones.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto de dos tercios",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución por Acción Voluntaria (Formulario Corp. 46) ante la Secretaría de Estado (tarifa de $25)",
+        "Presentar las declaraciones de impuestos finales del estado de Missouri",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "La disolución de una corporación requiere el voto de dos tercios de los accionistas. La tarifa de presentación es de $25.",
+      "tax_notes": "Presentar la declaración final del impuesto sobre la renta corporativa de Missouri y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Notificar al DOR sobre la disolución del negocio.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La LLC debe completar el proceso de liquidación entre la presentación del Aviso de Inicio del Proceso de Liquidación y los artículos de Terminación",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -2269,6 +3157,41 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar el certificado de disolución en línea a través del sitio web de la Secretaría de Estado (tarifa de $50)",
+        "Presentar las declaraciones de impuestos finales del estado de Mississippi",
+        "Cerrar todas las cuentas tributarias con el Mississippi Department of Revenue",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "La presentación se realiza en línea a través del portal de Business Services de la Secretaría de Estado. Cree una cuenta de presentación corporativa o inicie sesión con una cuenta existente y seleccione 'Presentar Artículos de disolución o Certificado de Retiro'.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución en línea a través del sitio web de la Secretaría de Estado (tarifa de $25)",
+        "Presentar las declaraciones de impuestos finales del estado de Mississippi",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "La tarifa de presentación de la disolución de la corporación es de $25, menor que la tarifa de disolución de la LLC de $50. Presente en línea a través del portal de Business Services de la Secretaría de Estado.",
+      "tax_notes": "Presentar la declaración final del impuesto sobre la renta de Mississippi y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Notificar al DOR sobre la disolución para evitar obligaciones tributarias futuras.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "MT": {
@@ -2357,6 +3280,41 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar los artículos de Terminación ante la Secretaría de Estado (sin tarifa de presentación)",
+        "Presentar las declaraciones de impuestos finales del estado de Montana",
+        "Cerrar todas las cuentas tributarias con el Montana Department of Revenue",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "Montana no cobra tarifa de presentación por los artículos de Terminación de LLC, lo que lo convierte en uno de los estados menos costosos para la disolución de LLC.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución ante la Secretaría de Estado (sin tarifa de presentación)",
+        "Presentar las declaraciones de impuestos finales del estado de Montana",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "Montana no cobra tarifa de presentación por los artículos de disolución para Corporaciones.",
+      "tax_notes": "Presentar la declaración final del impuesto sobre la renta corporativa de Montana y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Montana no tiene impuesto sobre las ventas, pero las obligaciones del impuesto sobre la renta empresarial deben ser saldadas.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos después de la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -2450,6 +3408,44 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio y liquide todas las deudas y obligaciones",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos estatales finales ante el NC Department of Revenue",
+        "Presentar la notificación NC-BN de Cierre de Negocio ante el Department of Revenue",
+        "Presentar los artículos de disolución (Formulario L-07) ante la Secretaría de Estado (tarifa de presentación de $30)",
+        "Cancelar cualquier licencia, permiso y nombre comercial registrado"
+      ],
+      "llc_notes": "Carolina del Norte no requiere Liquidación Fiscal antes de presentar la disolución. El Formulario L-07 puede presentarse en línea o por correo postal.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el NC Department of Revenue",
+        "Presentar la notificación NC-BN de Cierre de Negocio ante el Department of Revenue",
+        "Presentar los artículos de disolución (Formulario B-06) ante la Secretaría de Estado (tarifa de presentación de $30)",
+        "Cancelar todas las licencias, permisos y nombres comerciales registrados"
+      ],
+      "corp_notes": "Use el formulario B-05 ($30) si se disuelve antes de que se hayan emitido acciones. Use el formulario B-06 ($30) para la disolución después de que se hayan emitido acciones, lo que requiere aprobación de directores y Accionistas.",
+      "tax_notes": "Carolina del Norte no requiere Liquidación Fiscal antes de la disolución. Sin embargo, debe presentar todas las declaraciones de impuestos finales de ingresos, ventas y retenciones. Presente el formulario de Notificación NC-BN de Cierre de Negocio ante el Department of Revenue para cerrar sus cuentas de impuestos.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo de al menos 120 días para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "ND": {
@@ -2541,6 +3537,43 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el ND Office of State Tax Commissioner",
+        "Presentar los artículos de disolución (Formulario SFN 58762) ante la Secretaría de Estado (tarifa de presentación de $20)",
+        "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+      ],
+      "llc_notes": "Dakota del Norte permite la presentación por correo postal, fax, en persona o en línea a través del portal FirstStop. Se acepta el pago con tarjeta de crédito para presentaciones por fax y en persona.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Presentar la Declaración de Intención de Disolver (Formulario SFN 13006) ante la Secretaría de Estado (tarifa de presentación de $10)",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el ND Office of State Tax Commissioner",
+        "Presentar los artículos de disolución (Formulario SFN 13005) ante la Secretaría de Estado (tarifa de presentación de $20)",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "Las Corporaciones deben presentar una Declaración de Intención de Disolver (SFN 13006, tarifa adicional de $10) antes de presentar los artículos de disolución. Use el formulario SFN 13004 si se disuelve antes de que se hayan emitido acciones ($20).",
+      "tax_notes": "Dakota del Norte no requiere Liquidación Fiscal formal para la disolución. Sin embargo, debe presentar todas las declaraciones de impuestos sobre ingresos finales y liquidar cualquier obligación fiscal pendiente con el Office of State Tax Commissioner antes de disolver.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores conocidos con un plazo de al menos 120 días para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva, aprobación por voto mayoritario de los accionistas, más una Declaración de Intención de Disolver.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "NE": {
@@ -2630,6 +3663,41 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar la Declaración de disolución ante la Secretaría de Estado ($25 en línea, $30 en oficina)",
+        "Presentar las declaraciones de impuestos finales del estado de Nebraska",
+        "Cerrar todas las cuentas tributarias con el Nebraska Department of Revenue",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "La tarifa de presentación es de $25 para presentación en línea o $30 para presentación en oficina. Las LLC constituidas después del 1 de enero de 2011 presentan una Declaración de disolución. Las LLC constituidas antes de esa fecha podrían necesitar presentar una Declaración de disolución diferente.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución ante la Secretaría de Estado ($25 en línea, $30 en oficina)",
+        "Presentar las declaraciones de impuestos finales del estado de Nebraska",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "La tarifa de presentación es de $25 para presentación en línea o $30 para presentación en oficina. El procesamiento generalmente toma de 2 a 3 días hábiles.",
+      "tax_notes": "Presentar la declaración final del impuesto sobre la renta corporativa de Nebraska y marcarla como final. Cerrar todas las cuentas tributarias con el Department of Revenue. Notificar al DOR sobre la disolución del negocio.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos después de la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "NH": {
@@ -2718,6 +3786,41 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar el certificado de cancelación (Formulario FND-5) ante la Secretaría de Estado (tarifa de $35)",
+        "Presentar las declaraciones de impuestos finales del estado de New Hampshire",
+        "Cerrar todas las cuentas tributarias con el New Hampshire Department of Revenue Administration",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "New Hampshire usa el formulario FND-5 para la cancelación de LLC. La tarifa de presentación es de $35, ya sea que se presente en línea, por correo o en persona.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar los artículos de disolución (Formulario 19) ante la Secretaría de Estado (tarifa de $35)",
+        "Presentar las declaraciones de impuestos finales del estado de New Hampshire",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "New Hampshire usa el formulario 19 para la disolución de Corporaciones. La tarifa de presentación es de $35.",
+      "tax_notes": "New Hampshire no tiene impuesto general sobre la renta ni impuesto sobre las ventas. Sin embargo, los negocios sujetos al Impuesto sobre Ganancias Empresariales (BPT) y al Impuesto Empresarial (BET) deben presentar declaraciones finales y cerrar las cuentas tributarias con el Department of Revenue Administration.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La Corporación continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -2811,6 +3914,45 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar todas las declaraciones de impuestos finales de New Jersey (impuesto sobre ingresos brutos, impuesto sobre ventas, etc.)",
+        "Solicitar el certificado de liquidación fiscal a la New Jersey Division of Taxation (OBLIGATORIO)",
+        "Esperar a que se emita el certificado de liquidación fiscal",
+        "Presentar el certificado de cancelación (Formulario L-109) ante la Division of Revenue (tarifa de $100)",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "La Liquidación Fiscal de la New Jersey Division of Taxation es OBLIGATORIA antes de que la Division of Revenue procese la disolución. El negocio debe estar en regla (no revocado ni anulado). La presentación en línea está disponible a través de njportal.com -- seleccione 'Cerrar un Negocio'.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución recomendando la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar todas las declaraciones de impuestos finales de New Jersey (CBT, impuesto sobre ingresos brutos, impuesto sobre ventas)",
+        "Solicitar el certificado de liquidación fiscal a la Division of Taxation (tarifa de $25)",
+        "Esperar a que se emita el certificado de liquidación fiscal",
+        "Presentar el certificado de disolución (Formulario C-159-D) ante la Division of Revenue (tarifa de disolución de $95 + tarifa del certificado de liquidación fiscal de $25 = $120 en total)",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "corp_notes": "La Liquidación Fiscal de la New Jersey Division of Taxation es OBLIGATORIA. El costo total para la disolución de una corporación es de $120 (tarifa de disolución de $95 + tarifa del certificado de liquidación fiscal de $25). Si la corporación no resuelve sus pasivos tributarios previos, no se emitirá el certificado de liquidación fiscal y el negocio podría ser reactivado. El negocio debe estar en regla para presentar la solicitud.",
+      "tax_notes": "La Liquidación Fiscal de la Division of Taxation es OBLIGATORIA para todas las disoluciones de negocios en New Jersey. El Certificado de liquidación fiscal confirma que todos los impuestos estatales han sido pagados o que la entidad está exenta. La tarifa de solicitud es de $25. Todas las declaraciones finales del CBT (Impuesto Comercial Corporativo) deben presentarse y todos los pasivos pendientes deben saldarse antes de que se emita la autorización. Sin Liquidación Fiscal, la presentación de la disolución no será procesada. Envíe por correo las solicitudes de liquidación fiscal a: Division of Taxation, Tax Clearance Unit, P.O. Box 277, Trenton, NJ 08695-0277.",
+      "timeline_waitingPeriods": "El proceso de liquidación fiscal puede tardar varias semanas según el historial de presentaciones y los pasivos pendientes",
+      "employeeNotification": "La Ley WARN de New Jersey (Ley de Notificación de Pérdida de Empleos de la Planta Millville Dallas Airmotive) exige 90 días de aviso para despidos masivos de 50 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+      "windingUpPeriod": "La entidad continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las Corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "NM": {
@@ -2903,6 +4045,44 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo",
+        "Liquide todas las deudas y obligaciones y realice el proceso de liquidación de los asuntos del negocio",
+        "Presentar las declaraciones de impuestos finales ante el NM Taxation and Revenue Department",
+        "Solicite un Certificado Corporativo de No Adeudo Fiscal al Taxation and Revenue Department",
+        "Presentar los artículos de disolución ante la Secretaría de Estado (tarifa de presentación de $25)",
+        "Cancelar cualquier licencia, permiso y nombre comercial (DBA)",
+        "Cierre sus cuentas de impuestos comerciales a través del Taxpayer Access Point (TAP)"
+      ],
+      "llc_notes": "New Mexico requiere la presentación a través del portal en línea en enterprise.sos.nm.gov. El procesamiento generalmente toma de 10 a 15 días hábiles.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución para disolver",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Presentar una Declaración de Intención de Disolver ante la Secretaría de Estado",
+        "Notificar a todos los acreedores y reclamantes conocidos",
+        "Liquidar todas las deudas y obligaciones y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el NM Taxation and Revenue Department",
+        "Obtener un Certificado Corporativo de No Adeudo Fiscal",
+        "Presentar los artículos de disolución ante la Secretaría de Estado (tarifa de presentación de $50)"
+      ],
+      "corp_notes": "La tarifa de disolución de Corporación es de $50, que cubre las presentaciones de la Declaración de Intención de Disolver y los artículos de disolución.",
+      "tax_notes": "Debe solicitar un Certificado Corporativo de No Adeudo Fiscal al Taxation and Revenue Department antes de disolver. Cierre sus cuentas de impuestos comerciales a través del Taxpayer Access Point (TAP) en tap.state.nm.us. Presente el formulario ACD-31015 para cerrar su registro de impuestos comerciales.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales dentro de los 5 días posteriores a la terminación.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores conocidos y publicar un aviso de disolución para reclamantes desconocidos",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio después de la presentación",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "NV": {
@@ -2993,6 +4173,43 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar el certificado de cancelación ante la Secretaría de Estado (tarifa de $100)",
+        "Presentar la declaración final del impuesto comercial de Nevada si aplica",
+        "Cancelar por separado la licencia comercial estatal a través de SilverFlume",
+        "Notificar al Nevada Department of Taxation y cerrar las cuentas tributarias",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "Nevada utiliza el certificado de cancelación para las LLC. Si la LLC nunca ha realizado actividades comerciales, se puede usar un Certificado de disolución en su lugar. Disolver su entidad NO cancela automáticamente su licencia comercial estatal -- debe cerrarla por separado a través de SilverFlume. Procesamiento acelerado disponible: $125 para servicio en 24 horas, $500 para servicio en 2 horas, $1,000 para servicio en 1 hora.",
+      "corp_steps": [
+        "La junta directiva adopta una resolución recomendando la disolución",
+        "Los accionistas aprueban la disolución por voto mayoritario",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar deudas",
+        "Presentar el certificado de disolución ante la Secretaría de Estado (tarifa de $100)",
+        "Presentar la declaración final del impuesto comercial de Nevada si aplica",
+        "Cancelar por separado la licencia comercial estatal a través de SilverFlume",
+        "Notificar al Nevada Department of Taxation y cerrar las cuentas tributarias"
+      ],
+      "corp_notes": "Las corporaciones que no han iniciado operaciones pueden usar un Certificado de disolución simplificado. Las corporaciones que han iniciado operaciones usan un formulario de disolución diferente. La licencia comercial estatal debe cancelarse por separado a través de SilverFlume.",
+      "tax_notes": "Nevada no tiene impuesto sobre la renta corporativa ni impuesto sobre la renta personal. Sin embargo, los negocios pueden estar sujetos al impuesto comercial (ingresos brutos superiores a $4 millones) y deben presentar una declaración final. La licencia comercial estatal debe cancelarse por separado. Cierre todas las cuentas con el Department of Taxation.",
+      "employeeNotification": "Seguir la Ley WARN federal si hay 100 o más empleados",
+      "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos; los acreedores desconocidos pueden ser notificados mediante publicación",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución esté completa. Nevada exige un agente registrado para todas las entidades comerciales.",
+      "windingUpPeriod": "La corporación o LLC continúa vigente para efectos del proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros. Las corporaciones requieren resolución de la junta directiva y aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -3085,6 +4302,45 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución según el acuerdo operativo o por voto mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar las deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos finales federales y del estado de New York",
+        "Obtener el Consentimiento para la disolución del NYS Department of Taxation and Finance (obligatorio)",
+        "Presentar los artículos de disolución (Formulario DOS-1366-f) ante el Department of State (tarifa de $60)",
+        "Incluir el Consentimiento para la disolución del Department of Taxation and Finance con la presentación",
+        "Cancelar cualquier nombre comercial (DBA), licencias y permisos"
+      ],
+      "llc_notes": "New York requiere un Consentimiento para la disolución del Department of Taxation and Finance antes de que el Department of State acepte sus Artículos de disolución. Este consentimiento no se emitirá hasta que todas las declaraciones de impuestos hayan sido presentadas y todos los pasivos fiscales hayan sido pagados.",
+      "corp_steps": [
+        "La junta directiva adopta un plan de disolución",
+        "Los accionistas aprueban la disolución (se requieren dos tercios de las acciones en circulación)",
+        "Liquidar los asuntos del negocio, notificar a los acreedores y saldar todas las obligaciones",
+        "Presentar las declaraciones de impuestos finales federales y del estado de New York (Formulario CT-3)",
+        "Obtener el Consentimiento para la disolución (Formulario TR-960) del NYS Department of Taxation and Finance",
+        "Presentar el certificado de disolución ante el Department of State (tarifa de $60)",
+        "Adjuntar el Consentimiento para la disolución del Department of Taxation and Finance",
+        "Distribuir los activos restantes a los accionistas después de que todas las deudas hayan sido pagadas"
+      ],
+      "corp_notes": "El consentimiento fiscal es obligatorio. El Department of Taxation and Finance no emitirá el consentimiento hasta que todas las declaraciones del impuesto de franquicia hayan sido presentadas y todos los impuestos pagados. Siga las instrucciones en tax.ny.gov/bus/doingbus/tr125.htm para el proceso de disolución voluntaria.",
+      "tax_notes": "El consentimiento fiscal para la disolución es obligatorio. Las corporaciones deben presentar una declaración final del impuesto de franquicia CT-3 y marcar la casilla 'Declaración final'. El Department of Taxation and Finance emite un Consentimiento para la disolución (Formulario TR-960) solo después de que todas las declaraciones hayan sido presentadas y los impuestos pagados. Este consentimiento debe adjuntarse a la presentación de disolución ante el Department of State. Instrucciones disponibles en tax.ny.gov/bus/doingbus/tr125.htm.",
+      "timeline_waitingPeriods": "El proceso de consentimiento fiscal puede tardar varias semanas dependiendo del historial de presentaciones",
+      "employeeNotification": "Debe cumplir con la ley New York WARN Act (requiere 90 días de aviso para despidos masivos de 25 o más empleados). Entregue los cheques finales en la fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos. Publicar aviso para reclamantes desconocidos.",
+      "registeredAgentNotes": "El agente registrado debe mantenerse hasta que la disolución sea definitiva y todos los asuntos pendientes sean resueltos",
+      "windingUpPeriod": "La corporación continúa existiendo para efectos del proceso de liquidación después de presentar la disolución",
+      "boardOrMemberApproval": "Las LLC requieren voto mayoritario de los miembros a menos que el acuerdo operativo especifique lo contrario. Las corporaciones requieren resolución de la junta directiva y aprobación de dos tercios de los accionistas sobre las acciones en circulación.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -3180,6 +4436,47 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide todas las deudas y obligaciones",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el Ohio Department of Taxation",
+        "Presentar la notificación de disolución o Entrega (Formulario D5) ante el Ohio Department of Taxation",
+        "Obtener el certificado de liquidación fiscal del Ohio Department of Taxation",
+        "Presentar el certificado de disolución (Formulario 562) ante la Secretaría de Estado (tarifa de presentación de $50)",
+        "Cancelar cualquier licencia, permiso y nombre comercial"
+      ],
+      "llc_notes": "Ohio requiere Liquidación Fiscal del Department of Taxation. Presente el formulario D5 al menos 30 días antes de la fecha de disolución prevista. Presente en línea a través de Ohio Business Central.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el Ohio Department of Taxation",
+        "Presentar la notificación de disolución o Entrega (Formulario D5) ante el Department of Taxation",
+        "Obtener el certificado de liquidación fiscal del Department of Taxation",
+        "Presentar el certificado de disolución (Formulario 561) ante la Secretaría de Estado (tarifa de presentación de $50)",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "El Formulario D5 debe presentarse ante el Department of Taxation al menos 30 días antes de la fecha de presentación prevista ante la Secretaría de Estado. No se emitirá el certificado de liquidación fiscal hasta que todas las declaraciones de impuestos hayan sido presentadas y todos los impuestos pagados.",
+      "tax_notes": "Se requiere Liquidación Fiscal antes de la disolución. Presente el formulario D5 (Notificación de disolución o Entrega) ante la Unidad de liquidación fiscal del Ohio Department of Taxation al menos 30 días antes de la fecha de presentación de disolución planificada. El Department revisará todas las cuentas de impuestos comerciales. No se emitirá el certificado de liquidación fiscal hasta que todas las declaraciones hayan sido presentadas y todos los impuestos y tarifas hayan sido pagados.",
+      "timeline_waitingPeriods": "La Liquidación Fiscal debe presentarse al menos 30 días antes de presentar la disolución",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago o dentro de los 15 días posteriores a la terminación.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "OK": {
@@ -3272,6 +4569,44 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el Oklahoma Tax Commission",
+        "Completar y firme los artículos de disolución (Formulario 0080)",
+        "Enviar por correo postal el formulario firmado con la tarifa de presentación de $50 a la Secretaría de Estado",
+        "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+      ],
+      "llc_notes": "Oklahoma actualmente no ofrece Presentación en línea para la disolución de LLC. Los Artículos de disolución firmados deben enviarse por correo postal a la Secretaría de Estado. Permita tiempo de procesamiento después del envío.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el Oklahoma Tax Commission",
+        "Completar y firme el certificado de disolución (Formulario 0019)",
+        "Enviar por correo postal el formulario firmado con la tarifa de presentación de $50 a la Secretaría de Estado",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "El Certificado de disolución debe ser firmado y enviado por correo postal a la Secretaría de Estado. La Presentación en línea no está disponible para la disolución de Corporaciones.",
+      "tax_notes": "Oklahoma no requiere Liquidación Fiscal formal para la disolución voluntaria. Sin embargo, debe presentar todas las declaraciones de impuestos corporativos sobre ingresos finales antes del día 15 del cuarto mes posterior a la liquidación completa. Cierre sus cuentas de impuestos comerciales a través del portal OkTAP en oktap.tax.ok.gov.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores conocidos con información sobre cómo presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas según los estatutos de Oklahoma Título 18 Sección 2041.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "OR": {
@@ -3363,6 +4698,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el Oregon Department of Revenue",
+        "Completar el formulario de Artículos de Enmienda/Disolución (únicamente los campos de disolución)",
+        "Enviar el formulario con la tarifa de presentación de $100 por correo postal, en persona o por fax",
+        "Cancelar cualquier licencia comercial, permiso y nombre comercial registrado"
+      ],
+      "llc_notes": "Oregon utiliza un formulario combinado de Artículos de Enmienda/Disolución para las LLC. Complete únicamente los campos de disolución. La fecha de disolución no puede ser una fecha futura. Agregue $5 por una copia de confirmación opcional. Las presentaciones en persona se procesan el mismo día.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el Oregon Department of Revenue",
+        "Completar el formulario de Artículos de disolución para Corporaciones comerciales/profesionales",
+        "Enviar el formulario con la tarifa de presentación de $100 por correo postal, en persona o por fax",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "Las Corporaciones utilizan un formulario separado de Artículos de disolución. Agregue $5 por una copia de confirmación opcional. Las presentaciones en persona en la oficina de Salem se procesan el mismo día.",
+      "tax_notes": "Oregon no requiere Liquidación Fiscal para la disolución. Sin embargo, debe presentar todas las declaraciones de impuestos sobre ingresos estatales finales y liquidar cualquier obligación fiscal pendiente. Cierre sus cuentas de impuestos comerciales con el Department of Revenue después de presentar la disolución.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales antes del final del primer día hábil posterior a la terminación (o antes del final de la próxima fecha regular de pago si el empleado dio más de 48 horas de aviso de renuncia).",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de la disolución según ORS 63.637",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo conforme a ORS 63.621. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -3458,6 +4831,47 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Obtener el certificado de liquidación fiscal del PA Department of Revenue (Formulario REV-181)",
+        "Obtener autorización del PA Department of Labor and Industry",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales federales y estatales",
+        "Presentar el certificado de disolución (Formulario DSCB:15-8975/8978) ante el Department of State (tarifa de presentación de $70)",
+        "Cancelar cualquier licencia comercial, permiso y nombre ficticio"
+      ],
+      "llc_notes": "Pennsylvania requiere Liquidación Fiscal del Department of Revenue y autorización del Department of Labor and Industry antes de presentar la disolución. Permita 4 semanas para que el Department of Revenue procese la solicitud de liquidación fiscal (Formulario REV-181).",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Obtener el certificado de liquidación fiscal del PA Department of Revenue (Formulario REV-181)",
+        "Obtener autorización del PA Department of Labor and Industry, Office of UC Tax Services",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales federales y estatales",
+        "Presentar los artículos de disolución (Formulario DSCB:15-1977/5977) ante el Department of State (tarifa de presentación de $70)",
+        "Cancelar todas las licencias comerciales, permisos y nombres ficticios"
+      ],
+      "corp_notes": "Se requieren la liquidación fiscal del Department of Revenue y la autorización del Department of Labor and Industry antes de presentar. Use el formulario DSCB:15-1971/5971 si la corporación nunca ha realizado operaciones comerciales.",
+      "tax_notes": "La Liquidación Fiscal es obligatoria antes de la disolución. Presente el formulario REV-181 (Solicitud de Certificado de liquidación fiscal) ante el Department of Revenue. El procesamiento tarda aproximadamente 4 semanas. También debe obtener una autorización separada del Department of Labor and Industry, Office of Unemployment Compensation Tax Services. Ambas autorizaciones deben obtenerse antes de presentar la disolución ante el Department of State.",
+      "timeline_waitingPeriods": "La Liquidación Fiscal del Department of Revenue tarda aproximadamente 4 semanas en procesarse",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con información sobre cómo presentar reclamaciones",
+      "registeredAgentNotes": "La oficina registrada debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "RI": {
@@ -3552,6 +4966,47 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el RI Division of Taxation",
+        "Obtener una Carta de Buena Posición del RI Division of Taxation (tarifa de $50)",
+        "Presentar los artículos de disolución (Formulario 404) ante la Secretaría de Estado (tarifa de presentación de $50)",
+        "Incluya la Carta de Buena Posición con su Presentación de disolución",
+        "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+      ],
+      "llc_notes": "Rhode Island requiere una Carta de Buena Posición del Division of Taxation antes de que se pueda procesar la disolución. La carta confirma que todas las obligaciones fiscales están al día. Permita varias semanas para que el Division of Taxation procese la solicitud.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el RI Division of Taxation",
+        "Obtener una Carta de Buena Posición del RI Division of Taxation (tarifa de $50)",
+        "Presentar los artículos de disolución (Formulario 404) ante la Secretaría de Estado (tarifa de presentación de $50)",
+        "Incluya la Carta de Buena Posición con su Presentación de disolución",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "Las Corporaciones utilizan el mismo Formulario 404 que las LLC. Se requiere una Carta de Buena Posición del Division of Taxation. Las presentaciones en persona realizadas antes de las 4 PM se procesan el mismo día.",
+      "tax_notes": "Se requiere una Carta de Buena Posición (LOGS, por sus siglas en inglés) del Division of Taxation antes de la disolución. Presente el formulario de solicitud de LOGS con una tarifa de $50 a: Letter of Good Standing, Compliance & Collections, Rhode Island Division of Taxation, One Capitol Hill, Providence, RI 02908. El procesamiento toma varias semanas dependiendo del historial del contribuyente. Comuníquese al (401) 574-8941 o a Tax.Collections@tax.ri.gov para preguntas específicas sobre la LOGS.",
+      "timeline_waitingPeriods": "La Carta de Buena Posición del Division of Taxation puede tardar varias semanas en obtenerse",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo para presentar reclamaciones",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de la disolución conforme a RI General Laws 7-16-47",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "SC": {
@@ -3641,6 +5096,42 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Notificar por escrito a todos los acreedores conocidos",
+        "Presentar las declaraciones de impuestos finales ante el SC Department of Revenue",
+        "Presentar los artículos de Terminación (Formulario F0108) ante la Secretaría de Estado (tarifa de presentación de $10)",
+        "Cancelar cualquier licencia comercial, permiso y nombre comercial"
+      ],
+      "llc_notes": "Carolina del Sur utiliza 'Artículos de Terminación' en lugar de 'Artículos de disolución' para las LLC según SC Code 33-44-805. No se requiere Liquidación Fiscal para la disolución voluntaria. La Presentación en línea está disponible a través del sistema Business Entities Online.",
+      "corp_steps": [
+        "La Junta Directiva adopta una resolución que recomienda la disolución",
+        "Los Accionistas aprueban la disolución por voto mayoritario según SC Code 33-14-102",
+        "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+        "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+        "Presentar las declaraciones de impuestos finales ante el SC Department of Revenue",
+        "Presentar los artículos de disolución (Formulario F0049) ante la Secretaría de Estado (tarifa de presentación de $10)",
+        "Cancelar todas las licencias y permisos comerciales"
+      ],
+      "corp_notes": "No se requiere Liquidación Fiscal para la disolución voluntaria. Sin embargo, si la corporación fue disuelta administrativamente y busca la reincorporación, se requiere un Certificado de Cumplimiento Fiscal del Department of Revenue (tarifa de $60, Formulario C-268).",
+      "tax_notes": "No se requiere Liquidación Fiscal para la disolución voluntaria. Sin embargo, debe presentar todas las declaraciones de impuestos finales de ingresos, ventas y retenciones. Si fue disuelta administrativamente, se requiere un Certificado de Cumplimiento Fiscal (Formulario C-268, tarifa de $60) del Department of Revenue para la reincorporación. Use el SC Business One Stop (scbos.sc.gov) para cerrar los registros de impuestos comerciales.",
+      "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales dentro de las 48 horas posteriores a la terminación.",
+      "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo de al menos 120 días para presentar reclamaciones según SC Code 33-14-106",
+      "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+      "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución según SC Code 33-14-105",
+      "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo conforme a SC Code 33-44-801. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas según SC Code 33-14-102.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -3734,6 +5225,43 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento mayoritario de los miembros",
+        "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el South Dakota Department of Revenue si corresponde",
+        "Presentar los artículos de Terminación ante la Secretaría de Estado de South Dakota",
+        "Pagar la tarifa de presentación de $10",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "South Dakota no tiene impuesto estatal sobre la renta. La tarifa de presentación es de $10. El procesamiento acelerado está disponible por un costo adicional de $50.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+        "Presentar las declaraciones de impuestos finales ante el South Dakota Department of Revenue si corresponde",
+        "Presentar los artículos de disolución ante la Secretaría de Estado de South Dakota",
+        "Pagar la tarifa de presentación de $10",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "South Dakota no tiene impuesto estatal sobre la renta. La tarifa de presentación es de $10. El procesamiento acelerado está disponible por un costo adicional de $50.",
+      "tax_notes": "South Dakota no tiene impuesto estatal sobre la renta ni impuesto corporativo sobre la renta. No se requiere un certificado de liquidación fiscal para la disolución. Es posible que los negocios aún necesiten presentar declaraciones de impuestos sobre ventas finales u otras declaraciones de impuestos aplicables.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de presentar la disolución",
+      "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "TN": {
@@ -3826,6 +5354,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo",
+        "Presentar el Aviso de disolución (Formulario SS-4246) ante la Secretaría de Estado — tarifa de $20",
+        "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+        "Obtener la liquidación fiscal del Tennessee Department of Revenue",
+        "Presentar los artículos de Terminación (Formulario SS-4245) ante la Secretaría de Estado — tarifa de $20",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Presentar las declaraciones de impuestos estatales y federales finales",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Tennessee requiere dos presentaciones separadas: un Aviso de disolución ($20) y Artículos de Terminación ($20), con un total de $40. Debe obtener la liquidación fiscal del Department of Revenue antes de presentar los artículos de Terminación. No presentar la solicitud de terminación deja a la LLC en los registros y sujeta a la tarifa de informe anual de $300.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio y saldar todas las deudas y obligaciones",
+        "Obtener la liquidación fiscal del Tennessee Department of Revenue",
+        "Presentar los artículos de disolución (Formulario SS-4410) ante la Secretaría de Estado — tarifa de $20",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Presentar las declaraciones de impuestos estatales y federales finales",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "La División de Servicios Empresariales solicitará la liquidación fiscal al Department of Revenue cuando usted realice la presentación. Si existe deuda tributaria pendiente, los artículos serán rechazados.",
+      "tax_notes": "Se requiere Liquidación Fiscal antes de presentar los artículos de Terminación. Solicite la liquidación fiscal a través de TNTAP (Tennessee Taxpayer Access Point). Si todos los impuestos han sido pagados, el Department of Revenue enviará por correo una carta de liquidación fiscal en un plazo de 3 a 5 días y enviará una copia electrónica a la Secretaría de Estado. Tennessee tiene impuestos de franquicia e impuestos sobre consumos específicos que deben liquidarse.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones (mínimo 120 días)",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la presentación final de la disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (mayoría de las acciones con derecho a voto).",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -3923,6 +5489,48 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC de acuerdo con el acuerdo de la empresa o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar una declaración de impuestos de franquicia final ante el Texas Comptroller of Public Accounts",
+        "Obtener un Certificado de Estado de Cuenta (Formulario 05-305 del Comptroller) del Texas Comptroller",
+        "Completar el formulario 651 — Certificado de Terminación por duplicado",
+        "Adjuntar el certificado de Estado de Cuenta al Formulario 651",
+        "Presentar el formulario 651 ante la Secretaría de Estado con una tarifa de presentación de $40",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia. Debe obtener un Certificado de Estado de Cuenta del Texas Comptroller que confirme que todos los impuestos de franquicia han sido pagados antes de realizar la presentación. La impresión del sitio web del Comptroller no es suficiente — necesita el certificado oficial. Los pagos realizados con tarjeta de crédito están sujetos a una tarifa de conveniencia del 2.7%.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución (dos tercios de las acciones en circulación)",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar una declaración de impuestos de franquicia final ante el Texas Comptroller of Public Accounts",
+        "Obtener un Certificado de Estado de Cuenta (Formulario 05-305 del Comptroller) del Texas Comptroller",
+        "Completar el formulario 651 — Certificado de Terminación por duplicado",
+        "Adjuntar el certificado de Estado de Cuenta al Formulario 651",
+        "Presentar el formulario 651 ante la Secretaría de Estado con una tarifa de presentación de $40",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia. Debe obtener un Certificado de Estado de Cuenta del Texas Comptroller que confirme que todos los impuestos de franquicia han sido pagados antes de realizar la presentación. Presente dos copias firmadas del certificado de terminación. Los pagos realizados con tarjeta de crédito están sujetos a una tarifa de conveniencia del 2.7%.",
+      "tax_notes": "Texas no tiene impuesto estatal sobre la renta, pero impone un impuesto de franquicia a todas las entidades. Debe presentar una declaración de impuestos de franquicia final y obtener un Certificado de Estado de Cuenta (Formulario 05-305) del Comptroller antes de presentar los documentos de terminación ante la Secretaría de Estado. El certificado debe permanecer vigente hasta la fecha de su presentación. Comuníquese con el Comptroller al (800) 252-1381 (línea gratuita) para obtener asistencia.",
+      "employeeNotification": "Debe proporcionar notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados. Texas no tiene una ley WARN estatal.",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre el proceso de liquidación y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de presentar el certificado de Terminación",
+      "windingUpPeriod": "Tres años después de la terminación, durante los cuales aún se pueden presentar reclamaciones contra la entidad",
+      "boardOrMemberApproval": "LLC: Consentimiento de los miembros según lo requerido por el acuerdo de la empresa. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas por dos tercios.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "UT": {
@@ -4014,6 +5622,43 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento mayoritario de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante la Utah State Tax Commission",
+        "Presentar los artículos de disolución ante la Utah Division of Corporations en línea o por correo",
+        "No se requiere tarifa de presentación para el procesamiento estándar",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Utah no cobra una tarifa de presentación por los artículos de disolución. El procesamiento acelerado está disponible por una tarifa adicional de $75. Presente en línea o por correo a PO Box 146705, Salt Lake City, UT 84114-6705.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante la Utah State Tax Commission",
+        "Presentar los artículos de disolución ante la Utah Division of Corporations en línea o por correo",
+        "No se requiere tarifa de presentación para el procesamiento estándar",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "Utah no cobra una tarifa de presentación por los artículos de disolución. El procesamiento acelerado está disponible por una tarifa adicional de $75. Las corporaciones nacionales no necesitan un Certificado de liquidación fiscal para disolverse.",
+      "tax_notes": "Utah no requiere un certificado de liquidación fiscal para la disolución de entidades nacionales. Sin embargo, debe presentar las declaraciones de impuestos finales e informar a la Utah State Tax Commission que está disolviendo la entidad para cerrar sus cuentas de impuestos. Las corporaciones extranjeras deben obtener un Certificado de liquidación fiscal antes de retirarse de Utah.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -4107,6 +5752,44 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Virginia Department of Taxation",
+        "Completar el formulario LLC-1050 — Artículos de cancelación",
+        "Presentar el formulario LLC-1050 ante la State Corporation Commission con una tarifa de presentación de $25",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Virginia utiliza la State Corporation Commission (SCC), no una Secretaría de Estado, para las presentaciones de negocios. La tarifa de presentación es de $25. Puede presentar en línea en cis.scc.virginia.gov y pagar con tarjeta de crédito o eCheck. Por correo, envíe a P.O. Box 1197, Richmond, VA 23218.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Virginia Department of Taxation",
+        "Completar el formulario SCC-743 — Artículos de disolución",
+        "Presentar el formulario SCC-743 ante la State Corporation Commission con una tarifa de presentación de $25",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "Virginia utiliza la State Corporation Commission (SCC), no una Secretaría de Estado. La tarifa de presentación es de $25. Puede presentar en línea a través del Sistema de Información del Secretario (CIS) en cis.scc.virginia.gov. Para la terminación posterior a la disolución, utilice el formulario SCC-750 (Artículos de Terminación).",
+      "tax_notes": "Virginia no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos sobre la renta finales y liquidar cualquier obligación tributaria pendiente. También debe completar el proceso de liquidación y pagar cualquier deuda e impuesto pendiente antes de solicitar la disolución.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones (mínimo 120 días)",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "windingUpPeriod": "Debe completar el proceso de liquidación de todos los asuntos del negocio antes de presentar los artículos de cancelación o disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (más de dos tercios de las acciones con derecho a voto).",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "VT": {
@@ -4198,6 +5881,43 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Vermont Department of Taxes",
+        "Presentar los artículos de Terminación ante la Secretaría de Estado de Vermont",
+        "Pagar la tarifa de presentación de $20",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "La tarifa de presentación es de $20 para la terminación de una LLC. La Secretaría de Estado no acepta pagos en efectivo ni con tarjeta de crédito para presentaciones en papel; adjunte un cheque a nombre de la Secretaría de Estado de Vermont. Las presentaciones en línea pueden pagarse con tarjeta de crédito.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Vermont Department of Taxes",
+        "Presentar los artículos de disolución ante la Secretaría de Estado de Vermont",
+        "Pagar la tarifa de presentación de $35",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "La tarifa de presentación es de $35 para la disolución de una corporación. Existen dos tipos de Artículos de disolución: uno por parte de los incorporadores o directores iniciales (11A V.S.A. sección 14.01) y otro por parte de la junta directiva y los accionistas (11A V.S.A. sección 14.03). Ambos tienen un costo de $35.",
+      "tax_notes": "Vermont no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos sobre la renta finales y liquidar cualquier obligación tributaria pendiente con el Vermont Department of Taxes antes de disolverse.",
+      "employeeNotification": "Debe proporcionar notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo o por consentimiento mayoritario. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -4295,6 +6015,49 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar la disolución de la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Solicitar un Certificado de Liquidación de Ingresos al Washington Department of Revenue",
+        "Recibir el certificado de Liquidación de Ingresos (el DOR lo envía directamente a la Secretaría de Estado)",
+        "Presentar el certificado de disolución ante la Secretaría de Estado (sin tarifa de presentación)",
+        "Adjuntar el certificado de Liquidación de Ingresos con la presentación de la disolución",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Presentar las declaraciones de impuestos estatales y federales finales",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Washington no cobra tarifa de presentación por la disolución. Sin embargo, debe obtener un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar. No presente la disolución sin el certificado real -- presentar solo la solicitud no es aceptable. 120 días después de la presentación, la entidad queda disuelta permanentemente y no puede ser reinstalada.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Solicitar un Certificado de Liquidación de Ingresos al Washington Department of Revenue",
+        "Recibir el certificado de Liquidación de Ingresos (el DOR lo envía directamente a la Secretaría de Estado)",
+        "Presentar los artículos de disolución ante la Secretaría de Estado (sin tarifa de presentación)",
+        "Adjuntar el certificado de Liquidación de Ingresos con la presentación de la disolución",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Presentar las declaraciones de impuestos estatales y federales finales",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "Washington no cobra tarifa de presentación por la disolución. Debe obtener un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar. Si aplican tarifas, haga los cheques o giros postales a nombre de la Secretaría de Estado.",
+      "tax_notes": "Se requiere un Certificado de Liquidación de Ingresos del Department of Revenue antes de presentar los documentos de disolución. Solicítelo a través del Department of Revenue. Ellos enviarán el certificado directamente a la oficina de la Secretaría de Estado. Washington no tiene impuesto estatal sobre la renta, pero tiene impuesto Business & Occupation (B&O) e impuesto sobre ventas que deben liquidarse.",
+      "timeline_waitingPeriods": "120 días después de presentar la disolución, la entidad queda disuelta permanentemente y no puede ser reinstalada",
+      "employeeNotification": "Debe proporcionar notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "windingUpPeriod": "120 días después de la presentación, la entidad queda disuelta permanentemente",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "WI": {
@@ -4387,6 +6150,43 @@
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
       ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Wisconsin Department of Revenue",
+        "Presentar los artículos de disolución (Formulario 510) en línea a través del portal del DFI — tarifa de $20 en línea",
+        "Pagar cualquier tarifa de informe anual atrasada adeudada al DFI al momento de la disolución",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "La tarifa de presentación en línea es de $20; la tarifa de presentación en papel es de $35 (incluye un recargo de $15 por papel vigente desde marzo de 2024). Si la LLC está en estado de morosidad, todas las tarifas atrasadas deben pagarse al momento de la disolución además de la tarifa de presentación. El servicio acelerado para el siguiente día hábil está disponible por un costo adicional de $25.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el Wisconsin Department of Revenue",
+        "Presentar los artículos de disolución (Formulario 10) en línea a través del portal del DFI — tarifa de $20 en línea",
+        "Pagar cualquier tarifa de informe anual atrasada adeudada al DFI al momento de la disolución",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "La tarifa de presentación en línea es de $20; la tarifa de presentación en papel es de $35 (incluye un recargo de $15 por papel vigente desde marzo de 2024). Si la corporación está en estado de morosidad, todas las tarifas atrasadas deben pagarse al momento de la disolución. El servicio acelerado para el siguiente día hábil está disponible por un costo adicional de $25.",
+      "tax_notes": "Wisconsin no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos sobre la renta y de franquicia finales y liquidar todas las obligaciones tributarias pendientes con el Wisconsin Department of Revenue.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados. Wisconsin también tiene una ley estatal de Cierre de Negocios y Despidos Masivos que requiere una notificación de 60 días para 25 o más empleados.",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación mayoritaria de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
+      ]
     }
   },
   "WV": {
@@ -4478,6 +6278,44 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el West Virginia State Tax Department",
+        "Presentar los artículos de Terminación (Formulario LLD-9) ante la Secretaría de Estado — tarifa de $25",
+        "Presentar en línea a través del WV One Stop Business Portal o por correo",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "La forma más rápida de disolver es a través del WV One Stop Business Portal en business4.wv.gov. La tarifa de presentación es de $25 pagaderos a la Secretaría de Estado de WV. Si solicita una copia certificada, incluya $15 adicionales por copia. El servicio acelerado no está disponible para las presentaciones de disolución.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales ante el West Virginia State Tax Department",
+        "Presentar los artículos de disolución (Formulario CD-7) ante la Secretaría de Estado — tarifa de $25",
+        "Presentar en línea a través del WV One Stop Business Portal o por correo",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "La tarifa de presentación es de $25 pagaderos a la Secretaría de Estado de WV. Si solicita una copia certificada, incluya $15 adicionales por copia. El servicio acelerado no está disponible para las presentaciones de disolución. El portal en línea en business4.wv.gov es el método de presentación más rápido.",
+      "tax_notes": "West Virginia no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos finales sobre la renta corporativa neta e impuestos de franquicia empresarial y liquidar todas las obligaciones tributarias pendientes antes de disolverse.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "windingUpPeriod": "Debe completar el proceso de liquidación de todos los asuntos del negocio antes de presentar los artículos de terminación o disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   },
@@ -4573,6 +6411,46 @@
         "Timeline with expedited options",
         "Creditor and employee notification templates",
         "Post-dissolution compliance checklist"
+      ]
+    },
+    "es": {
+      "llc_steps": [
+        "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales si corresponde (Wyoming no tiene impuesto estatal sobre la renta)",
+        "Completar el formulario de Artículos de disolución de la LLC",
+        "Enviar por correo el formulario con un cheque o giro postal de $60 a nombre de la Secretaría de Estado de Wyoming",
+        "Esperar hasta 15 días hábiles para el procesamiento",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "llc_notes": "Wyoming cobra una tarifa de presentación de $60. Los formularios solo pueden enviarse por correo o en persona — no pueden presentarse en línea ni por correo electrónico. Envíe por correo a: Wyoming Secretary of State, Herschler Building East, 122 W 25th St, Suites 100 and 101, Cheyenne, WY 82002-0020. Wyoming no tiene impuesto estatal sobre la renta.",
+      "corp_steps": [
+        "Celebrar una reunión de la junta directiva para recomendar la disolución",
+        "Obtener la aprobación de los accionistas para la disolución",
+        "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+        "Presentar las declaraciones de impuestos estatales finales si corresponde (Wyoming no tiene impuesto estatal sobre la renta)",
+        "Completar el formulario de Artículos de disolución de Corporación con Fines de Lucro (por parte de los accionistas o por parte de los incorporadores/directores iniciales)",
+        "Presentar por duplicado con un cheque o giro postal de $60 a nombre de la Secretaría de Estado de Wyoming",
+        "Enviar por correo o entregar en persona en la oficina de la Secretaría de Estado",
+        "Esperar hasta 15 días hábiles para el procesamiento",
+        "Cancelar cualquier licencia, permiso y registro",
+        "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+      ],
+      "corp_notes": "Wyoming cobra una tarifa de presentación de $60. Existen dos formularios según quién inicia la disolución: uno por parte de los accionistas y otro por parte de los incorporadores o directores iniciales. Los formularios deben presentarse por duplicado. La presentación solo puede hacerse por correo o en persona — no en línea ni por correo electrónico.",
+      "tax_notes": "Wyoming no tiene impuesto estatal sobre la renta, ni impuesto corporativo sobre la renta, ni impuesto de franquicia. No se requiere un certificado de liquidación fiscal para la disolución. Sin embargo, es posible que los negocios aún necesiten presentar declaraciones de impuestos sobre ventas finales u otras declaraciones de impuestos aplicables si recaudaron impuestos sobre ventas.",
+      "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+      "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+      "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+      "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (mayoría de las acciones con derecho a voto).",
+      "guide_includes": [
+        "Lista de verificación de disolución paso a paso",
+        "Todos los formularios requeridos con enlaces de descarga directa",
+        "Tabla de tarifas completa",
+        "Requisitos y proceso de liquidación fiscal",
+        "Cronograma con opciones de procesamiento acelerado",
+        "Plantillas de notificación para acreedores y empleados",
+        "Lista de verificación de cumplimiento post-disolución"
       ]
     }
   }

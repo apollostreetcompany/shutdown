@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el West Virginia State Tax Department",
+      "Presentar los artículos de Terminación (Formulario LLD-9) ante la Secretaría de Estado — tarifa de $25",
+      "Presentar en línea a través del WV One Stop Business Portal o por correo",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "La forma más rápida de disolver es a través del WV One Stop Business Portal en business4.wv.gov. La tarifa de presentación es de $25 pagaderos a la Secretaría de Estado de WV. Si solicita una copia certificada, incluya $15 adicionales por copia. El servicio acelerado no está disponible para las presentaciones de disolución.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el West Virginia State Tax Department",
+      "Presentar los artículos de disolución (Formulario CD-7) ante la Secretaría de Estado — tarifa de $25",
+      "Presentar en línea a través del WV One Stop Business Portal o por correo",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "La tarifa de presentación es de $25 pagaderos a la Secretaría de Estado de WV. Si solicita una copia certificada, incluya $15 adicionales por copia. El servicio acelerado no está disponible para las presentaciones de disolución. El portal en línea en business4.wv.gov es el método de presentación más rápido.",
+    "tax_notes": "West Virginia no requiere un certificado formal de liquidación fiscal para la disolución. Sin embargo, debe presentar las declaraciones de impuestos finales sobre la renta corporativa neta e impuestos de franquicia empresarial y liquidar todas las obligaciones tributarias pendientes antes de disolverse.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "windingUpPeriod": "Debe completar el proceso de liquidación de todos los asuntos del negocio antes de presentar los artículos de terminación o disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

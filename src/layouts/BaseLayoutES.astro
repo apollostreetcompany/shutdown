@@ -1,0 +1,124 @@
+---
+import LanguageSwitcher from '../components/LanguageSwitcher.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  alternateUrl?: string;
+}
+
+const { title, description, canonical, ogImage, alternateUrl } = Astro.props;
+const siteUrl = 'https://shutdownassistant.com';
+const fullTitle = `${title} | Shutdown Assistant`;
+const ogImg = ogImage || `${siteUrl}/og-default.png`;
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical || Astro.url.href} />
+    {alternateUrl && <link rel="alternate" hreflang="en" href={alternateUrl} />}
+    <link rel="alternate" hreflang="es" href={canonical || Astro.url.href} />
+    <link rel="alternate" hreflang="x-default" href={alternateUrl || siteUrl} />
+
+    <!-- OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImg} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:locale" content="es_US" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImg} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Shutdown Assistant",
+      "url": siteUrl,
+      "inLanguage": "es",
+      "description": "El directorio más completo para el cierre de negocios en EE.UU. Cada formulario, cada tarifa, cada plazo, en cada estado.",
+    })} />
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900 antialiased">
+    <nav class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="/es" class="flex items-center gap-2 text-xl font-bold text-slate-900">
+          <span class="rounded-lg bg-red-600 px-2 py-1 text-sm font-bold text-white">SHUT</span>
+          <span>Shutdown Assistant</span>
+        </a>
+        <div class="hidden items-center gap-6 md:flex">
+          <a href="/es/states" class="text-sm font-medium text-slate-600 hover:text-slate-900">Todos los Estados</a>
+          <a href="/es/pricing" class="text-sm font-medium text-slate-600 hover:text-slate-900">Precios</a>
+          <LanguageSwitcher currentLocale="es" alternateUrl={alternateUrl} />
+          <a href="/es/shutdown-agent" class="rounded-lg bg-red-600 px-4 py-2 text-sm font-bold text-white hover:bg-red-700">
+            Contratar Agente — $1,000
+          </a>
+        </div>
+        <div class="flex items-center gap-3 md:hidden">
+          <LanguageSwitcher currentLocale="es" alternateUrl={alternateUrl} />
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-20 border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-12">
+        <div class="grid gap-8 md:grid-cols-4">
+          <div>
+            <h3 class="mb-3 font-bold text-slate-900">Shutdown Assistant</h3>
+            <p class="text-sm text-slate-500">El directorio más completo para el cierre de negocios en los Estados Unidos. Cada formulario, cada tarifa, cada plazo.</p>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Estados Populares</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/es/states/california" class="hover:text-slate-900">California</a></li>
+              <li><a href="/es/states/texas" class="hover:text-slate-900">Texas</a></li>
+              <li><a href="/es/states/new-york" class="hover:text-slate-900">Nueva York</a></li>
+              <li><a href="/es/states/florida" class="hover:text-slate-900">Florida</a></li>
+              <li><a href="/es/states/delaware" class="hover:text-slate-900">Delaware</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Servicios</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/es/states" class="hover:text-slate-900">Guías Gratuitas por Estado</a></li>
+              <li><a href="/es/pricing" class="hover:text-slate-900">Guías Detalladas de Pago</a></li>
+              <li><a href="/es/shutdown-agent" class="hover:text-slate-900">Agente de Cierre ($1,000)</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="mb-3 text-sm font-bold text-slate-700">Legal</h4>
+            <ul class="space-y-1 text-sm text-slate-500">
+              <li><a href="/es/terms" class="hover:text-slate-900">Términos de Servicio</a></li>
+              <li><a href="/es/privacy" class="hover:text-slate-900">Política de Privacidad</a></li>
+              <li><a href="/es/disclaimer" class="hover:text-slate-900">Descargo de Responsabilidad</a></li>
+            </ul>
+            <p class="mt-4 text-xs text-slate-400">Este sitio proporciona información, no asesoramiento legal. Consulte a un abogado para su situación específica.</p>
+          </div>
+        </div>
+        <div class="mt-8 border-t border-slate-100 pt-8 text-center text-xs text-slate-400">
+          &copy; {new Date().getFullYear()} Shutdown Assistant. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

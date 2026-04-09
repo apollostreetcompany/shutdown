@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar las deudas",
+      "Presentar las declaraciones de impuestos finales ante el Hawaii Department of Taxation",
+      "Completar el formulario LLC-11 (Artículos de Terminación)",
+      "Enviar el formulario con la tarifa de presentación de $50 al DCCA BREG por correo, fax o en persona",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial registrado (DBA)"
+    ],
+    "llc_notes": "La tarifa de presentación no es reembolsable. El formulario también puede presentarse por fax incluyendo la información de pago con tarjeta de crédito.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Hawaii Department of Taxation",
+      "Completar el formulario DC-13 (Artículos de disolución)",
+      "Enviar el formulario con la tarifa de presentación de $25 al DCCA BREG",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial asumido"
+    ],
+    "corp_notes": "También existe el formulario DC-12 para la disolución por parte de los incorporadores o directores iniciales antes de que se emitan acciones.",
+    "tax_notes": "Presente la declaración final del Impuesto General sobre el Consumo (GET), la declaración de impuestos sobre la renta y las declaraciones de retención de impuestos. Solicite un certificado de liquidación fiscal al Department of Taxation antes de presentar los documentos de disolución.",
+    "employeeNotification": "Proporcionar aviso de la Ley WARN si corresponde (60 días para 50 o más empleados)",
+    "creditorNotification": "Se debe notificar a los acreedores y reclamantes conocidos sobre la disolución y proporcionar una fecha límite para las reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa",
+    "windingUpPeriod": "Período razonable para liquidar los asuntos comerciales después de la presentación",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

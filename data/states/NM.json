@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo",
+      "Liquide todas las deudas y obligaciones y realice el proceso de liquidación de los asuntos del negocio",
+      "Presentar las declaraciones de impuestos finales ante el NM Taxation and Revenue Department",
+      "Solicite un Certificado Corporativo de No Adeudo Fiscal al Taxation and Revenue Department",
+      "Presentar los artículos de disolución ante la Secretaría de Estado (tarifa de presentación de $25)",
+      "Cancelar cualquier licencia, permiso y nombre comercial (DBA)",
+      "Cierre sus cuentas de impuestos comerciales a través del Taxpayer Access Point (TAP)"
+    ],
+    "llc_notes": "New Mexico requiere la presentación a través del portal en línea en enterprise.sos.nm.gov. El procesamiento generalmente toma de 10 a 15 días hábiles.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución para disolver",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Presentar una Declaración de Intención de Disolver ante la Secretaría de Estado",
+      "Notificar a todos los acreedores y reclamantes conocidos",
+      "Liquidar todas las deudas y obligaciones y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos finales ante el NM Taxation and Revenue Department",
+      "Obtener un Certificado Corporativo de No Adeudo Fiscal",
+      "Presentar los artículos de disolución ante la Secretaría de Estado (tarifa de presentación de $50)"
+    ],
+    "corp_notes": "La tarifa de disolución de Corporación es de $50, que cubre las presentaciones de la Declaración de Intención de Disolver y los artículos de disolución.",
+    "tax_notes": "Debe solicitar un Certificado Corporativo de No Adeudo Fiscal al Taxation and Revenue Department antes de disolver. Cierre sus cuentas de impuestos comerciales a través del Taxpayer Access Point (TAP) en tap.state.nm.us. Presente el formulario ACD-31015 para cerrar su registro de impuestos comerciales.",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales dentro de los 5 días posteriores a la terminación.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores conocidos y publicar un aviso de disolución para reclamantes desconocidos",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos hayan sido liquidados",
+    "windingUpPeriod": "Tiempo razonable para liquidar los asuntos del negocio después de la presentación",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

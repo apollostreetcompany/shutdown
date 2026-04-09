@@ -91,5 +91,45 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver la LLC de acuerdo con el acuerdo operativo o por consentimiento de los miembros",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales si corresponde (Wyoming no tiene impuesto estatal sobre la renta)",
+      "Completar el formulario de Artículos de disolución de la LLC",
+      "Enviar por correo el formulario con un cheque o giro postal de $60 a nombre de la Secretaría de Estado de Wyoming",
+      "Esperar hasta 15 días hábiles para el procesamiento",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "llc_notes": "Wyoming cobra una tarifa de presentación de $60. Los formularios solo pueden enviarse por correo o en persona — no pueden presentarse en línea ni por correo electrónico. Envíe por correo a: Wyoming Secretary of State, Herschler Building East, 122 W 25th St, Suites 100 and 101, Cheyenne, WY 82002-0020. Wyoming no tiene impuesto estatal sobre la renta.",
+    "corp_steps": [
+      "Celebrar una reunión de la junta directiva para recomendar la disolución",
+      "Obtener la aprobación de los accionistas para la disolución",
+      "Liquidar los asuntos del negocio, saldar deudas y distribuir los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales si corresponde (Wyoming no tiene impuesto estatal sobre la renta)",
+      "Completar el formulario de Artículos de disolución de Corporación con Fines de Lucro (por parte de los accionistas o por parte de los incorporadores/directores iniciales)",
+      "Presentar por duplicado con un cheque o giro postal de $60 a nombre de la Secretaría de Estado de Wyoming",
+      "Enviar por correo o entregar en persona en la oficina de la Secretaría de Estado",
+      "Esperar hasta 15 días hábiles para el procesamiento",
+      "Cancelar cualquier licencia, permiso y registro",
+      "Cerrar las cuentas bancarias del negocio y cancelar su EIN ante el IRS"
+    ],
+    "corp_notes": "Wyoming cobra una tarifa de presentación de $60. Existen dos formularios según quién inicia la disolución: uno por parte de los accionistas y otro por parte de los incorporadores o directores iniciales. Los formularios deben presentarse por duplicado. La presentación solo puede hacerse por correo o en persona — no en línea ni por correo electrónico.",
+    "tax_notes": "Wyoming no tiene impuesto estatal sobre la renta, ni impuesto corporativo sobre la renta, ni impuesto de franquicia. No se requiere un certificado de liquidación fiscal para la disolución. Sin embargo, es posible que los negocios aún necesiten presentar declaraciones de impuestos sobre ventas finales u otras declaraciones de impuestos aplicables si recaudaron impuestos sobre ventas.",
+    "employeeNotification": "Debe proporcionar una notificación bajo la Ley WARN (60 días) si tiene 100 o más empleados",
+    "creditorNotification": "Debe notificar a los acreedores conocidos sobre la disolución y proporcionar un plazo razonable para presentar reclamaciones",
+    "registeredAgentNotes": "La designación del agente registrado termina al momento de la disolución",
+    "boardOrMemberApproval": "LLC: Voto de los miembros según lo especificado en el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de los accionistas (mayoría de las acciones con derecho a voto).",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

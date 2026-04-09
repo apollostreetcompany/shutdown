@@ -61,7 +61,7 @@ export const SHUTDOWN_AGENT_SERVICE: Product = {
     'Certificate of dissolution procurement',
     'Post-dissolution monitoring (90 days)',
   ],
-  stripePriceId: null,
+  stripePriceId: 'price_1TJuLBG0PuTic3wear6iqvi3',
 };
 
 // Bundle: All 50 state guides
@@ -80,5 +80,5 @@ export const ALL_STATES_BUNDLE: Product = {
     'Professional license included for client use',
     'Quarterly updates for 1 year',
   ],
-  stripePriceId: null,
+  stripePriceId: 'price_1TJuL5G0PuTic3we4FT8xF4k',
 };

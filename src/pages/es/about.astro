@@ -1,0 +1,64 @@
+---
+import BaseLayoutES from '../../layouts/BaseLayoutES.astro';
+const siteUrl = 'https://shutdownassistant.com';
+---
+
+<BaseLayoutES
+  title="Acerca de Nosotros"
+  description="Shutdown Assistant — por qué creamos el directorio de cierre de negocios más completo de los Estados Unidos."
+  canonical={`${siteUrl}/es/about`}
+  alternateUrl={`${siteUrl}/about`}
+>
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-3xl">
+      <h1 class="mb-6 text-4xl font-bold text-slate-900">Cerrar un negocio no debería ser tan difícil.</h1>
+
+      <div class="space-y-6 text-slate-600 leading-relaxed">
+        <p>
+          Cada año, cientos de miles de negocios cierran en los Estados Unidos. La mayoría lo hace mal.
+        </p>
+        <p>
+          No porque los dueños sean descuidados, sino porque el proceso está disperso entre docenas de agencias, formularios y plazos que varían enormemente de estado a estado. Lo que en Wyoming es sencillo, en New York es una pesadilla de múltiples pasos. Lo que cuesta $0 en un estado cuesta $250 en otro.
+        </p>
+        <p>
+          Creamos Shutdown Assistant porque no encontramos un solo recurso que cubriera el proceso completo para cada estado. La información existe -- enterrada en sitios web de la Secretaría de Estado, preguntas frecuentes de agencias fiscales y bases de datos de estatutos. Pero nadie la había reunido en un solo lugar.
+        </p>
+        <p>
+          Así que lo hicimos nosotros.
+        </p>
+
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <h2 class="mb-3 text-xl font-bold text-slate-900">Lo que hemos construido</h2>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-start gap-2">
+              <span class="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500"></span>
+              <span><strong>50 guías estatales</strong> — cada formulario, cada tarifa, cada paso, obtenidos de sitios web oficiales del estado</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500"></span>
+              <span><strong>Guías detalladas de pago</strong> — con plantillas, instrucciones de llenado de formularios y listas de verificación</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500"></span>
+              <span><strong>Servicio de Agente de Cierre</strong> — manejamos todo el proceso de presentación por una tarifa fija de $1,000</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-500"></span>
+              <span><strong>Herramientas de comparación</strong> — compara requisitos entre estados lado a lado</span>
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          Cada dato en este sitio proviene de una fuente oficial del gobierno estatal. Verificamos contra los sitios web de la Secretaría de Estado, portales de agencias fiscales y estatutos estatales. Cuando algo cambia, lo actualizamos.
+        </p>
+        <p>
+          No somos un bufete de abogados. No damos asesoramiento legal. Pero hemos hecho la investigación que la mayoría de los abogados cobra a $300/hora -- y la hemos puesto a tu disposición de forma gratuita. Si necesitas más ayuda, nuestras guías de pago incluyen plantillas e instrucciones detalladas. Y si quieres que alguien más se encargue de todo, para eso es nuestro servicio de Agente de Cierre.
+        </p>
+        <p class="font-medium text-slate-900">
+          Cierra tu negocio bien. No dejes que te persiga con multas, cargos y problemas de cumplimiento durante años después de haber dado vuelta a la página.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayoutES>

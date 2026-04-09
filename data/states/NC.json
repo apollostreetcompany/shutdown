@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar para disolver según su Acuerdo Operativo o por voto mayoritario de los miembros",
+      "Realizar el proceso de liquidación de los asuntos del negocio y liquide todas las deudas y obligaciones",
+      "Notificar por escrito a todos los acreedores conocidos",
+      "Presentar las declaraciones de impuestos estatales finales ante el NC Department of Revenue",
+      "Presentar la notificación NC-BN de Cierre de Negocio ante el Department of Revenue",
+      "Presentar los artículos de disolución (Formulario L-07) ante la Secretaría de Estado (tarifa de presentación de $30)",
+      "Cancelar cualquier licencia, permiso y nombre comercial registrado"
+    ],
+    "llc_notes": "Carolina del Norte no requiere Liquidación Fiscal antes de presentar la disolución. El Formulario L-07 puede presentarse en línea o por correo postal.",
+    "corp_steps": [
+      "La Junta Directiva adopta una resolución que recomienda la disolución",
+      "Los Accionistas aprueban la disolución por voto mayoritario",
+      "Notificar por escrito a todos los acreedores y reclamantes conocidos",
+      "Realizar el proceso de liquidación de los asuntos del negocio, liquide las deudas y distribuya los activos restantes",
+      "Presentar las declaraciones de impuestos estatales finales ante el NC Department of Revenue",
+      "Presentar la notificación NC-BN de Cierre de Negocio ante el Department of Revenue",
+      "Presentar los artículos de disolución (Formulario B-06) ante la Secretaría de Estado (tarifa de presentación de $30)",
+      "Cancelar todas las licencias, permisos y nombres comerciales registrados"
+    ],
+    "corp_notes": "Use el formulario B-05 ($30) si se disuelve antes de que se hayan emitido acciones. Use el formulario B-06 ($30) para la disolución después de que se hayan emitido acciones, lo que requiere aprobación de directores y Accionistas.",
+    "tax_notes": "Carolina del Norte no requiere Liquidación Fiscal antes de la disolución. Sin embargo, debe presentar todas las declaraciones de impuestos finales de ingresos, ventas y retenciones. Presente el formulario de Notificación NC-BN de Cierre de Negocio ante el Department of Revenue para cerrar sus cuentas de impuestos.",
+    "employeeNotification": "Debe cumplir con la ley federal WARN Act para despidos masivos de 100 o más empleados. Entregue los cheques finales en la próxima fecha regular de pago.",
+    "creditorNotification": "Debe notificar por escrito a todos los acreedores y reclamantes conocidos con un plazo de al menos 120 días para presentar reclamaciones",
+    "registeredAgentNotes": "El Agente Registrado debe mantenerse hasta que la disolución esté completa y todos los asuntos pendientes sean resueltos",
+    "windingUpPeriod": "La entidad continúa existiendo para los propósitos del proceso de liquidación después de que se presenta la disolución",
+    "boardOrMemberApproval": "Las LLC requieren el voto de los miembros según el acuerdo operativo. Las Corporaciones requieren resolución de la junta directiva y aprobación por voto mayoritario de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }

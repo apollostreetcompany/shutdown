@@ -1,0 +1,120 @@
+---
+import BaseLayoutES from '../../layouts/BaseLayoutES.astro';
+const siteUrl = 'https://shutdownassistant.com';
+---
+
+<BaseLayoutES
+  title="Servicio de Agente de Cierre"
+  description="Nos encargamos del cierre completo de tu negocio por $1,000. Cada formulario, cada presentación, cada plazo. Tú firmas, nosotros ejecutamos."
+  canonical={`${siteUrl}/es/shutdown-agent`}
+  alternateUrl={`${siteUrl}/shutdown-agent`}
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-slate-900 via-slate-800 to-red-900 px-4 py-20 text-white">
+    <div class="mx-auto max-w-4xl text-center">
+      <div class="mb-4 inline-block rounded-full bg-red-600/20 px-4 py-1 text-sm font-medium text-red-300">
+        Disolución de Servicio Completo
+      </div>
+      <h1 class="mb-6 text-4xl font-bold leading-tight md:text-5xl">
+        Cerramos Tu Negocio.<br />
+        <span class="text-red-400">Tú Solo Firmas.</span>
+      </h1>
+      <p class="mx-auto mb-6 max-w-2xl text-lg text-slate-300">
+        Presentar los documentos de disolución es la parte fácil. Liquidación fiscal, notificaciones a acreedores, cierre de EIN, cancelación de licencias, declaraciones finales -- ahí es donde los negocios se atoran. Nosotros nos encargamos de todo.
+      </p>
+      <div class="mb-8 text-5xl font-bold">$1,000<span class="text-lg font-normal text-slate-400"> tarifa fija</span></div>
+      <a href="#comenzar" class="inline-block rounded-lg bg-red-600 px-8 py-4 text-lg font-bold text-white shadow-lg hover:bg-red-700">
+        Comenzar Ahora
+      </a>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-4xl">
+      <h2 class="mb-12 text-center text-3xl font-bold text-slate-900">Todo lo que está incluido</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        {[
+          { title: 'Presentación de la disolución estatal', desc: 'Preparamos y presentamos tus Artículos de Disolución o Certificado de Cancelación ante tu estado.' },
+          { title: 'Coordinación de liquidación fiscal', desc: 'Trabajamos con la agencia fiscal de tu estado para obtener las cartas de autorización requeridas antes de presentar.' },
+          { title: 'Orientación para la declaración final', desc: 'Te guiamos paso a paso para presentar las declaraciones fiscales federales y estatales finales con la casilla "declaración final" marcada.' },
+          { title: 'Notificación a acreedores', desc: 'Redactamos y enviamos las notificaciones requeridas a los acreedores según los requisitos legales de tu estado.' },
+          { title: 'Notificación a empleados', desc: 'Verificación de cumplimiento de la Ley WARN y plantillas de notificación a empleados adaptadas a tu situación.' },
+          { title: 'Cierre de EIN ante el IRS', desc: 'Enviamos la carta al IRS para cerrar tu Número de Identificación del Empleador.' },
+          { title: 'Cierre de cuentas fiscales estatales', desc: 'Cerramos tus cuentas fiscales estatales (ingresos, ventas, retenciones) para que no se esperen más presentaciones.' },
+          { title: 'Cancelación de licencias comerciales', desc: 'Identificamos y cancelamos todas las licencias y permisos comerciales estatales y locales.' },
+          { title: 'Terminación del agente registrado', desc: 'Coordinamos la terminación del servicio de agente registrado una vez completada la disolución.' },
+          { title: 'Certificado de disolución', desc: 'Obtenemos tu certificado de disolución oficial del estado como prueba del cierre completado.' },
+          { title: 'Monitoreo post-cierre', desc: '90 días de monitoreo de correspondencia estatal o problemas de cumplimiento después de la disolución.' },
+          { title: 'Lista de verificación de activos digitales', desc: 'Transferencias de dominio, cancelación de hosting, reenvío de correo y cierre de suscripciones SaaS.' },
+        ].map(item => (
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <h3 class="mb-2 font-bold text-slate-900">{item.title}</h3>
+            <p class="text-sm text-slate-500">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="bg-white px-4 py-16">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="mb-12 text-center text-3xl font-bold text-slate-900">Cómo Funciona</h2>
+      <div class="space-y-8">
+        {[
+          { step: '1', title: 'Registro', desc: 'Cuéntanos tu estado, tipo de entidad y situación actual. Identificamos exactamente lo que hay que hacer.' },
+          { step: '2', title: 'Auditoría', desc: 'Verificamos tu situación con el estado, identificamos presentaciones pendientes y creamos tu plan de cierre personalizado.' },
+          { step: '3', title: 'Ejecución', desc: 'Preparamos todos los formularios, obtenemos la liquidación fiscal, presentamos la disolución y enviamos las notificaciones requeridas.' },
+          { step: '4', title: 'Verificación', desc: 'Confirmamos la disolución con el estado, obtenemos tu certificado y cerramos todas las cuentas pendientes.' },
+          { step: '5', title: 'Monitoreo', desc: 'Durante 90 días después de la disolución, vigilamos cualquier correspondencia estatal y resolvemos los problemas que surjan.' },
+        ].map(item => (
+          <div class="flex gap-4">
+            <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-red-600 text-sm font-bold text-white">{item.step}</div>
+            <div>
+              <h3 class="font-bold text-slate-900">{item.title}</h3>
+              <p class="text-sm text-slate-500">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="px-4 py-16">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="mb-8 text-center text-3xl font-bold text-slate-900">Preguntas Frecuentes del Servicio</h2>
+      <div class="space-y-4">
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <h3 class="mb-2 font-bold text-slate-900">¿Esto es asesoramiento legal?</h3>
+          <p class="text-sm text-slate-500">No. Somos un servicio de presentación y cumplimiento normativo. Preparamos y enviamos los formularios según los requisitos de tu estado. Para preguntas legales sobre responsabilidad, deudas o disputas, consulta a un abogado.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <h3 class="mb-2 font-bold text-slate-900">¿Qué pasa si mi negocio tiene deudas pendientes?</h3>
+          <p class="text-sm text-slate-500">Aún podemos ayudar con el proceso de presentación, pero necesitarás trabajar con los acreedores o un abogado para resolver las deudas. Nosotros nos encargamos de los requisitos de notificación a acreedores según la ley de tu estado.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <h3 class="mb-2 font-bold text-slate-900">¿Cuánto tiempo toma todo el proceso?</h3>
+          <p class="text-sm text-slate-500">Normalmente entre 30 y 90 días, dependiendo de tu estado. La liquidación fiscal suele ser el paso más largo. Comenzamos las presentaciones dentro de las 48 horas de recibir tu autorización firmada.</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 bg-white p-6">
+          <h3 class="mb-2 font-bold text-slate-900">¿Qué pasa si estoy registrado en varios estados?</h3>
+          <p class="text-sm text-slate-500">La tarifa de $1,000 cubre tu estado de origen. Cada estado adicional donde estés registrado como entidad foránea tiene un costo de $250 por la presentación de retiro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="comenzar" class="bg-gradient-to-r from-red-600 to-red-700 px-4 py-16 text-white">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="mb-4 text-3xl font-bold">¿Listo para Cerrar?</h2>
+      <p class="mb-8 text-red-100">$1,000 tarifa fija. Sin costos ocultos. Cada presentación resuelta. Cada plazo cumplido.</p>
+      <a href="https://buy.stripe.com/9B6cN53LT1PfbRZc4Qco009" class="inline-block rounded-lg bg-white px-8 py-4 text-lg font-bold text-red-600 shadow-lg hover:bg-red-50">
+        Iniciar Tu Cierre — $1,000
+      </a>
+      <p class="mt-4 text-xs text-red-200">El pago se cobra después de la llamada de registro. Reembolso completo si no podemos completar tu disolución.</p>
+    </div>
+  </section>
+</BaseLayoutES>

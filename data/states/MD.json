@@ -88,5 +88,43 @@
       "Creditor and employee notification templates",
       "Post-dissolution compliance checklist"
     ]
+  },
+  "es": {
+    "llc_steps": [
+      "Votar la disolución de la LLC según su Acuerdo Operativo",
+      "Liquidar los asuntos comerciales y saldar todas las deudas y obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Maryland Comptroller of the Treasury",
+      "Completar el formulario de Artículos de cancelación",
+      "Presentar en línea a través de Maryland Business Express o por correo (sin tarifa de presentación)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "llc_notes": "Sin tarifa de presentación para el procesamiento estándar (6-8 semanas). El procesamiento acelerado cuesta $50 (7-10 días hábiles). La presentación en línea a través de Maryland Business Express incluye una tarifa de servicio del 3% para pagos electrónicos.",
+    "corp_steps": [
+      "Obtener la resolución de la junta directiva que autoriza la disolución",
+      "Obtener la aprobación de los accionistas para la disolución (dos tercios de los votos con derecho a ser emitidos)",
+      "Liquidar los asuntos comerciales y saldar todas las obligaciones",
+      "Presentar las declaraciones de impuestos finales ante el Maryland Comptroller of the Treasury",
+      "Completar el formulario de Artículos de disolución",
+      "Presentar en línea a través de Maryland Business Express o por correo (sin tarifa de presentación)",
+      "Notificar a los acreedores y reclamantes de la disolución",
+      "Cancelar cualquier licencia, permiso y nombre comercial"
+    ],
+    "corp_notes": "Sin tarifa de presentación para el procesamiento estándar. Procesamiento acelerado disponible por $50. Maryland utiliza el SDAT (State Department of Assessments and Taxation) en lugar de una Secretaría de Estado para las presentaciones comerciales.",
+    "tax_notes": "Presente la declaración final de impuestos sobre la renta corporativos de Maryland (Formulario 500) y la declaración final de bienes personales ante el SDAT. Debe obtener la liquidación fiscal del Comptroller. Presente las declaraciones finales de impuestos sobre ventas y retención si corresponde. El SDAT puede exigir que todos los informes anuales y declaraciones de bienes personales estén al corriente.",
+    "employeeNotification": "La Ley de Estabilización Económica de Maryland requiere 90 días de aviso para reducciones de 25 o más empleados",
+    "creditorNotification": "Se debe notificar por escrito a los acreedores conocidos con fecha límite para presentar reclamaciones",
+    "registeredAgentNotes": "El agente residente debe mantenerse hasta que la disolución esté completa; todos los informes anuales y declaraciones de bienes personales deben estar al corriente",
+    "windingUpPeriod": "La entidad continúa existiendo durante tres años después de la disolución con el propósito de llevar a cabo el proceso de liquidación",
+    "boardOrMemberApproval": "LLC: Voto mayoritario de los miembros o según el acuerdo operativo. Corporación: Resolución de la junta directiva seguida de la aprobación de dos tercios de los accionistas.",
+    "guide_includes": [
+      "Lista de verificación de disolución paso a paso",
+      "Todos los formularios requeridos con enlaces de descarga directa",
+      "Tabla de tarifas completa",
+      "Requisitos y proceso de liquidación fiscal",
+      "Cronograma con opciones de procesamiento acelerado",
+      "Plantillas de notificación para acreedores y empleados",
+      "Lista de verificación de cumplimiento post-disolución"
+    ]
   }
 }
