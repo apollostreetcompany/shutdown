@@ -1,0 +1,5 @@
+- Date/time (JST): 2026-04-10 10:59
+- What happened: The Cloudflare Pages site was deployed with guide purchase UI that could show a local “ORDER CONFIRMED” style success state without completing a real payment or delivery.
+- Root cause: The pre-deploy review focused on build/deployment mechanics and missed conversion-copy patterns that looked like deceptive checkout/social proof to browsers and Safe Browsing systems.
+- Fix applied: Removed the fake local purchase state, fake testimonials, fake aggregate rating JSON-LD, and fake urgency pricing; guide purchase buttons now route directly to Stripe Checkout. Deployed the fixed build to a new clean Cloudflare Pages project, `shutdownassistant`.
+- Prevention rule: Before public deploy, scan for fake confirmation states, fake scarcity, fake testimonials, fake reviews/ratings, and any purchase UI that does not leave the site for a real checkout or authenticated fulfillment flow.

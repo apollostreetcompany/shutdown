@@ -1,14 +1,13 @@
-import { useState, useEffect, useRef } from 'react';
-import { motion, useAnimationFrame } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  ArrowRight, Star, CheckCircle, ShieldCheck, Lock, MapPin,
-  DollarSign, BookOpen, FileText, Award, Clock, AlertTriangle,
+  ArrowRight, CheckCircle, ShieldCheck, Lock,
+  DollarSign, BookOpen, FileText, Award, AlertTriangle,
   Building2, XCircle, Globe, TrendingDown, ExternalLink, ChevronRight,
 } from 'lucide-react';
 import type { GuideTranslations } from '../lib/guide-translations';
 import {
   buildDifficultyScale, buildCostCategories, buildGuideContents,
-  deriveStateTraits, getRelatedStates, computeDifficulty, difficultyLabel,
+  deriveStateTraits, getRelatedStates,
 } from '../lib/guide-helpers';
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
@@ -22,64 +21,6 @@ interface StateGuidePageProps {
   statesBasePath: string; // e.g. "/states"
   alternateLangUrl?: string; // URL of the page in the other language
 }
-
-// ─── TESTIMONIALS DATA ─────────────────────────────────────────────────────────
-
-const TESTIMONIALS_EN = [
-  { name: 'Aaron T.', role: 'Founder, 3-State SaaS Co.', location: 'Austin, TX', quote: 'We thought closing our Delaware C-Corp was easy. The California FTB sent us a bill 18 months later. This guide would have saved us $14,000.', stars: 5 },
-  { name: 'Priya M.', role: 'Serial Entrepreneur', location: 'New York, NY', quote: 'I had LLCs registered in 6 states. Had no idea half of them had accrued penalties. The shutdown checklist in this guide is worth 100x the price.', stars: 5 },
-  { name: 'Jason R.', role: 'E-commerce Operator', location: 'Denver, CO', quote: 'The state-specific breakdown saved my next business. I was about to make the exact same dissolution mistakes all over again.', stars: 5 },
-  { name: 'Sandra K.', role: 'CFO, Mid-Size Retailer', location: 'Chicago, IL', quote: 'Nothing out there covers state-specific wind-downs this clearly. I sent this to our entire finance team. Essential reading.', stars: 5 },
-  { name: 'Marcus B.', role: 'Business Broker', location: 'Miami, FL', quote: 'Every client I work with gets a copy of the relevant state guide. Closing clean is the most underrated skill in business.', stars: 5 },
-  { name: 'Lily C.', role: 'Startup Attorney', location: 'San Francisco, CA', quote: 'I recommend this to clients before they pay me. Saves them thousands and means I can focus on the complicated stuff. Incredibly thorough.', stars: 5 },
-];
-
-const TESTIMONIALS_ES = [
-  { name: 'Aaron T.', role: 'Fundador, SaaS en 3 Estados', location: 'Austin, TX', quote: 'Pensamos que cerrar nuestra C-Corp de Delaware era f\u00E1cil. La FTB de California nos envi\u00F3 una factura 18 meses despu\u00E9s. Esta gu\u00EDa nos habr\u00EDa ahorrado $14,000.', stars: 5 },
-  { name: 'Priya M.', role: 'Emprendedora Serial', location: 'New York, NY', quote: 'Ten\u00EDa LLCs registradas en 6 estados. No ten\u00EDa idea de que la mitad hab\u00EDan acumulado multas. La lista de verificaci\u00F3n vale 100 veces el precio.', stars: 5 },
-  { name: 'Jason R.', role: 'Operador E-commerce', location: 'Denver, CO', quote: 'El desglose espec\u00EDfico por estado salv\u00F3 mi siguiente negocio. Estaba a punto de cometer los mismos errores de disoluci\u00F3n.', stars: 5 },
-  { name: 'Sandra K.', role: 'CFO, Minorista Mediana', location: 'Chicago, IL', quote: 'Nada cubre los cierres espec\u00EDficos por estado tan claramente. Se lo envi\u00E9 a todo mi equipo financiero. Lectura esencial.', stars: 5 },
-  { name: 'Marcus B.', role: 'Corredor de Negocios', location: 'Miami, FL', quote: 'Cada cliente que atiendo recibe una copia de la gu\u00EDa estatal relevante. Cerrar limpio es la habilidad m\u00E1s subestimada en los negocios.', stars: 5 },
-  { name: 'Lily C.', role: 'Abogada de Startups', location: 'San Francisco, CA', quote: 'Recomiendo esto a mis clientes antes de que me paguen. Les ahorra miles y me permite enfocarme en lo complicado. Incre\u00EDblemente completa.', stars: 5 },
-];
-
-// ─── TICKER ────────────────────────────────────────────────────────────────────
-
-const TestimonialTicker = ({ testimonials }: { testimonials: typeof TESTIMONIALS_EN }) => {
-  const tickerRef = useRef<HTMLDivElement>(null);
-  const xRef = useRef(0);
-  const SPEED = 0.6;
-
-  useAnimationFrame(() => {
-    if (!tickerRef.current) return;
-    const el = tickerRef.current;
-    xRef.current -= SPEED;
-    const totalWidth = el.scrollWidth / 2;
-    if (Math.abs(xRef.current) >= totalWidth) xRef.current = 0;
-    el.style.transform = `translateX(${xRef.current}px)`;
-  });
-
-  const items = [...testimonials, ...testimonials];
-
-  return (
-    <div className="overflow-hidden border-y-4 border-black bg-black py-3">
-      <div ref={tickerRef} className="flex gap-0 whitespace-nowrap" style={{ willChange: 'transform' }}>
-        {items.map((t, i) => (
-          <div key={`${t.name}-${i}`} className="inline-flex items-center gap-3 px-6 flex-shrink-0">
-            <div className="flex gap-0.5">
-              {[1, 2, 3, 4, 5].map(s => <Star key={s} size={12} fill="#FFED4E" stroke="#FFED4E" />)}
-            </div>
-            <span className="text-[#FFED4E] font-black text-sm">
-              <span>{'\u275D'}{t.quote.slice(0, 55)}{'\u2026\u275E'}</span>
-            </span>
-            <span className="text-[#FFED4E]/50 font-bold text-xs">{'\u2014'} {t.name}, {t.location}</span>
-            <span className="text-[#FFED4E]/30 font-black text-lg mx-2">{'\u2726'}</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
 
 // ─── GUARANTEE STAMP ───────────────────────────────────────────────────────────
 
@@ -128,8 +69,7 @@ const FixedCheckoutBar = ({ onBuy, tx }: { onBuy: () => void; tx: GuideTranslati
   <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden border-t-4 border-black bg-[#FFED4E] shadow-[0_-4px_0px_0px_rgba(0,0,0,1)]">
     <div className="flex items-center gap-3 px-4 py-3">
       <div className="flex flex-col leading-tight">
-        <span className="text-[10px] font-black tracking-widest text-black/50 line-through">{tx.mobileWas}</span>
-        <span className="text-2xl font-black text-black leading-none">$29</span>
+        <span className="text-2xl font-black text-black leading-none">$49</span>
         <span className="text-[9px] font-black tracking-wider text-black/60">{tx.mobileOneTime}</span>
       </div>
       <motion.button
@@ -139,7 +79,7 @@ const FixedCheckoutBar = ({ onBuy, tx }: { onBuy: () => void; tx: GuideTranslati
         style={{ borderWidth: '3px' }}
       >
         <Building2 size={18} strokeWidth={3} />
-        <span>{tx.buyNow} {'\u2014'} $29</span>
+        <span>{tx.buyNow} {'\u2014'} $49</span>
       </motion.button>
       <div className="flex flex-col items-center text-[9px] font-black tracking-wider text-black/50 leading-tight">
         <Lock size={14} strokeWidth={3} className="text-black/40 mb-0.5" />
@@ -212,68 +152,18 @@ export const StateGuidePage = ({
   statesBasePath,
   alternateLangUrl,
 }: StateGuidePageProps) => {
-  const [purchased, setPurchased] = useState(false);
-  const [buyCount] = useState(Math.floor(30 + s.name.length * 3.7));
-  const [timeLeft, setTimeLeft] = useState({ h: 5, m: 42, s: 17 });
-
-  const testimonials = tx.locale === 'es' ? TESTIMONIALS_ES : TESTIMONIALS_EN;
   const guideContents = buildGuideContents(s, tx.locale);
   const difficultyScale = buildDifficultyScale(s, allStates, tx.locale);
   const costCategories = buildCostCategories(s, tx.locale);
   const { pros, cons } = deriveStateTraits(s, tx.locale);
   const relatedStates = getRelatedStates(s.code, 6);
-  const currentDifficulty = computeDifficulty(s);
-  const currentDiffLabel = difficultyLabel(currentDifficulty, tx.locale);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTimeLeft(prev => {
-        let { h, m, s } = prev;
-        s--;
-        if (s < 0) { s = 59; m--; }
-        if (m < 0) { m = 59; h--; }
-        if (h < 0) { h = 23; m = 59; s = 59; }
-        return { h, m, s };
-      });
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleBuy = () => setPurchased(true);
-  const pad = (n: number) => String(n).padStart(2, '0');
+  const guideCheckoutUrl = 'https://buy.stripe.com/14A00jdmt51r6xFfh2co007';
+  const handleBuy = () => {
+    window.location.href = guideCheckoutUrl;
+  };
 
   const rep = (template: string) =>
     template.replace(/\{state\}/g, s.name).replace(/\{agency\}/g, s.agency);
-
-  // ── PURCHASED STATE ──
-  if (purchased) {
-    return (
-      <div className="min-h-screen w-full flex items-center justify-center bg-[#FFED4E]" style={{ fontFamily: 'Georgia, serif' }}>
-        <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: 'spring', stiffness: 180 }} className="max-w-md w-full mx-4">
-          <div className="border-4 border-black bg-[#E91E8C] p-1 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-            <div className="border-2 border-black bg-amber-50 p-8 text-center">
-              <div className="text-6xl mb-4">{'\uD83D\uDCCB'}</div>
-              <div className="bg-black text-[#FFED4E] px-4 py-2 font-black text-xs tracking-[0.3em] mb-4 inline-block">
-                {tx.locale === 'es' ? 'ORDEN CONFIRMADA' : 'ORDER CONFIRMED'}
-              </div>
-              <h2 className="text-3xl font-black text-black mb-2">
-                {tx.locale === 'es' ? 'EST\u00C1S CUBIERTO.' : 'YOU\'RE COVERED.'}
-              </h2>
-              <p className="font-bold text-black/70 italic mb-6 text-sm">
-                {tx.locale === 'es'
-                  ? `Revisa tu bandeja de entrada \u2014 tu gu\u00EDa de ${s.name} est\u00E1 en camino.`
-                  : `Check your inbox \u2014 your ${s.name} guide is on its way. Close clean. Move forward.`}
-              </p>
-              <DottedDivider />
-              <div className="mt-4 text-xs font-black tracking-widest text-black/40">
-                {tx.brandName} {'\u2022'} {s.name.toUpperCase()} {tx.heroProductTitle}
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen w-full pb-24 md:pb-0" style={{ backgroundColor: '#FFED4E', fontFamily: 'Georgia, serif' }}>
@@ -296,16 +186,14 @@ export const StateGuidePage = ({
               {tx.viewFreeGuide}
             </a>
             <div className="hidden sm:flex items-center gap-1.5 border-2 border-black bg-white px-3 py-1">
-              <Clock size={14} strokeWidth={3} />
-              <span className="font-black text-sm text-[#E91E8C]">
-                {pad(timeLeft.h)}:{pad(timeLeft.m)}:{pad(timeLeft.s)}
-              </span>
-              <span className="text-[10px] font-black text-black/50 tracking-wider">{tx.offerEnds}</span>
+              <FileText size={14} strokeWidth={3} />
+              <span className="font-black text-sm text-[#E91E8C]">$49</span>
+              <span className="text-[10px] font-black text-black/50 tracking-wider">{tx.mobileOneTime}</span>
             </div>
             <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} onClick={handleBuy}
               className="bg-[#E91E8C] text-white font-black text-sm px-4 py-2 border-2 border-black flex items-center gap-1.5 cursor-pointer">
               <span>{tx.buyNow}</span>
-              <span className="font-black">$29</span>
+              <span className="font-black">$49</span>
             </motion.button>
           </div>
         </div>
@@ -327,20 +215,6 @@ export const StateGuidePage = ({
           backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 49.5%, rgba(0,0,0,0.04) 49.5%, rgba(0,0,0,0.04) 50.5%, transparent 50.5%, transparent 100%)',
           backgroundSize: '160px 100%',
         }}>
-          {/* Urgency badges */}
-          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
-            <div className="bg-[#E91E8C] text-white font-black text-xs tracking-[0.3em] px-4 py-1.5 border-2 border-black flex items-center gap-2">
-              <Building2 size={14} strokeWidth={3} />
-              <span>{tx.specialLaunch}</span>
-              <Building2 size={14} strokeWidth={3} />
-            </div>
-            <div className="flex items-center gap-2 border-2 border-black bg-white px-3 py-1">
-              <span className="text-xs font-black text-black/50">{tx.heroBoughtToday}</span>
-              <span className="text-sm font-black text-[#E91E8C]">{buyCount} {tx.heroFounders}</span>
-            </div>
-          </motion.div>
-
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             {/* Left: Main copy */}
             <div className="flex-1 text-center lg:text-left">
@@ -397,8 +271,7 @@ export const StateGuidePage = ({
                   <h2 className="text-2xl font-black leading-tight mb-3" style={{ fontFamily: 'Arial Black, Arial, sans-serif' }}>{tx.heroProductTitle}</h2>
                   <DottedDivider />
                   <div className="mt-3 mb-2">
-                    <span className="line-through text-[#FFED4E]/40 text-lg font-black mr-2">{tx.heroPriceWas}</span>
-                    <span className="text-4xl font-black text-[#FFED4E]">$29</span>
+                    <span className="text-4xl font-black text-[#FFED4E]">$49</span>
                   </div>
                   <div className="text-xs font-black tracking-widest text-[#FFED4E]/60 mb-4">{tx.heroPriceOneTime}</div>
                   <motion.button whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} onClick={handleBuy}
@@ -417,34 +290,8 @@ export const StateGuidePage = ({
             </motion.div>
           </div>
 
-          {/* Price countdown */}
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7 }}
-            className="mt-10 border-4 border-black bg-black text-[#FFED4E] p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <AlertTriangle size={28} strokeWidth={3} className="text-[#E91E8C] flex-shrink-0" />
-              <div>
-                <div className="font-black text-base leading-tight">{tx.heroPriceGoesUp}</div>
-                <div className="text-xs font-bold text-[#FFED4E]/60 italic">{tx.heroPriceSubtext}</div>
-              </div>
-            </div>
-            <div className="flex gap-2 items-center">
-              {[
-                { val: pad(timeLeft.h), label: tx.heroHrs },
-                { val: pad(timeLeft.m), label: tx.heroMin },
-                { val: pad(timeLeft.s), label: tx.heroSec },
-              ].map(({ val, label }) => (
-                <div key={label} className="flex flex-col items-center border-2 border-[#FFED4E]/40 px-3 py-1 min-w-[48px]">
-                  <span className="text-2xl font-black leading-none">{val}</span>
-                  <span className="text-[9px] font-black tracking-widest text-[#FFED4E]/60">{label}</span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
         </div>
       </section>
-
-      {/* ── TESTIMONIAL TICKER ─────────────────────────────────────────── */}
-      <TestimonialTicker testimonials={testimonials} />
 
       {/* ── QUICK FACTS ─────────────────────────────────────────────────── */}
       <section className="border-b-4 border-black bg-white" id="facts">
@@ -675,44 +522,6 @@ export const StateGuidePage = ({
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ────────────────────────────────────────────────── */}
-      <section className="border-b-4 border-black" style={{ backgroundColor: '#FFF8DC' }} id="reviews">
-        <div className="max-w-4xl mx-auto px-4 py-16">
-          <div className="text-center mb-10">
-            <div className="text-xs font-black tracking-[0.3em] text-black/50 mb-2 uppercase">{tx.testimonialsPreTitle}</div>
-            <h2 className="text-4xl md:text-5xl font-black text-black" style={{ fontFamily: 'Arial Black, Arial, sans-serif' }}>
-              {tx.testimonialsTitle}
-            </h2>
-            <SectionDivider />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {testimonials.map((t, i) => (
-              <motion.div key={t.name} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
-                <div className="border-4 border-black bg-[#E91E8C] p-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] h-full">
-                  <div className="border-2 border-black bg-white p-4 h-full">
-                    <div className="flex gap-0.5 mb-3">
-                      {[1, 2, 3, 4, 5].map(s => <Star key={s} size={13} fill="#FFB800" stroke="#FFB800" />)}
-                    </div>
-                    <p className="italic text-sm font-bold text-black/80 leading-relaxed mb-4">
-                      <span>{'\u275D'}{t.quote}{'\u275E'}</span>
-                    </p>
-                    <DottedDivider />
-                    <div className="font-black text-sm mt-2">{t.name}</div>
-                    <div className="text-xs font-bold text-black/50">{t.role}</div>
-                    <div className="flex items-center gap-1 mt-1">
-                      <MapPin size={10} strokeWidth={3} />
-                      <span className="text-xs font-bold text-black/50">{t.location}</span>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── URGENCY ─────────────────────────────────────────────────────── */}
       <section className="border-b-4 border-black bg-black text-[#FFED4E]">
         <div className="max-w-4xl mx-auto px-4 py-8">
@@ -767,15 +576,9 @@ export const StateGuidePage = ({
               <span style={{ color: '#E91E8C' }}>{rep(tx.ctaTitleLine2Template)}</span>
             </h2>
 
-            <div className="flex items-center gap-4 justify-center mb-8">
-              <div className="flex items-center gap-1.5">
-                <span className="text-5xl font-black text-black line-through opacity-30">{tx.heroPriceWas}</span>
-              </div>
-              <ArrowRight size={28} strokeWidth={3} className="text-black/40" />
-              <div className="flex flex-col items-start">
-                <span className="text-7xl font-black text-black leading-none">$29</span>
-                <span className="text-xs font-black tracking-widest text-black/50">{tx.ctaTodayOnly}</span>
-              </div>
+            <div className="mb-8">
+              <span className="text-7xl font-black text-black leading-none">$49</span>
+              <div className="mt-2 text-xs font-black tracking-widest text-black/50">{tx.heroPriceOneTime}</div>
             </div>
 
             <div className="border-4 border-black bg-white p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] mb-6">
