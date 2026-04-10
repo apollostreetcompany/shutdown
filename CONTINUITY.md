@@ -11,7 +11,8 @@ Success criteria:
 ## Constraints/Assumptions
 
 - Use Cloudflare Pages, not Netlify.
-- `shutdownassistant.com` is intended as the custom domain, but WHOIS currently reports no registration for it.
+- `shutdownassistant.com` is registered through Cloudflare and the zone is active.
+- Current Wrangler OAuth is logged in but has only `zone:read` for zones; Cloudflare DNS-record API calls require DNS edit permission and currently return authentication errors.
 - `apollo-workspace/` is unrelated untracked work and should not be modified.
 
 ## Key Decisions
@@ -29,16 +30,20 @@ Success criteria:
 
 ### Now
 
-- None.
+- Bead 2: Wire `shutdownassistant.com` DNS to Cloudflare Pages. Blocked on DNS record write permission.
 
 ### Next
 
-- Register `shutdownassistant.com`, add its zone/DNS in Cloudflare, then let the pending Pages custom domains validate.
+- Export a Cloudflare API token with `Zone:DNS:Edit` for `shutdownassistant.com`, then create DNS records:
+  - `CNAME shutdownassistant.com -> shutdownassistant.pages.dev`
+  - `CNAME es.shutdownassistant.com -> shutdownassistant.pages.dev`
+- Retry Cloudflare Pages custom-domain validation after DNS records exist.
 - If the old `shutdown-assistant.pages.dev` hostname must remain usable, submit a Google Safe Browsing incorrect-warning review for that hostname.
 
 ## Open Questions
 
 - Should the old Cloudflare Pages project `shutdown-assistant` be deleted after the new URL is confirmed everywhere?
+- Can Ryan provide/export a Cloudflare API token with DNS edit permission, or create the two CNAME records in the Cloudflare dashboard?
 
 ## Working Set
 
@@ -55,4 +60,3 @@ Commands:
 - `npm run build`
 - `npm run deploy:cloudflare`
 - `wrangler pages deployment list --project-name shutdownassistant`
-
