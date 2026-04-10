@@ -12,7 +12,7 @@ Success criteria:
 
 - Use Cloudflare Pages, not Netlify.
 - `shutdownassistant.com` is registered through Cloudflare and the zone is active.
-- Current Wrangler OAuth is logged in but has only `zone:read` for zones; Cloudflare DNS-record API calls require DNS edit permission and currently return authentication errors.
+- Current Wrangler OAuth is logged in but has only `zone:read` for zones. Use `CLOUDFLARE_API_TOKEN` for DNS-record writes and unset it when using Wrangler/Pages APIs that need the OAuth token.
 - `apollo-workspace/` is unrelated untracked work and should not be modified.
 
 ## Key Decisions
@@ -21,29 +21,29 @@ Success criteria:
 - Kept purchase conversion through Stripe Checkout: `https://buy.stripe.com/14A00jdmt51r6xFfh2co007`.
 - Created a new Cloudflare Pages project, `shutdownassistant`, because the old default hostname `shutdown-assistant.pages.dev` retained a Google Safe Browsing social-engineering flag after content was fixed.
 - Moved pending custom-domain attachments to the new `shutdownassistant` project.
+- DNS for `shutdownassistant.com` and `es.shutdownassistant.com` points to `shutdownassistant.pages.dev`; the apex uses DNS-only CNAME flattening, while the `es` subdomain is proxied.
+- Added a Pages `_worker.js` to redirect `es.shutdownassistant.com/*` to `shutdownassistant.com/es/*`, because the host-specific `_redirects` rule did not fire on Cloudflare Pages.
 
 ## State
 
 ### Done
 
 - [x] Bead 1: Verified phishing warning, removed deceptive guide checkout flow, deployed fixed site to Cloudflare.
+- [x] Bead 2: Wired `shutdownassistant.com` and `es.shutdownassistant.com` to Cloudflare Pages.
 
 ### Now
 
-- Bead 2: Wire `shutdownassistant.com` DNS to Cloudflare Pages. Blocked on DNS record write permission.
+- None.
 
 ### Next
 
-- Export a Cloudflare API token with `Zone:DNS:Edit` for `shutdownassistant.com`, then create DNS records:
-  - `CNAME shutdownassistant.com -> shutdownassistant.pages.dev`
-  - `CNAME es.shutdownassistant.com -> shutdownassistant.pages.dev`
-- Retry Cloudflare Pages custom-domain validation after DNS records exist.
+- Monitor DNS/Pages propagation and old Chrome/Safe Browsing caches.
 - If the old `shutdown-assistant.pages.dev` hostname must remain usable, submit a Google Safe Browsing incorrect-warning review for that hostname.
 
 ## Open Questions
 
 - Should the old Cloudflare Pages project `shutdown-assistant` be deleted after the new URL is confirmed everywhere?
-- Can Ryan provide/export a Cloudflare API token with DNS edit permission, or create the two CNAME records in the Cloudflare dashboard?
+- Should the old host-specific entries in `public/_redirects` be removed now that `_worker.js` handles `es` redirects?
 
 ## Working Set
 
@@ -55,6 +55,7 @@ Success criteria:
 - `wrangler.toml`
 - `public/_headers`
 - `public/_redirects`
+- `public/_worker.js`
 
 Commands:
 - `npm run build`
