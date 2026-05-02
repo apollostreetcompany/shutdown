@@ -11,6 +11,7 @@
     window.__shutdownAnalyticsInitialized = true;
 
     const MAX_VALUE_LENGTH = 255;
+    const CHECKOUT_NAVIGATION_DELAY_MS = 1000;
     const STRIPE_HOST = "buy.stripe.com";
     const scrollMilestones = [25, 50, 75, 90];
     const completedScrollMilestones = new Set();
@@ -137,7 +138,7 @@
             event.preventDefault();
             window.setTimeout(() => {
               window.location.href = url.href;
-            }, 150);
+            }, CHECKOUT_NAVIGATION_DELAY_MS);
           }
 
           return;

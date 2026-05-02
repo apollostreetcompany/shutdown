@@ -10,6 +10,8 @@ import {
   deriveStateTraits, getRelatedStates,
 } from '../lib/guide-helpers';
 
+const CHECKOUT_NAVIGATION_DELAY_MS = 1000;
+
 declare global {
   interface Window {
     datafast?: (goalName: string, metadata?: Record<string, string>) => void;
@@ -175,7 +177,7 @@ export const StateGuidePage = ({
 
     window.setTimeout(() => {
       window.location.href = guideCheckoutUrl;
-    }, 150);
+    }, CHECKOUT_NAVIGATION_DELAY_MS);
   };
 
   const rep = (template: string) =>
