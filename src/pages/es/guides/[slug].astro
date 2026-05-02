@@ -1,5 +1,6 @@
 ---
 import stateData from '../../../../data/states/index.json';
+import DataFastAnalytics from '../../../components/DataFastAnalytics.astro';
 import { ES } from '../../../lib/guide-translations';
 import { StateGuidePage } from '../../../components/StateGuidePage';
 
@@ -130,6 +131,8 @@ const jsonLd = {
     <meta name="keywords" content={`disolver negocio ${s.name}, cerrar LLC ${s.name}, cerrar corporación ${s.name}, disolución ${s.name}, ${s.agency} disolución, cierre de negocio ${s.name}`} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <DataFastAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

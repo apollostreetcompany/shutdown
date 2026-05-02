@@ -1,5 +1,6 @@
 ---
 import LanguageSwitcher from '../components/LanguageSwitcher.astro';
+import DataFastAnalytics from '../components/DataFastAnalytics.astro';
 
 interface Props {
   title: string;
@@ -44,6 +45,8 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <DataFastAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify({

@@ -10,6 +10,12 @@ import {
   deriveStateTraits, getRelatedStates,
 } from '../lib/guide-helpers';
 
+declare global {
+  interface Window {
+    datafast?: (goalName: string, metadata?: Record<string, string>) => void;
+  }
+}
+
 // ─── TYPES ─────────────────────────────────────────────────────────────────────
 
 interface StateGuidePageProps {
@@ -159,7 +165,17 @@ export const StateGuidePage = ({
   const relatedStates = getRelatedStates(s.code, 6);
   const guideCheckoutUrl = 'https://buy.stripe.com/14A00jdmt51r6xFfh2co007';
   const handleBuy = () => {
-    window.location.href = guideCheckoutUrl;
+    window.datafast?.('guide_checkout_started', {
+      page_path: window.location.pathname,
+      page_type: 'paid_guide_sales',
+      locale: tx.locale,
+      state: s.slug,
+      product: 'state_guide',
+    });
+
+    window.setTimeout(() => {
+      window.location.href = guideCheckoutUrl;
+    }, 150);
   };
 
   const rep = (template: string) =>

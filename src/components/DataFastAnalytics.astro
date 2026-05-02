@@ -1,0 +1,192 @@
+<script id="datafast-queue" is:inline>
+  window.datafast = window.datafast || function() {
+    window.datafast.q = window.datafast.q || [];
+    window.datafast.q.push(arguments);
+  };
+</script>
+
+<script id="shutdown-analytics" is:inline>
+  (() => {
+    if (window.__shutdownAnalyticsInitialized) return;
+    window.__shutdownAnalyticsInitialized = true;
+
+    const MAX_VALUE_LENGTH = 255;
+    const STRIPE_HOST = "buy.stripe.com";
+    const scrollMilestones = [25, 50, 75, 90];
+    const completedScrollMilestones = new Set();
+
+    const clean = (value) =>
+      String(value ?? "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .slice(0, MAX_VALUE_LENGTH);
+
+    const getLocale = (pathname = window.location.pathname) =>
+      pathname === "/es" || pathname.startsWith("/es/") ? "es" : "en";
+
+    const stripLocale = (pathname) =>
+      pathname === "/es" ? "/" : pathname.replace(/^\/es(?=\/)/, "");
+
+    const getStateSlug = (pathname = window.location.pathname) => {
+      const normalizedPath = stripLocale(pathname);
+      return normalizedPath.match(/^\/(?:states|guides)\/([^/]+)/)?.[1] || "";
+    };
+
+    const getPageType = (pathname = window.location.pathname) => {
+      const normalizedPath = stripLocale(pathname);
+
+      if (normalizedPath === "/") return "home";
+      if (normalizedPath === "/states") return "states_index";
+      if (normalizedPath.startsWith("/states/")) return "free_state_guide";
+      if (normalizedPath === "/guides") return "paid_guides_index";
+      if (normalizedPath.startsWith("/guides/")) return "paid_guide_sales";
+      if (normalizedPath === "/pricing") return "pricing";
+      if (normalizedPath === "/shutdown-agent") return "shutdown_agent";
+      if (["/terms", "/privacy", "/disclaimer"].includes(normalizedPath)) return "legal";
+      return "content";
+    };
+
+    const pageContext = () => ({
+      page_path: clean(window.location.pathname),
+      page_type: getPageType(),
+      locale: getLocale(),
+      state: getStateSlug(),
+    });
+
+    const trackGoal = (name, metadata = {}) => {
+      if (typeof window.datafast !== "function") return;
+
+      const payload = { ...pageContext(), ...metadata };
+      const cleanedPayload = Object.fromEntries(
+        Object.entries(payload)
+          .filter(([, value]) => value !== undefined && value !== null && value !== "")
+          .map(([key, value]) => [key, clean(value)])
+      );
+
+      window.datafast(name, cleanedPayload);
+    };
+
+    const getAnchor = (target) => {
+      const element = target instanceof Element ? target : target?.parentElement;
+      return element?.closest?.("a[href]") || null;
+    };
+
+    const getLinkText = (anchor) =>
+      clean(anchor.getAttribute("aria-label") || anchor.textContent || anchor.href);
+
+    const getStripeProduct = (href) => {
+      if (href.includes("14A00jdmt51r6xFfh2co007")) return "state_guide";
+      if (href.includes("9B67sLdmtbpPg8fgl6co008")) return "all_states_bundle";
+      if (href.includes("9B6cN53LT1PfbRZc4Qco009")) return "shutdown_agent";
+      return "stripe_checkout";
+    };
+
+    const getStripeGoal = (product) => {
+      if (product === "shutdown_agent") return "agent_checkout_started";
+      if (product === "all_states_bundle") return "bundle_checkout_started";
+      return "guide_checkout_started";
+    };
+
+    const getInternalGoal = (url) => {
+      const normalizedPath = stripLocale(url.pathname);
+
+      if (normalizedPath.startsWith("/states/")) return "state_link_clicked";
+      if (normalizedPath.startsWith("/guides/")) return "premium_guide_link_clicked";
+      if (normalizedPath === "/pricing") return "pricing_link_clicked";
+      if (normalizedPath === "/shutdown-agent") return "agent_link_clicked";
+      if (url.hash === "#states") return "find_state_clicked";
+      return "internal_link_clicked";
+    };
+
+    document.addEventListener(
+      "click",
+      (event) => {
+        const anchor = getAnchor(event.target);
+        if (!anchor) return;
+
+        const href = anchor.getAttribute("href");
+        if (!href || href.startsWith("mailto:") || href.startsWith("tel:")) return;
+
+        let url;
+        try {
+          url = new URL(href, window.location.href);
+        } catch {
+          return;
+        }
+
+        const linkText = getLinkText(anchor);
+
+        if (url.hostname === STRIPE_HOST) {
+          const product = getStripeProduct(url.href);
+          const goalName = getStripeGoal(product);
+
+          trackGoal(goalName, {
+            product,
+            link_text: linkText,
+            link_domain: url.hostname,
+          });
+
+          if (
+            event.button === 0 &&
+            !event.metaKey &&
+            !event.ctrlKey &&
+            !event.shiftKey &&
+            !event.altKey &&
+            !anchor.target
+          ) {
+            event.preventDefault();
+            window.setTimeout(() => {
+              window.location.href = url.href;
+            }, 150);
+          }
+
+          return;
+        }
+
+        if (url.origin === window.location.origin) {
+          trackGoal(getInternalGoal(url), {
+            link_path: clean(`${url.pathname}${url.hash}`),
+            link_text: linkText,
+          });
+          return;
+        }
+
+        trackGoal("external_link_clicked", {
+          link_domain: url.hostname,
+          link_text: linkText,
+        });
+      },
+      true
+    );
+
+    let scrollTimer = null;
+    const trackScroll = () => {
+      const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollableHeight <= 0) return;
+
+      const percent = Math.round((window.scrollY / scrollableHeight) * 100);
+
+      for (const milestone of scrollMilestones) {
+        if (percent >= milestone && !completedScrollMilestones.has(milestone)) {
+          completedScrollMilestones.add(milestone);
+          trackGoal(`scroll_${milestone}`);
+        }
+      }
+    };
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (scrollTimer) window.clearTimeout(scrollTimer);
+        scrollTimer = window.setTimeout(trackScroll, 150);
+      },
+      { passive: true }
+    );
+
+    window.setTimeout(trackScroll, 1000);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") trackScroll();
+    });
+  })();
+</script>

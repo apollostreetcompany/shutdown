@@ -9,6 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "deploy:cloudflare": "npm run build && wrangler pages deploy dist --project-name shutdownassistant",
+    "logs:cloudflare": "wrangler pages deployment tail --project-name shutdownassistant --environment production --format pretty --search edge_visit",
+    "logs:cloudflare:json": "wrangler pages deployment tail --project-name shutdownassistant --environment production --format json --search edge_visit",
     "astro": "astro",
     "generate:registry": "node scripts/generate-registry.mjs",
     "generate:guides": "node scripts/generate-guides.mjs",

@@ -23,6 +23,8 @@ Success criteria:
 - Moved pending custom-domain attachments to the new `shutdownassistant` project.
 - DNS for `shutdownassistant.com` and `es.shutdownassistant.com` points to `shutdownassistant.pages.dev`; the apex uses DNS-only CNAME flattening, while the `es` subdomain is proxied.
 - Added a Pages `_worker.js` to redirect `es.shutdownassistant.com/*` to `shutdownassistant.com/es/*`, because the host-specific `_redirects` rule did not fire on Cloudflare Pages.
+- Added edge-level visit logging in `_worker.js` so bot and likely-human HTML requests can be tailed from Cloudflare Pages logs.
+- Added DataFast queue and funnel goal collection across English, Spanish, and premium guide pages. The external DataFast script is injected by the Pages worker when the runtime `DATAFAST_WEBSITE_ID` secret is present.
 
 ## State
 
@@ -30,6 +32,7 @@ Success criteria:
 
 - [x] Bead 1: Verified phishing warning, removed deceptive guide checkout flow, deployed fixed site to Cloudflare.
 - [x] Bead 2: Wired `shutdownassistant.com` and `es.shutdownassistant.com` to Cloudflare Pages.
+- [x] Bead 3: Added DataFast-ready funnel tracking and Cloudflare edge visit logging; deployed Cloudflare logging to production.
 
 ### Now
 
@@ -37,6 +40,7 @@ Success criteria:
 
 ### Next
 
+- Add `DATAFAST_WEBSITE_ID` to the `shutdownassistant` Cloudflare Pages project after the DataFast website is created.
 - Monitor DNS/Pages propagation and old Chrome/Safe Browsing caches.
 - If the old `shutdown-assistant.pages.dev` hostname must remain usable, submit a Google Safe Browsing incorrect-warning review for that hostname.
 
@@ -44,6 +48,7 @@ Success criteria:
 
 - Should the old Cloudflare Pages project `shutdown-assistant` be deleted after the new URL is confirmed everywhere?
 - Should the old host-specific entries in `public/_redirects` be removed now that `_worker.js` handles `es` redirects?
+- What is the DataFast website ID for `shutdownassistant.com`?
 
 ## Working Set
 
@@ -56,8 +61,12 @@ Success criteria:
 - `public/_headers`
 - `public/_redirects`
 - `public/_worker.js`
+- `src/components/DataFastAnalytics.astro`
+- `docs/analytics-logging.md`
 
 Commands:
 - `npm run build`
 - `npm run deploy:cloudflare`
 - `wrangler pages deployment list --project-name shutdownassistant`
+- `npm run logs:cloudflare`
+- `wrangler pages secret put DATAFAST_WEBSITE_ID --project-name shutdownassistant`
