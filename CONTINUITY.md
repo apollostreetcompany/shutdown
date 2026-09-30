@@ -1,3 +1,7 @@
+## Current sitemap repair — September 30, 2026
+
+Canonical `ops-gad.7` is owned by root in the existing Ops Metrics tracker. Branch `codex/fix/bead-ops-gad-7-sitemap` starts at accepted live analytics main `db328517011a3cd6b4621831f9e78d551f58b218`. Production robots advertises `/sitemap.xml`, but that path returns the HTML homepage fallback. Implement route/state-derived XML and built-output canonical coverage validation, without changing analytics, payments, content or the Worker. Contract: `work/2026-09-30-portfolio-sitemap/CONTRACT.md`. Existing dependencies and output are reused, unrelated untracked directories retained, and no autoreview is run. Source/live acceptance remains pending until normal PR/CI integration and exact Pages deployment.
+
 ## Portfolio operational repair — September 30, 2026
 
 Canonical task `ops-gad.5` is tracked by the root coordinator in `/Users/future/dev/ops-metrics`, not a new local queue. Source base is `fa8cda9807b07da89f3148b03624be68f6c4853a`; branch `codex/feat/bead-ops-gad-5-browser-analytics`. Baseline normal registry validation and full build pass (50 states, zero warnings/errors, 219 pages). Existing unrelated untracked directories are preserved. No matching source process or open GitHub PR was observed; Herdr inspection is unavailable from this tool environment, so prior session inventory is not a current ownership proof.
