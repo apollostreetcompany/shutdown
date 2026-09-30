@@ -1,6 +1,7 @@
 ---
 import stateData from '../../../../data/states/index.json';
 import DataFastAnalytics from '../../../components/DataFastAnalytics.astro';
+import PostHogAnalytics from '../../../components/PostHogAnalytics.astro';
 import { ES } from '../../../lib/guide-translations';
 import { StateGuidePage } from '../../../components/StateGuidePage';
 
@@ -133,6 +134,7 @@ const jsonLd = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <DataFastAnalytics />
+    <PostHogAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

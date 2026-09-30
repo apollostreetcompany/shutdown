@@ -1,6 +1,7 @@
 ---
 import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 import DataFastAnalytics from '../components/DataFastAnalytics.astro';
+import PostHogAnalytics from '../components/PostHogAnalytics.astro';
 
 interface Props {
   title: string;
@@ -45,6 +46,7 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <DataFastAnalytics />
+    <PostHogAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -115,6 +117,8 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
             <ul class="space-y-1 text-sm text-slate-500">
               <li><a href="/terms" class="hover:text-slate-900">Terms of Service</a></li>
               <li><a href="/privacy" class="hover:text-slate-900">Privacy Policy</a></li>
+              <li><a href="/privacy#posthog-choice" class="hover:text-slate-900">PostHog analytics choice</a></li>
+              <li><a href="mailto:apollostreetcompany@gmail.com" class="hover:text-slate-900">Support: apollostreetcompany@gmail.com</a></li>
               <li><a href="/disclaimer" class="hover:text-slate-900">Disclaimer</a></li>
             </ul>
             <p class="mt-4 text-xs text-slate-400">This site provides information, not legal advice. Consult an attorney for your specific situation.</p>

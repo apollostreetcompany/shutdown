@@ -646,13 +646,22 @@ export const StateGuidePage = ({
               <div className="text-xs font-bold text-[#FFED4E]/40">{tx.footerRights}</div>
             </div>
             <div className="flex items-center gap-4">
-              {[tx.footerTerms, tx.footerPrivacy, tx.footerRefunds].map((item, i) => (
-                <a key={item} href={['terms', 'privacy', 'disclaimer'][i] ? `/${['terms', 'privacy', 'disclaimer'][i]}` : '#'}
+              {[tx.footerTerms, tx.footerPrivacy, tx.footerRefunds].map((item, linkIndex) => (
+                <a key={item} href={`${guidesBasePath.startsWith('/es/') ? '/es' : ''}/${['terms', 'privacy', 'disclaimer'][linkIndex]}`}
                   className="text-xs font-black text-[#FFED4E]/50 hover:text-[#FFED4E] transition-colors no-underline">
                   {item}
                 </a>
               ))}
             </div>
+          </div>
+
+          <div className="mb-6 flex flex-wrap justify-center gap-4 text-xs font-bold">
+            <a href={`${guidesBasePath.startsWith('/es/') ? '/es' : ''}/privacy#posthog-choice`} className="text-[#FFED4E] underline underline-offset-4">
+              {guidesBasePath.startsWith('/es/') ? 'Preferencias de analítica' : 'Analytics choices'}
+            </a>
+            <a href="mailto:apollostreetcompany@gmail.com" className="text-[#FFED4E] underline underline-offset-4">
+              {guidesBasePath.startsWith('/es/') ? 'Soporte' : 'Support'}
+            </a>
           </div>
 
           {/* SEO: Related state links in footer */}
