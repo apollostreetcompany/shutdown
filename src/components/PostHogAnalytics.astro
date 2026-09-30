@@ -1,0 +1,13 @@
+---
+import stateData from '../../data/states/index.json';
+
+const englishPaths = ['/', '/about', '/compare', '/growth', '/pricing', '/states', '/shutdown-agent', '/terms', '/privacy', '/disclaimer'];
+const spanishPaths = ['/es', '/es/about', '/es/pricing', '/es/states', '/es/shutdown-agent', '/es/terms', '/es/privacy', '/es/disclaimer'];
+const statePaths = Object.values(stateData).flatMap((state) => [
+  `/states/${state.slug}`, `/guides/${state.slug}`,
+  `/es/states/${state.slug}`, `/es/guides/${state.slug}`,
+]);
+const publicPaths = [...englishPaths, ...spanishPaths, ...statePaths].flatMap((path) => path === '/' ? [path] : [path, `${path}/`]);
+---
+
+<script is:inline type="module" src="/browser-analytics.js" data-posthog-public-paths={JSON.stringify(publicPaths)}></script>

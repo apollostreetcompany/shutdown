@@ -9,7 +9,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <section class="px-4 py-16">
     <div class="mx-auto max-w-3xl prose prose-slate">
       <h1>Privacy Policy</h1>
-      <p class="text-sm text-slate-500">Last updated: April 2026</p>
+      <p class="text-sm text-slate-500">Last updated: September 2026</p>
 
       <h2>Information We Collect</h2>
       <p>We collect information you provide directly:</p>
@@ -34,10 +34,25 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <li>Comply with legal obligations</li>
       </ul>
 
+      <h2>Browser Analytics</h2>
+      <p>We use PostHog for limited pageview counts on public content pages at https://shutdownassistant.com, including the Spanish pages under /es. It does not load on preview or local sites, the redirecting Spanish hostname, the wizard, or unknown, private, form, customer, API, authentication, checkout, download or success paths.</p>
+      <p>PostHog receives only pageview events with the hostname, public pathname and origin plus pathname, along with anonymous SDK identifiers kept in memory and technical event identifiers, timestamps and SDK version. We exclude URL queries and fragments, referrers, page content, form entries, business details, email addresses, payment details, audio and chat. We disable automatic interaction capture, session replay, feature flags, geographic enrichment and person profiles, and honor Do Not Track.</p>
+      <p>These anonymous identifiers are not saved in cookies or browser storage and do not identify a verified person. PostHog still receives the network IP address when your browser connects to it, even though geographic enrichment is disabled.</p>
+      <p>Datafast is separate: the existing runtime loader measures browser pageviews and conversion goals, including link and scroll interactions and their page/link context. Cloudflare also logs edge requests, including bots and browsers without JavaScript. The PostHog setting below does not disable Datafast or Cloudflare logging. These measurements are estimates, not verified people.</p>
+
+      <div id="posthog-choice" class="not-prose my-8 scroll-mt-24 rounded-xl border border-slate-300 bg-white p-6 text-slate-900">
+        <h2 class="mb-3 text-xl font-bold">Your PostHog choice</h2>
+        <p class="mb-4 text-sm leading-6">Turn off PostHog in this browser. We save only this preference in local storage on this host; it applies to English and Spanish pages on the same host. It does not apply to other browsers, devices or hosts. Clearing site storage removes the saved choice. If storage is unavailable or read-only, PostHog stays off.</p>
+        <button type="button" data-posthog-opt-out disabled class="rounded-lg bg-red-600 px-4 py-3 font-bold text-white hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 disabled:cursor-default disabled:bg-slate-600">Turn off PostHog in this browser</button>
+        <p data-posthog-status role="status" aria-live="polite" class="mt-4 text-sm leading-6">PostHog has not started. JavaScript is needed to save your choice.</p>
+        <noscript><p class="mt-4 text-sm">PostHog does not load while JavaScript is disabled.</p></noscript>
+      </div>
+
       <h2>Information Sharing</h2>
       <p>We do not sell your personal information. We share information only with:</p>
       <ul>
         <li>Stripe (payment processing)</li>
+        <li>PostHog and Datafast (browser analytics described above), and Cloudflare (hosting and edge request logs)</li>
         <li>Government agencies (only when filing on your behalf with the shutdown agent service, and only with your authorization)</li>
       </ul>
 
@@ -45,10 +60,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p>We use industry-standard security measures to protect your information. However, no method of transmission over the Internet is 100% secure.</p>
 
       <h2>Your Rights</h2>
-      <p>You may request access to, correction of, or deletion of your personal information by contacting privacy@shutdownassistant.com.</p>
+      <p>You may request access to, correction of, or deletion of your personal information by contacting <a href="mailto:apollostreetcompany@gmail.com">apollostreetcompany@gmail.com</a>.</p>
 
       <h2>Contact</h2>
-      <p>Questions about this policy: privacy@shutdownassistant.com</p>
+      <p>Support and questions about this policy: <a href="mailto:apollostreetcompany@gmail.com">apollostreetcompany@gmail.com</a>.</p>
     </div>
   </section>
 </BaseLayout>

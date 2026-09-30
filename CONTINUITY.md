@@ -1,4 +1,12 @@
-## Goal
+## Portfolio operational repair — September 30, 2026
+
+Canonical task `ops-gad.5` is tracked by the root coordinator in `/Users/future/dev/ops-metrics`, not a new local queue. Source base is `fa8cda9807b07da89f3148b03624be68f6c4853a`; branch `codex/feat/bead-ops-gad-5-browser-analytics`. Baseline normal registry validation and full build pass (50 states, zero warnings/errors, 219 pages). Existing unrelated untracked directories are preserved. No matching source process or open GitHub PR was observed; Herdr inspection is unavailable from this tool environment, so prior session inventory is not a current ownership proof.
+
+Pre-flight found no plan-changing question: the already authorized scope is restricted production-only PostHog pageviews alongside the existing Datafast loader/goals, accurate English/Spanish disclosure, a persisted PostHog-only opt-out, and a direct company support contact. Public tracking excludes queries/fragments, referrers, forms, business/customer content and unknown/private paths; memory-only SDK identities, no autocapture/replay/flags/geographic enrichment. Only the actual production apex is eligible; the Spanish host redirects there. Preserve Stripe URLs, prices, state research, content and runtime secrets. Existing browser and edge metrics remain estimates, not verified people.
+
+Read-only provider binding: Pages `shutdownassistant`, production main, apex/Spanish hosts. Current deployment `879892ce-d31e-481c-9016-4f78365533cb` reports source `e263500e5c0f76a46020ae33d4939466a04a2605`, dirty=true; metadata alone cannot identify the actual served source. Live home, English/Spanish Privacy and California guide return 200 with Datafast but no PostHog. Required release evidence is exact intended source, ordinary PR/build acceptance, deployed HTML, actual received hostname-attributed event, persisted production opt-out and retained Datafast/checkout/Spanish/crawler behavior. Root owns provider/browser/tracker/Git/deploy; worker owns only bounded implementation. No autoreview under the user's explicit waiver. Direct Gmail contact is not proof of domain forwarding, which remains separately pending.
+
+## Goal (previous delivery)
 
 Deploy Shutdown Assistant on Cloudflare only, with no deceptive checkout or phishing-like content, and keep a clean public URL available.
 
@@ -69,3 +77,19 @@ Commands:
 - `wrangler pages deployment list --project-name shutdownassistant`
 - `npm run logs:cloudflare`
 - `wrangler pages secret put DATAFAST_WEBSITE_ID --project-name shutdownassistant`
+
+## ops-gad.5 bounded implementation evidence — September 30, 2026
+
+Worker prepared restricted browser PostHog, same-host persisted PostHog-only opt-out with localized English/Spanish controls/disclosures, and direct Gmail support in the shared footers and Privacy pages. Changed scope: `public/browser-analytics.js`, `src/components/PostHogAnalytics.astro`, both shared layouts, both Privacy pages and `docs/analytics-logging.md`. Root-owned instructions, contract, tracker, provider, Git refs and deployment were not changed by the worker; unrelated untracked directories were preserved. No autoreview, substitute review, subagents, installation or purchases/forms.
+
+Candidate at base `fa8cda9807b07da89f3148b03624be68f6c4853a` plus the uncommitted owned files: normal validate VERIFIED (50 states, zero warnings/errors); normal build VERIFIED (219 pages), matching the recorded pre-change baseline. Existing content-collection/Browserslist build warnings remain. Eight focused ad hoc checks VERIFIED using existing Playwright and installed Chromium 1243; no test framework added. Coverage includes exact protocol/host/route gating, unsafe URL/property exclusion and required ingestion identity, storage denial/read-only, DNT, persisted/late/cross-tab opt-out, duplicate loads, SDK failure/timeout, localized controls, packaging, retained Datafast queue, unchanged Stripe URL inventory and local Worker Spanish redirect behavior. Both rendered desktop controls were inspected; 390px/1280px overflow and control visibility checks passed. Real hosted SDK 1.435.1 capture was exercised with a simulated normal browser navigator and all outbound analytics requests intercepted; identities left no local/session storage or cookies before opt-out. This is NOT a provider receipt or production acceptance.
+
+Root integration blocker: paid guides bypass both shared layouts. The helper is packaged on 119 pages (118 eligible plus excluded wizard), while 100 independent English/Spanish guide shells lack it. Their routes are whitelisted, but the helper is not loaded there. Root must integrate `PostHogAnalytics` into `src/pages/guides/[slug].astro` and `src/pages/es/guides/[slug].astro` for guide coverage; worker did not edit these unowned content pages or `public/_worker.js`. Production/source/event/opt-out acceptance and any edge guard remain root-owned and NOT VERIFIED.
+
+Evidence: `/Users/future/dev/ops-metrics-evidence/ops-gad-5-checks.mjs`, `ops-gad-5-checks.txt`, `ops-gad-5-validate.txt`, `ops-gad-5-build.txt`, `ops-gad-5-sdk-request.json`, `ops-gad-5-packaging.json` and English/Spanish Privacy viewport PNGs in that same evidence root. Final manifest/receipt is `ops-gad-5-worker-result.json`; earlier SDK diagnostics are exploratory, not final acceptance.
+
+## ops-gad.5 root integration — September 30, 2026
+
+Root fixed the guide-shell coverage gap in both guide Astro routes and added localized analytics-choice and direct company-support links to their shared React footer. All 219 built pages now package the helper; the wizard remains excluded at runtime. Normal registry validation and full build pass again, and all eight focused browser checks pass against the integrated candidate, including English/Spanish guide packaging and links. Datafast queue/goals, Worker behavior and three Stripe URLs/eight occurrences remain unchanged. Evidence: `shutdown-root-validate.log`, `shutdown-root-build.log`, `shutdown-root-browser-checks.log` and updated `ops-gad-5-packaging.json` in the evidence root above. Added a meaningful Site checks CI job for syntax, registry validation and full build; no test framework or autoreview.
+
+Live GitHub discovery identifies the existing repository as PUBLIC, not private. Preserve its established visibility; use its normal topic PR rather than claiming a private PR or changing repository visibility. Ops Metrics remains the private source/state dashboard repository. Current production event and persisted opt-out acceptance remain NOT VERIFIED until root completes normal PR/CI integration and deployment to the existing Pages project.

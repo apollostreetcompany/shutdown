@@ -12,7 +12,7 @@ const siteUrl = 'https://shutdownassistant.com';
   <section class="px-4 py-16">
     <div class="mx-auto max-w-3xl prose prose-slate">
       <h1>Política de Privacidad</h1>
-      <p class="text-sm text-slate-500">Última actualización: Abril 2026</p>
+      <p class="text-sm text-slate-500">Última actualización: Septiembre 2026</p>
 
       <h2>Información que Recopilamos</h2>
       <p>Recopilamos información que proporcionas directamente:</p>
@@ -37,10 +37,25 @@ const siteUrl = 'https://shutdownassistant.com';
         <li>Cumplir con las obligaciones legales</li>
       </ul>
 
+      <h2>Analítica del Navegador</h2>
+      <p>Usamos PostHog para contar visitas de página limitadas en las páginas de contenido público de https://shutdownassistant.com, incluidas las páginas en español bajo /es. No se carga en sitios de vista previa o locales, en el dominio español que redirige, en el asistente interactivo (wizard), ni en rutas desconocidas, privadas, de formularios, clientes, API, autenticación, pago, descarga o confirmación.</p>
+      <p>PostHog recibe solo eventos de visita de página con el nombre del host, la ruta pública y el origen más la ruta, junto con identificadores anónimos del SDK (la biblioteca de analítica) que se mantienen en memoria, identificadores técnicos de eventos, marcas de tiempo y la versión del SDK. Excluimos parámetros de consulta y fragmentos de URL, referentes, contenido de páginas, entradas de formularios, datos comerciales, direcciones de correo, detalles de pago, audio y chat. Desactivamos la captura automática de interacciones, la grabación de sesiones, las funciones experimentales, el enriquecimiento geográfico y los perfiles de personas, y respetamos Do Not Track.</p>
+      <p>Estos identificadores anónimos no se guardan en cookies ni en el almacenamiento del navegador y no identifican a una persona verificada. PostHog sigue recibiendo la dirección IP de red cuando tu navegador se conecta, aunque el enriquecimiento geográfico esté desactivado.</p>
+      <p>Datafast es independiente: su cargador existente mide visitas de página y objetivos de conversión, incluidas interacciones con enlaces y desplazamiento y su contexto de página o enlace. Cloudflare también registra solicitudes en su red, incluidos bots y navegadores sin JavaScript. La preferencia de PostHog siguiente no desactiva Datafast ni los registros de Cloudflare. Estas mediciones son estimaciones, no personas verificadas.</p>
+
+      <div id="posthog-choice" class="not-prose my-8 scroll-mt-24 rounded-xl border border-slate-300 bg-white p-6 text-slate-900">
+        <h2 class="mb-3 text-xl font-bold">Tu preferencia de PostHog</h2>
+        <p class="mb-4 text-sm leading-6">Desactiva PostHog en este navegador. Guardamos solo esta preferencia en el almacenamiento local de este host; se aplica a las páginas en inglés y español del mismo host. No se aplica a otros navegadores, dispositivos o hosts. Borrar el almacenamiento del sitio elimina la elección guardada. Si el almacenamiento no está disponible o es de solo lectura, PostHog permanece desactivado.</p>
+        <button type="button" data-posthog-opt-out disabled class="rounded-lg bg-red-600 px-4 py-3 font-bold text-white hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 disabled:cursor-default disabled:bg-slate-600">Desactivar PostHog en este navegador</button>
+        <p data-posthog-status role="status" aria-live="polite" class="mt-4 text-sm leading-6">PostHog no se ha iniciado. Se necesita JavaScript para guardar tu elección.</p>
+        <noscript><p class="mt-4 text-sm">PostHog no se carga mientras JavaScript esté desactivado.</p></noscript>
+      </div>
+
       <h2>Compartir Información</h2>
       <p>No vendemos tu información personal. Solo compartimos información con:</p>
       <ul>
         <li>Stripe (procesamiento de pagos)</li>
+        <li>PostHog y Datafast (analítica del navegador descrita arriba), y Cloudflare (alojamiento y registros de solicitudes)</li>
         <li>Agencias gubernamentales (solo cuando presentamos en tu nombre con el servicio de agente de cierre, y solo con tu autorización)</li>
       </ul>
 
@@ -48,10 +63,10 @@ const siteUrl = 'https://shutdownassistant.com';
       <p>Usamos medidas de seguridad estándar de la industria para proteger tu información. Sin embargo, ningún método de transmisión por Internet es 100% seguro.</p>
 
       <h2>Tus Derechos</h2>
-      <p>Puedes solicitar acceso, corrección o eliminación de tu información personal contactando a privacy@shutdownassistant.com.</p>
+      <p>Puedes solicitar acceso, corrección o eliminación de tu información personal contactando a <a href="mailto:apollostreetcompany@gmail.com">apollostreetcompany@gmail.com</a>.</p>
 
       <h2>Contacto</h2>
-      <p>Preguntas sobre esta política: privacy@shutdownassistant.com</p>
+      <p>Soporte y preguntas sobre esta política: <a href="mailto:apollostreetcompany@gmail.com">apollostreetcompany@gmail.com</a>.</p>
     </div>
   </section>
 </BaseLayoutES>

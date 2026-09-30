@@ -1,5 +1,9 @@
 # Shutdown Assistant
 
+@AGENTS.md
+
+Project instructions: [AGENTS.md](AGENTS.md).
+
 ## What this is
 The most comprehensive US business shutdown directory. All 50 states, every form, every fee, every step.
 

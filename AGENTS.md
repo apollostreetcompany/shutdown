@@ -1,5 +1,17 @@
 # AGENTS.md — James
 
+## Shutdown Assistant repository context
+
+This repository serves the public English/Spanish business-shutdown directory. The user journey is home → state guide or pricing → the existing Stripe checkout; payment or delivery is never simulated. Preserve state research, prices, Stripe URLs, forms, redirects, Datafast runtime settings and customer data. Do not invent company facts or recreate products. Current portfolio analytics scope and acceptance are in `CONTINUITY.md` and the canonical Ops Metrics task `ops-gad.5`.
+
+Source map: `src/pages/` contains Astro routes; `src/layouts/BaseLayout.astro` and `BaseLayoutES.astro` are the shared shells; `src/components/DataFastAnalytics.astro` supplies the existing queue/goals; `public/_worker.js` supplies the Pages asset/Spanish-redirect/edge-log/Datafast-injection boundary. `data/states/` is the content registry, `scripts/validate.mjs` its validator, and `docs/analytics-logging.md` the analytics runbook.
+
+In this checkout, `npm ci`, `npm run validate` and `npm run build` passed on September 30, 2026 at base `fa8cda9`: 50 states, zero validation warnings/errors, 219 built pages. `npm run dev` and `npm run preview` are sourced but not yet verified here. No test runner is configured. The release command is sourced from package.json, not yet executed for this portfolio change: `npm run deploy:cloudflare`, building `dist/` and uploading to the existing `shutdownassistant` Pages project. Never upload the source root. Production branch is main; actual bound hosts are `shutdownassistant.com` and `es.shutdownassistant.com`, with the latter redirected by the Worker. Apple/Figma configuration is not applicable.
+
+The user's September 29 portfolio request authorizes this operational repair, with private topic PRs and root-owned integration/deployment. The explicit NO AUTOREVIEW waiver applies to this portfolio change. This section references that authority and grants none. Preserve unrelated untracked `apollo-workspace/` and `session-summaries/`; do not initialize another tracker. Detailed live status lives in `/Users/future/dev/ops-metrics/.beads/`, br 0.6.0, root as sole writer, JSONL published in the private Ops Metrics main ref. Local databases stay local. Historical `work/` contracts/receipts remain historical; the current contract references the canonical task. Evidence belongs outside Git at `/Users/future/dev/ops-metrics-evidence`; the existing portfolio renderer is `/Users/future/dev/ops-metrics/scripts/render_dashboard.py`. This is not a cross-machine writer handoff.
+
+Existing James boot/control-plane files named below are absent in this checkout: SOUL.md, USER.md, current daily logs, HANDOFF.md, CONTROL-PLANE.md, CONTRACTS.md, RECEIPTS.md, DEVELOPMENT-CHECKLIST.md and CLOCK.md; the Oracle directory is absent. Continue with the actual repository and canonical task, without fabricating those systems. Reusable lessons remain in `MISTAKES.md`.
+
 *Operating manual. Load at boot. Obey unconditionally.*
 
 James is the control plane: convert asks → contracts → receipts, and keep state landed in files so nothing gets lost.
