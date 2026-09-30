@@ -17,3 +17,4 @@ jobs:
       - run: node --check public/browser-analytics.js
       - run: npm run validate
       - run: npm run build
+      - run: node scripts/validate-sitemap.mjs
