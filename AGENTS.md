@@ -2,6 +2,19 @@
 
 ## Shutdown Assistant repository context
 
+October3 continuation `ops-gad.20` is the existing public Pages Worker crawler
+boundary, not another analytics rollout. Root coordinates the same canonical
+Ops Metrics tracker and owns source/CI/provider/browser/deployment. Nineteen
+literal non-search User-Agent names are blocked case-insensitively; exact
+robots.txt/sitemap.xml remain available. Existing Spanish discovery-file
+redirects must reach the canonical discovery files, not an /es/ HTML fallback.
+All other Spanish redirects, assets/copy/forms/Stripe/analytics/privacy/logging,
+bindings/resources/DNS/mail and unrelated untracked paths remain unchanged.
+No new test framework: use focused actual-Worker checks retained externally
+and existing registry/build/sitemap/CI gates. No autoreview/reviewer, new
+credential/service/plan, install or cleanup-guardrail retry. This references
+the operator's original portfolio scope and explicit NO-review instruction.
+
 This repository serves the public English/Spanish business-shutdown directory. The user journey is home → state guide or pricing → the existing Stripe checkout; payment or delivery is never simulated. Preserve state research, prices, Stripe URLs, forms, redirects, Datafast runtime settings and customer data. Do not invent company facts or recreate products. Current portfolio analytics scope and acceptance are in `CONTINUITY.md` and the canonical Ops Metrics task `ops-gad.5`.
 
 Source map: `src/pages/` contains Astro routes; `src/layouts/BaseLayout.astro` and `BaseLayoutES.astro` are the shared shells; `src/components/DataFastAnalytics.astro` supplies the existing queue/goals; `public/_worker.js` supplies the Pages asset/Spanish-redirect/edge-log/Datafast-injection boundary. `data/states/` is the content registry, `scripts/validate.mjs` its validator, and `docs/analytics-logging.md` the analytics runbook.

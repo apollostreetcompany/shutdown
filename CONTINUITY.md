@@ -1,4 +1,34 @@
-## Current sitemap repair — September 30, 2026
+## Current public crawler boundary — ops-gad.20, October3,2026
+
+Previous goal turn PROGRESS: Mecerss source/runtime/canonical report accepted;
+one approved mail pilot sent, arrival INCONCLUSIVE. Full86 scope unchanged.
+Root now owns this independently acceptable existing Shutdown Pages boundary.
+Fresh source/main e148d70f488ad2ff2057549666ee4d1e8de3b307 matches existing
+shutdownassistant production815dd9ad-8af1-452b-a2f4-c63458d808c5. Its truthful
+dirty=true metadata and unrelated apollo-workspace/session-summaries remain
+preserved, not treated as a clean deployment. Public Worker unchanged since
+e263500; existing source/normal build reuse and provider readbacks precede edits.
+
+High-risk request/deploy boundary. Root immediate implementation/integration;
+confidence high after exact metadata binding, bounded recovery inspects actual
+state and holds mismatches instead of replaying deployment. Existing Node24,
+cf OAuth/account3a0bfe287d4dfb27f802ee5d7e4b21e1, deps/cache and47GB disk
+guard. No install/review/clone/worktree or new test runner. Parallel GPT-6.1-Sol
+worker reads other products only; no concurrent writer to this source observed.
+CLI positional-argument stop and nullable preview env_vars parsing stop were
+local read/receipt errors, not authentication failures; corrected reads succeed.
+One ordinary before request403/17bytes is retained without retry/disguise.
+
+Contract work/2026-10-03-public-crawler/CONTRACT.md and canonical ops-gad.20
+define actual-Worker fail-before/passing-after, existing validation/build/XML
+checks, normal source PR/current CI, existing Pages/runtime/native/public assets
+and canonical root publication. No checkout/form/payment or fresh mail action.
+Preserve all original content/billing, browser/edge logging and Datafast/PostHog
+policies. Only named public denials and exact Spanish discovery redirect repair
+are intended. Rollback reference is existing815dd9ad on the same Pages project;
+no unrelated infrastructure/customer/data mutation. Acceptance remains pending.
+
+## Previous sitemap repair — September 30, 2026 (historical)
 
 Canonical `ops-gad.7` is owned by root in the existing Ops Metrics tracker. Branch `codex/fix/bead-ops-gad-7-sitemap` starts at accepted live analytics main `db328517011a3cd6b4621831f9e78d551f58b218`. Production robots advertises `/sitemap.xml`, but that path returns the HTML homepage fallback. Implement route/state-derived XML and built-output canonical coverage validation, without changing analytics, payments, content or the Worker. Contract: `work/2026-09-30-portfolio-sitemap/CONTRACT.md`. Existing dependencies and output are reused, unrelated untracked directories retained, and no autoreview is run. Source/live acceptance remains pending until normal PR/CI integration and exact Pages deployment.
 
