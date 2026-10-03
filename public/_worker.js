@@ -219,7 +219,12 @@ export default {
         url.pathname = `/es${url.pathname}`;
       }
 
-      const response = Response.redirect(url.toString(), 301);
+      const response = isDiscoveryPath
+        ? new Response(null, {
+            status: 301,
+            headers: { location: url.toString(), "cache-control": "no-store" },
+          })
+        : Response.redirect(url.toString(), 301);
       logVisit(request, response);
       return response;
     }

@@ -1,5 +1,17 @@
 ## Current public crawler boundary — ops-gad.20, October3,2026
 
+Initial source PR3/main689b0c6/current CI37155084476 passed; existing Pages
+ff967706 deployed21:29:56Z without asset uploads or configuration changes.
+Actual acceptance found Spanish robots still redirected into /es/robots.txt:
+fresh readback CF-Cache-Status HIT/Age752 proves a stale successful301; a
+distinct cache-key request reaches the corrected root file. No client denial
+was retried or disguised. Add no-store only to exact Spanish discovery redirects
+and invalidate only the existing robots cache if existing access permits.
+The original76 observations and failed acceptance remain evidence, not a pass.
+Four new actual-handler discovery-cache assertions fail before this correction.
+Existing current cf OAuth recovers expired Wrangler auth without a new token,
+scope expansion or global login changes. Root still owns runtime acceptance.
+
 Previous goal turn PROGRESS: Mecerss source/runtime/canonical report accepted;
 one approved mail pilot sent, arrival INCONCLUSIVE. Full86 scope unchanged.
 Root now owns this independently acceptable existing Shutdown Pages boundary.
