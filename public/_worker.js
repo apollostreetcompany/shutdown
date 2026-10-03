@@ -6,6 +6,28 @@ const BOT_USER_AGENT_PATTERN =
 
 const DATAFAST_SCRIPT_SRC = "https://datafa.st/js/script.js";
 
+const RESTRICTED_CRAWLER_NAMES = [
+  "claudebot",
+  "amazonbot",
+  "chatgpt-user",
+  "bytespider",
+  "ccbot",
+  "perplexity-user",
+  "mistralai-user",
+  "gptbot",
+  "google-cloudvertexbot",
+  "claude-user",
+  "anchor browser",
+  "archive.org_bot",
+  "arquivo-web-crawler",
+  "facebookbot",
+  "manus-user",
+  "meta-externalagent",
+  "meta-externalfetcher",
+  "novellum",
+  "tiktokspider",
+];
+
 function escapeAttribute(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -174,13 +196,26 @@ function injectDataFast(response, env) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    const isDiscoveryPath = url.pathname === "/robots.txt" || url.pathname === "/sitemap.xml";
+    const userAgent = (request.headers.get("user-agent") || "").toLowerCase();
+
+    if (!isDiscoveryPath && RESTRICTED_CRAWLER_NAMES.some((name) => userAgent.includes(name))) {
+      return new Response(request.method === "HEAD" ? null : "Crawler access is restricted.", {
+        status: 403,
+        headers: {
+          "content-type": "text/plain; charset=utf-8",
+          "cache-control": "private, no-store",
+          vary: "User-Agent",
+        },
+      });
+    }
 
     if (url.hostname === "es.shutdownassistant.com") {
       url.hostname = "shutdownassistant.com";
 
       if (url.pathname === "/" || url.pathname === "") {
         url.pathname = "/es/";
-      } else if (url.pathname !== "/es" && !url.pathname.startsWith("/es/")) {
+      } else if (!isDiscoveryPath && url.pathname !== "/es" && !url.pathname.startsWith("/es/")) {
         url.pathname = `/es${url.pathname}`;
       }
 
