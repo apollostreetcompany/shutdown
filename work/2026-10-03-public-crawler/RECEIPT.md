@@ -1,5 +1,17 @@
 # Shutdown public crawler boundary — ops-gad.20
 
+## Runtime correction, October 3, 2026
+
+Initial PR3/main689b0c6/CI37155084476 and existing Pages ff967706 succeeded,
+but live acceptance did not pass: Spanish robots retained a cached old301.
+CF-Cache-Status HIT/Age752 confirms the stale successful response; a distinct
+diagnostic cache key reaches the corrected root file. Both observations are
+retained, not substituted for acceptance of the original URL. Exact Spanish
+discovery redirects now carry no-store; four new actual-handler assertions
+fail before this correction. Existing cache invalidation and full required
+source/main/live acceptance remain root-owned. Other redirects/assets/config,
+DNS/mail/bot settings and billing remain unchanged. No denied-client retry.
+
 ## Candidate evidence, October 3, 2026
 
 Implementation prepared against main e148d70f488ad2ff2057549666ee4d1e8de3b307.
