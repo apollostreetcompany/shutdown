@@ -14,11 +14,13 @@
     "astro": "astro",
     "generate:registry": "node scripts/generate-registry.mjs",
     "generate:guides": "node scripts/generate-guides.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "test:openpanel": "node tests/openpanel-privacy.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.2.0",
     "@astrojs/tailwind": "^5.1.0",
+    "@openpanel/web": "1.4.3",
     "astro": "^5.7.0",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",

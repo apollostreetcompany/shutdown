@@ -2,6 +2,7 @@
 import stateData from '../../../data/states/index.json';
 import DataFastAnalytics from '../../components/DataFastAnalytics.astro';
 import PostHogAnalytics from '../../components/PostHogAnalytics.astro';
+import OpenPanelAnalytics from '../../components/OpenPanelAnalytics.astro';
 import { EN } from '../../lib/guide-translations';
 import { StateGuidePage } from '../../components/StateGuidePage';
 
@@ -134,6 +135,7 @@ const jsonLd = {
 
     <DataFastAnalytics />
     <PostHogAnalytics />
+    <OpenPanelAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
