@@ -2,6 +2,7 @@
 import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 import DataFastAnalytics from '../components/DataFastAnalytics.astro';
 import PostHogAnalytics from '../components/PostHogAnalytics.astro';
+import OpenPanelAnalytics from '../components/OpenPanelAnalytics.astro';
 
 interface Props {
   title: string;
@@ -49,6 +50,7 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
 
     <DataFastAnalytics />
     <PostHogAnalytics />
+    <OpenPanelAnalytics />
 
     <!-- JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify({

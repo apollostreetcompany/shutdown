@@ -14,6 +14,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - run: npm run test:openpanel
       - run: node --check public/browser-analytics.js
       - run: node --check public/_worker.js
       - run: npm run validate
