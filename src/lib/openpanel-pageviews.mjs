@@ -67,5 +67,10 @@ export function initOpenPanelPageviews() {
   });
   // The pinned SDK transport otherwise retries 403 responses.
   window.__shutdownOpenPanel.api.maxRetries = 0;
+  const transport = window.__shutdownOpenPanel.api;
+  const send = transport.fetch.bind(transport);
+  transport.fetch = (path, body, options = {}) => send(path, body, {
+    ...options, credentials: 'omit', referrerPolicy: 'no-referrer',
+  });
   return window.__shutdownOpenPanel;
 }

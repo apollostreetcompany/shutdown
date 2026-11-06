@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 const listeners = new Map();
 const values = new Map();
 const requests = [];
+const requestOptions = [];
 const window = {
   location: new URL('https://shutdownassistant.com/pricing?session_id=secret#section'),
   navigator: { doNotTrack: null, globalPrivacyControl: false },
@@ -19,7 +20,7 @@ Object.assign(globalThis, {
   window, document,
   history: { pushState(_state, _title, url) { window.location = new URL(url, window.location); }, replaceState() {} },
   sessionStorage: { getItem: () => null },
-  fetch: async (_url, init) => { requests.push(JSON.parse(init.body)); return { status: 202, text: async () => '' }; },
+  fetch: async (_url, init) => { requests.push(JSON.parse(init.body)); requestOptions.push(init); return { status: 202, text: async () => '' }; },
 });
 const { initOpenPanelPageviews } = await import('../src/lib/openpanel-pageviews.mjs');
 window.navigator.doNotTrack = 'yes';
@@ -45,6 +46,8 @@ const wait = () => new Promise((resolve) => setTimeout(resolve, 80));
 await wait();
 assert.equal(requests.length, 1);
 assert.equal(requests[0].payload.name, 'screen_view');
+assert.equal(requestOptions[0].credentials, 'omit');
+assert.equal(requestOptions[0].referrerPolicy, 'no-referrer');
 assert.deepEqual(requests[0].payload.properties, { __path: 'https://shutdownassistant.com/pricing' });
 assert.ok(!JSON.stringify(requests).includes('secret'));
 window.navigator.globalPrivacyControl = true;
